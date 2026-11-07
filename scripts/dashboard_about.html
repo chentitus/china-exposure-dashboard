@@ -1,0 +1,36 @@
+<h3>資料來源與版本（下載日期 2026-11-07）</h3>
+<table><thead><tr><th>來源</th><th>版本／檔案</th><th>涵蓋期間</th><th>金額基準</th><th>儀表板使用</th></tr></thead><tbody>
+<tr><td>AidData — China's Global Loans and Grants Dataset, Version 1.0（CLG-Global 1.0）</td><td>2025-11-18 發布；<code>AidDatas_CLG_Global_Dataset_v1.0.xlsx</code>（33,580 筆），附 Field Definitions 與 TUFF 4.0 方法文件</td><td>承諾年 2000–2023</td><td>2023 年不變價美元（<code>Amount_Constant_USD_2023</code>）</td><td>2020–2023，<code>Recommended_for_Aggregates = Yes</code>，主口徑 <code>Flow_Class ∈ {ODA, OOF, Vague (ODA or OOF)}</code>；OFIC（商業性官方融資）另列為對照層</td></tr>
+<tr><td>Boston University GDP Center — China's Overseas Development Finance (CODF) Database</td><td>2025 年 6 月版；<code>CODF-Database-Dataset-2025-EN.xlsx</code>（1,304 筆）</td><td>2008–2024</td><td>名目美元</td><td>2020–2024</td></tr>
+<tr><td>Boston University GDP Center — Chinese Loans to Africa (CLA) Database</td><td>2025 年 11 月更新（檔案 2026-02 上線）；<code>CLA-Database-Raw-Data-Public-2025-FIN.xlsx</code>（1,319 筆）</td><td>2000–2024（本版無 2025 年紀錄）</td><td>名目美元</td><td>2020–2024</td></tr>
+<tr><td>AEI / Heritage — China Global Investment Tracker (CGIT)</td><td>2026 年 7 月更新（資料至 2026 年 6 月）；AEI 頁面已不提供 Excel 下載，改取互動地圖載入之交易層級 CSV（投資 2,554 筆＋建設 2,494 筆）</td><td>2005–2026H1</td><td>名目美元</td><td>2020–2026H1（2026 僅上半年）</td></tr>
+<tr><td>Lowy Institute — Southeast Asia Aid Map</td><td>未取得</td><td>—</td><td>—</td><td>網站無 CSV／Excel 全量下載（資料由 Supabase API 即時供給），依規格略過</td></tr>
+</tbody></table>
+
+<h3>口徑差異（各來源分層呈現，不相加）</h3>
+<ul>
+<li><b>AidData</b>：中國所有官方部門機構（政策性銀行、國有商業銀行、央行、部會、地方政府）的貸款與贈與<b>承諾額</b>，constant USD。本儀表板主口徑只取 Flow_Class = ODA（發展意圖、優惠條件）、OOF（其他官方流量：非優惠的政策性／政府貸款、紓困、貨幣互換）與 Vague；<b>排除 OFIC</b>（官方機構——主要是國有商業銀行——對私部門／商業對象的商業性融資，例如中資銀行對美國企業的聯貸）。OFIC 以「對照」來源保留。「紓困貸款」篩選對應 AidData 的 <code>Rescue</code> 標記（FXSL 貨幣互換動撥、BoP 國際收支貸款、一般預算支持）。「債務歸屬」篩選對應 <code>Level_of_Public_Liability</code>：「私人債務」指借款人為私企、合資公司或 SPV（例如掛馬紹爾、賴比瑞亞旗之船公司的船舶租賃），兩種算法都保留——公部門債務是政府直接被套住，私人債務則透過中資企業的在地利益影響外交決策。</li>
+<li><b>BU CODF</b>：只有國開行與進出口銀行對主權／公共擔保借款人的貸款承諾額，nominal。是 AidData 的子集，但兩者對同一筆貸款的認列與金額可能不同。</li>
+<li><b>BU CLA</b>：非洲限定，含官方與商業放款人，nominal。與 CODF 和 AidData 部分重疊。</li>
+<li><b>CGIT</b>：企業層級的對外直接投資與工程承包合約，≥1 億美元，nominal。與開發金融完全不同的概念（工程承包的業主可能正是用中國貸款付款，所以 CGIT 建設金額與 AidData 貸款金額之間有實質重疊）。</li>
+</ul>
+<p>因此本儀表板<b>沒有</b>任何把四個來源加總的「總計」欄位；年度趨勢圖以分面呈現而不堆疊。</p>
+
+<h3>金額基準</h3>
+<p>AidData 以 2023 年不變價美元為主（原檔另有名目值與「Adjusted」口徑，保留在 <code>data/clean/clean_aiddata.csv</code>）。CODF、CLA、CGIT 皆為名目美元。跨來源比較時請注意基準不同。所有金額單位為百萬美元。</p>
+
+<h3>已知缺口與限制</h3>
+<ul>
+<li>AidData 止於 2023 年承諾額，<b>沒有 2024–2025 資料</b>；AidData 的 Status 含 Pipeline（承諾／宣示）紀錄，承諾額不等於撥付額。</li>
+<li>CGIT 只收 ≥1 億美元（AEI 報告稱 ≥9,500 萬美元）的交易，小額交易不在內；2026 年僅含上半年。公開 CSV 不含 Excel 版的「troubled transactions」表。</li>
+<li>CLA 僅非洲；本版資料止於 2024 年。CLA 與 CODF 的國開行／進出口銀行貸款重疊。</li>
+<li>Lowy 東南亞援助地圖（含撥付額）未能取得全量資料。</li>
+<li>區域性／多國紀錄（如 "Africa, regional"、"Multi-Region"）的 ISO3 標為 <code>REGIONAL</code>，計入合計與趨勢圖，但不在地圖與排名中。</li>
+<li>中文國名採台灣慣用譯名；英文國名採 ISO 短名。</li>
+</ul>
+<h3>區域分區（自訂）</h3>
+<p>東亞（東北亞＋東南亞：日韓朝蒙台港澳＋東協＋東帝汶）、南亞（印巴孟斯尼不馬爾地夫＋阿富汗）、中東＋中亞（海灣與黎凡特、伊朗、伊拉克、以色列、土耳其、中亞五國、高加索三國）、大洋洲、歐洲（含俄羅斯、烏克蘭、白俄、摩爾多瓦、賽普勒斯）、非洲（含北非）、拉丁美洲與加勒比海、北美（美、加、百慕達、格陵蘭）。對照表：<code>scripts/country_regions.csv</code>。區域排名儀表板：<code>dashboard/regions.html</code>。</p>
+<h3>依賴指標（2026-11-07 新增）</h3>
+<p>金額轉成依賴：<code>data/clean/dependence_country_year.csv</code>（2018–2024）與 <code>summary_2020_2025.csv</code> 的 <code>dep_*</code> 欄。來源：World Bank WDI（GDP、政府歲入 % GDP）、World Bank International Debt Statistics（PPG 外債存量，債權人 = China 與全部；IMF 信用使用額）、OECD DAC2A（Gross ODA 撥付額，current USD，DAC 國家與所有官方捐助者）。限制：IDS 只涵蓋 134 個中低所得報告國，高所得國家無對中債務資料；OECD 是撥付額而 AidData 是承諾額，比率只供相對比較；IMF MONA 方案資料庫拒絕自動下載，以 IMF 信用使用額（含 SDR 相關）代理；主權信評未納入（非公開資料）。</p>
+<h3>檔案</h3>
+<p><code>data/clean/panel_long.csv</code>（一列一筆交易／計畫）、<code>panel_country_year.csv</code>（一國一年一來源一 measure）、<code>summary_2020_2025.csv</code>（每國一列）。核對結果與欄位對應見專案 <code>README.md</code>。</p>

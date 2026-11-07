@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>中國對外開發金融與投資國別儀表板 2020–2025</title>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+<style>
+:root{color-scheme:light;--bg:#fcfcfb;--panel:#ffffff;--line:#e4e3df;--text:#0b0b0b;--text2:#52514e;--muted:#8a8984;--accent:#2a78d6;
+--s-aid:#2a78d6;--s-codf:#eb6834;--s-cla:#1baf7a;--s-inv:#eda100;--s-con:#e87ba4;--s-lowy:#6250d6}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;font-size:14px;line-height:1.5}
+header{padding:14px 20px 8px;border-bottom:1px solid var(--line);background:var(--panel)}
+header h1{font-size:18px;margin:0 0 2px;font-weight:600}
+header .sub{color:var(--text2);font-size:12px}
+nav.tabs{display:flex;gap:4px;padding:0 20px;background:var(--panel);border-bottom:1px solid var(--line)}
+nav.tabs button{background:none;border:none;border-bottom:2px solid transparent;padding:10px 12px;font:inherit;color:var(--text2);cursor:pointer}
+nav.tabs button.active{color:var(--text);border-bottom-color:var(--accent);font-weight:600}
+.controls{display:flex;flex-wrap:wrap;gap:16px;align-items:flex-end;padding:12px 20px;background:var(--panel);border-bottom:1px solid var(--line)}
+.ctl{display:flex;flex-direction:column;gap:4px;font-size:12px;color:var(--text2)}
+.ctl select,.ctl input[type=number],.ctl input[type=search]{font:inherit;font-size:13px;padding:5px 8px;border:1px solid var(--line);border-radius:4px;background:#fff;color:var(--text)}
+.range{display:flex;align-items:center;gap:6px}
+.range input[type=range]{width:120px;accent-color:var(--accent)}
+.note{font-size:12px;color:var(--muted)}
+main{padding:16px 20px;max-width:1500px;margin:0 auto}
+.grid{display:grid;grid-template-columns:3fr 2fr;gap:16px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:12px 14px;min-width:0}
+.card h2{font-size:14px;margin:0 0 6px;font-weight:600}
+.card .h2row{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.stat{display:flex;gap:28px;margin:4px 0 8px}
+.stat div{display:flex;flex-direction:column}
+.stat b{font-size:20px;font-weight:600}
+.stat span{font-size:12px;color:var(--text2)}
+table{border-collapse:collapse;width:100%;font-size:12.5px}
+th,td{padding:5px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{color:var(--text2);font-weight:600;cursor:pointer;user-select:none;white-space:nowrap;position:sticky;top:0;background:var(--panel)}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+.tablewrap{max-height:520px;overflow:auto;border:1px solid var(--line);border-radius:4px}
+.btn{font:inherit;font-size:13px;padding:5px 10px;border:1px solid var(--line);border-radius:4px;background:#fff;cursor:pointer;color:var(--text)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.seg button{font:inherit;font-size:12px;padding:3px 8px;border:1px solid var(--line);background:#fff;cursor:pointer;color:var(--text2)}
+.seg button.active{background:#eef4fc;color:var(--text);border-color:var(--accent)}
+.seg button:first-child{border-radius:4px 0 0 4px}.seg button:last-child{border-radius:0 4px 4px 0}
+.cols2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.about{max-width:900px;line-height:1.7}
+.about h3{font-size:15px;margin:18px 0 6px}
+.about table{font-size:13px}
+.legend{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:middle}
+@media (max-width:1000px){.grid,.cols2{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <h1>中國對外開發金融與投資國別儀表板（2020–2025）</h1>
+  <div class="sub">四個公開資料庫分層呈現，口徑不同、不可相加。金額單位：百萬美元（AidData 為 2023 年不變價，其餘為名目值）。</div>
+</header>
+<nav class="tabs">
+  <button class="active" data-tab="dash">儀表板</button>
+  <button data-tab="table">資料表與下載</button>
+  <button data-tab="about">說明</button>
+  <a href="regions.html" style="margin-left:auto;align-self:center;font-size:13px;color:var(--accent)">→ 區域排名</a>
+  <a href="exposure.html" style="align-self:center;font-size:13px;color:var(--accent);margin-left:14px">→ 對中依賴與曝險</a>
+</nav>
+
+<div class="controls" id="controls">
+  <div class="ctl">來源
+    <select id="src">
+      <option value="AID">AidData — ODA+OOF 官方發展／援助性融資（2020–2023）</option>
+      <option value="AID_OFIC">AidData — OFIC 商業性官方融資（對照，2020–2023）</option>
+      <option value="CODF">BU CODF（國開行／進出口銀行主權貸款，2020–2024）</option>
+      <option value="CLA">BU CLA（對非洲貸款，2020–2024）</option>
+      <option value="CGIT_INV">AEI CGIT — 投資（2020–2026H1）</option>
+      <option value="CGIT_CON">AEI CGIT — 建設（2020–2026H1）</option>
+      <option value="LOWY" disabled>Lowy SEA Aid Map（未取得）</option>
+    </select>
+  </div>
+  <div class="ctl">年份範圍 <span id="yrlabel" style="color:var(--text)"></span>
+    <div class="range"><input type="range" id="y0" min="2020" max="2026" value="2020"> – <input type="range" id="y1" min="2020" max="2026" value="2026"></div>
+  </div>
+  <div class="ctl">區域
+    <select id="region"><option value="">全部</option></select>
+  </div>
+  <div class="ctl">紓困貸款（僅 AidData）
+    <select id="rescue"><option value="all">含</option><option value="excl">排除 Rescue=Yes</option><option value="only">僅 Rescue=Yes</option></select>
+  </div>
+  <div class="ctl">債務歸屬（僅 AidData ODA+OOF）
+    <select id="liab"><option value="all">全部</option><option value="public">排除私人債務</option><option value="private">僅私人債務</option></select>
+  </div>
+  <div class="ctl">BRI 篩選（僅 CGIT）
+    <select id="bri"><option value="all">全部</option><option value="1">僅 BRI 國家</option><option value="0">僅非 BRI 國家</option></select>
+  </div>
+  <div class="ctl">國家（詳情／趨勢）
+    <select id="country"><option value="">全球</option></select>
+  </div>
+  <div class="note" id="srcnote"></div>
+</div>
+
+<main>
+<section id="tab-dash">
+  <div class="grid">
+    <div class="card">
+      <div class="h2row"><h2 id="maptitle">世界地圖</h2><span class="note">色階為對數；點選國家可看詳情。區域性／多國紀錄不在地圖上。</span></div>
+      <div class="stat"><div><b id="st_total">–</b><span>合計（百萬美元）</span></div><div><b id="st_n">–</b><span>筆數</span></div><div><b id="st_c">–</b><span>國家數</span></div><div><b id="st_reg">–</b><span>區域性／多國（百萬美元）</span></div></div>
+      <div id="map" style="height:430px"></div>
+    </div>
+    <div class="card">
+      <div class="h2row"><h2>國別排名</h2><div class="seg" id="topn"><button data-n="10">前 10</button><button data-n="30" class="active">前 30</button><button data-n="50">前 50</button></div></div>
+      <div id="bar" style="height:540px"></div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:16px">
+    <div class="h2row"><h2 id="trendtitle">年度趨勢（各來源分面，不堆疊）</h2><span class="note">每個面板各有自己的 y 軸；AidData 止於 2023，CODF／CLA 止於 2024，CGIT 至 2026 上半年。</span></div>
+    <div id="trend" style="height:300px"></div>
+  </div>
+
+  <div class="card" style="margin-top:16px" id="detail">
+    <h2 id="dtitle">國家詳情</h2>
+    <div class="note" id="dnote">請在地圖上點選國家，或使用上方「國家」下拉選單。</div>
+    <div class="cols2" id="dbody" style="display:none">
+      <div><h2>各來源年度金額（百萬美元）</h2><div class="tablewrap" style="max-height:300px"><table id="t_year"></table></div></div>
+      <div><h2>AidData ODA+OOF：flow type 分布（2020–2023，百萬美元）</h2><div class="tablewrap" style="max-height:300px"><table id="t_flow"></table></div></div>
+      <div><h2 id="sectortitle">部門分布</h2><div class="tablewrap" style="max-height:300px"><table id="t_sector"></table></div></div>
+      <div><h2 id="projtitle">前十大計畫／交易</h2><div class="tablewrap" style="max-height:360px"><table id="t_proj"></table></div></div>
+      <div style="grid-column:1/-1"><h2>依賴指標（World Bank WDI／IDS、OECD DAC；百萬美元或 %）</h2><div class="note" style="margin-bottom:4px">對中 PPG 債務存量只涵蓋 IDS 的 134 個中低所得報告國；OECD 為撥付額、AidData 為承諾額。IMF 信用使用額為 IMF 方案的代理變數。</div><div class="tablewrap" style="max-height:260px"><table id="t_dep"></table></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="tab-table" style="display:none">
+  <div class="card">
+    <div class="h2row"><h2>目前篩選結果 <span class="note" id="tcount"></span></h2>
+      <div style="display:flex;gap:8px;align-items:center"><input type="search" id="q" placeholder="搜尋國名、計畫、放款人／投資者、部門…" style="width:320px;font:inherit;font-size:13px;padding:5px 8px;border:1px solid var(--line);border-radius:4px">
+      <button class="btn primary" id="dl">下載 CSV</button></div></div>
+    <div class="note" style="margin-bottom:6px">點欄名排序。表格最多顯示 2,000 列；下載包含全部篩選結果。</div>
+    <div class="tablewrap" style="max-height:70vh"><table id="t_data"></table></div>
+  </div>
+</section>
+
+<section id="tab-about" style="display:none">
+  <div class="card about" id="aboutbody"></div>
+</section>
+</main>
+
+<script>
+/*__DATA__*/
+const SRC_INFO = {
+  AID:{label:'AidData ODA+OOF',source:'AidData CLG-Global 1.0',measure:'ODA+OOF (official development/aid finance)',color:'var(--s-aid)',hex:'#2a78d6',basis:'2023 年不變價美元（承諾額）',note:'中國官方部門機構的發展／援助性貸款與贈與承諾額（Flow_Class = ODA、OOF、Vague；排除 OFIC 商業性融資）；僅含 Recommended for Aggregates = Yes；含紓困貸款（可用右側篩選排除）；資料止於 2023 年。',years:[2020,2023]},
+  AID_OFIC:{label:'AidData OFIC（對照）',source:'AidData CLG-Global 1.0',measure:'OFIC (commercial official finance)',color:'var(--s-lowy)',hex:'#6250d6',basis:'2023 年不變價美元（承諾額）',note:'對照層：中國官方部門機構（主要是國有商業銀行）對私部門／商業對象的商業性融資（Flow_Class = OFIC），不屬於發展援助；美國、英國等高所得國家的金額幾乎全在此類。',years:[2020,2023]},
+  CODF:{label:'BU CODF',source:'BU CODF',measure:null,color:'var(--s-codf)',hex:'#eb6834',basis:'名目美元（簽約年承諾額）',note:'僅國開行與進出口銀行對主權／公共擔保借款人的貸款（≥2,500 萬美元）；資料止於 2024 年。',years:[2020,2024]},
+  CLA:{label:'BU CLA',source:'BU CLA',measure:null,color:'var(--s-cla)',hex:'#1baf7a',basis:'名目美元（簽約年承諾額）',note:'非洲限定，含官方與商業放款人；與 CODF、AidData 部分重疊；本版資料止於 2024 年。',years:[2020,2024]},
+  CGIT_INV:{label:'AEI CGIT 投資',source:'AEI CGIT',measure:'Investment',color:'var(--s-inv)',hex:'#eda100',basis:'名目美元（交易額）',note:'企業層級對外直接投資，僅收 ≥1 億美元（AEI 報告稱 ≥9,500 萬）交易；資料至 2026 年 6 月。',years:[2020,2026]},
+  CGIT_CON:{label:'AEI CGIT 建設',source:'AEI CGIT',measure:'Construction',color:'var(--s-con)',hex:'#e87ba4',basis:'名目美元（合約額）',note:'企業層級工程承包合約，僅收 ≥1 億美元交易；資料至 2026 年 6 月。業主可能以中國貸款付款，與 AidData／CODF 有實質重疊。',years:[2020,2026]},
+};
+const SRC_ORDER = ['AID','AID_OFIC','CODF','CLA','CGIT_INV','CGIT_CON'];
+const C = DATA.cols; const IDX = Object.fromEntries(C.map((c,i)=>[c,i]));
+const ROWS = DATA.rows; const NAMES = DATA.countries;
+function srcKey(r){ const s=r[IDX.source], m=r[IDX.measure]; if(s==='AidData CLG-Global 1.0')return m.startsWith('OFIC')?'AID_OFIC':'AID'; if(s==='BU CODF')return 'CODF'; if(s==='BU CLA')return 'CLA'; return m==='Investment'?'CGIT_INV':'CGIT_CON'; }
+ROWS.forEach(r=>r.push(srcKey(r))); IDX.key = C.length;
+const fmt = n => n==null||isNaN(n) ? '–' : n.toLocaleString('zh-Hant-TW',{maximumFractionDigits:1});
+const fmt0 = n => n==null||isNaN(n) ? '–' : n.toLocaleString('zh-Hant-TW',{maximumFractionDigits:0});
+const cname = iso => iso==='REGIONAL' ? '區域性／多國' : (NAMES[iso] ? `${NAMES[iso][1]||NAMES[iso][0]}` : iso);
+const cnameFull = iso => iso==='REGIONAL' ? '區域性／多國' : (NAMES[iso] ? `${NAMES[iso][1]||''} ${NAMES[iso][0]}`.trim() : iso);
+
+const state = {src:'AID', y0:2020, y1:2026, bri:'all', region:'', rescue:'all', liab:'all', country:'', topn:30, tab:'dash', q:'', sortCol:'amount_usd_mn', sortDir:-1};
+const $ = id => document.getElementById(id);
+
+// country dropdown (sorted by zh name presence then en)
+const isoList = Object.keys(NAMES).filter(k=>k!=='REGIONAL').sort((a,b)=>cnameFull(a).localeCompare(cnameFull(b),'zh-Hant'));
+isoList.forEach(k=>{const o=document.createElement('option');o.value=k;o.textContent=cnameFull(k);$('country').appendChild(o);});
+const REG=DATA.regions; Object.entries(REG).forEach(([code,zh])=>{const o=document.createElement('option');o.value=code;o.textContent=zh;$('region').appendChild(o);});
+const regionOf = iso => NAMES[iso] ? NAMES[iso][2] : null;
+function passRescue(r){ if(state.src!=='AID')return true; if(state.rescue!=='all'){const y=r[IDX.rescue]==='Yes'; if(state.rescue==='excl'?y:!y)return false;} if(state.liab!=='all'){const pv=r[IDX.public_liability]==='Private debt'; if(state.liab==='public'?pv:!pv)return false;} return true; }
+
+function filtered(){
+  const info = SRC_INFO[state.src];
+  return ROWS.filter(r => r[IDX.key]===state.src && r[IDX.year]>=state.y0 && r[IDX.year]<=state.y1 && passRescue(r) && (!state.region || regionOf(r[IDX.country_iso3])===state.region) &&
+    (state.bri==='all' || (state.src.startsWith('CGIT') && String(r[IDX.bri_flag])===state.bri)));
+}
+function aggByCountry(rows){
+  const m = new Map();
+  rows.forEach(r=>{const k=r[IDX.country_iso3]; const o=m.get(k)||{amt:0,n:0}; o.amt+=r[IDX.amount_usd_mn]||0; o.n++; m.set(k,o);});
+  return m;
+}
+
+function drawMap(rows){
+  const agg = aggByCountry(rows);
+  const locs=[], z=[], txt=[], cd=[];
+  let total=0, n=0, reg=0;
+  agg.forEach((o,k)=>{ total+=o.amt; n+=o.n; if(k==='REGIONAL'){reg+=o.amt;return;} if(o.amt<=0)return; locs.push(k); z.push(Math.log10(o.amt+1)); cd.push(k);
+    txt.push(`${cnameFull(k)}<br>金額：${fmt(o.amt)} 百萬美元<br>筆數：${o.n}`); });
+  $('st_total').textContent=fmt0(total); $('st_n').textContent=fmt0(n); $('st_c').textContent=locs.length; $('st_reg').textContent=fmt0(reg);
+  const ticks=[1,10,100,1000,10000,100000].filter(v=>Math.log10(v)<=Math.max(...z,1)+0.3);
+  const info=SRC_INFO[state.src];
+  $('maptitle').textContent=`世界地圖 — ${info.label}，${state.y0}–${state.y1}${state.region?'，'+REG[state.region]:''}${state.rescue!=='all'&&state.src==='AID'?(state.rescue==='excl'?'，排除紓困':'，僅紓困'):''}${state.liab!=='all'&&state.src==='AID'?(state.liab==='public'?'，排除私人債務':'，僅私人債務'):''}`;
+  Plotly.react('map',[{type:'choropleth',locations:locs,z:z,customdata:cd,text:txt,hoverinfo:'text',
+    colorscale:[[0,'#cde2fb'],[0.25,'#9ec5f4'],[0.5,'#5598e7'],[0.75,'#256abf'],[1,'#0d366b']],
+    marker:{line:{color:'#ffffff',width:0.5}},
+    colorbar:{title:{text:'百萬美元',font:{size:11}},tickvals:ticks.map(v=>Math.log10(v+1)),ticktext:ticks.map(v=>v.toLocaleString()),thickness:10,len:0.7,outlinewidth:0}}],
+    {geo:{showframe:false,showcoastlines:false,projection:{type:'natural earth'},bgcolor:'rgba(0,0,0,0)',landcolor:'#f0efec',showland:true,showcountries:true,countrycolor:'#ffffff'},
+     margin:{l:0,r:0,t:0,b:0},paper_bgcolor:'rgba(0,0,0,0)',font:{family:'inherit',size:12}},{displayModeBar:false,responsive:true});
+  $('map').removeAllListeners && $('map').removeAllListeners('plotly_click');
+  $('map').on('plotly_click', ev=>{ const iso=ev.points[0].customdata; state.country=iso; $('country').value=iso; drawTrend(); drawDetail(); });
+}
+
+function drawBar(rows){
+  const agg = aggByCountry(rows); const arr=[...agg.entries()].filter(e=>e[0]!=='REGIONAL').sort((a,b)=>b[1].amt-a[1].amt).slice(0,state.topn).reverse();
+  const info=SRC_INFO[state.src];
+  Plotly.react('bar',[{type:'bar',orientation:'h',x:arr.map(e=>e[1].amt),y:arr.map(e=>cname(e[0])),customdata:arr.map(e=>e[0]),
+    marker:{color:info.hex},hovertemplate:'%{y}<br>%{x:,.0f} 百萬美元<extra></extra>'}],
+    {margin:{l:110,r:20,t:4,b:36},xaxis:{title:{text:'百萬美元',font:{size:11}},gridcolor:'#eeede9',zeroline:false,tickformat:',.0f'},yaxis:{automargin:true,tickfont:{size:11}},
+     bargap:0.25,paper_bgcolor:'rgba(0,0,0,0)',plot_bgcolor:'rgba(0,0,0,0)',font:{size:12}},{displayModeBar:false,responsive:true});
+  $('bar').removeAllListeners && $('bar').removeAllListeners('plotly_click');
+  $('bar').on('plotly_click', ev=>{ const iso=ev.points[0].customdata; state.country=iso; $('country').value=iso; drawTrend(); drawDetail(); });
+}
+
+function drawTrend(){
+  const iso=state.country; const traces=[]; const layout={grid:{rows:1,columns:6,pattern:'independent',xgap:0.08},margin:{l:50,r:10,t:40,b:36},showlegend:false,paper_bgcolor:'rgba(0,0,0,0)',plot_bgcolor:'rgba(0,0,0,0)',font:{size:11},annotations:[]};
+  SRC_ORDER.forEach((k,i)=>{
+    const info=SRC_INFO[k]; const by=new Map();
+    ROWS.forEach(r=>{ if(r[IDX.key]!==k)return; if(iso && r[IDX.country_iso3]!==iso)return; if(state.bri!=='all'&&k.startsWith('CGIT')&&String(r[IDX.bri_flag])!==state.bri)return; if(k==='AID'&&!passRescue(r))return; if(!iso&&state.region&&regionOf(r[IDX.country_iso3])!==state.region)return; const y=r[IDX.year]; by.set(y,(by.get(y)||0)+(r[IDX.amount_usd_mn]||0)); });
+    const ys=[]; for(let y=info.years[0];y<=info.years[1];y++)ys.push(y);
+    const ax=i===0?'':String(i+1);
+    traces.push({type:'bar',x:ys,y:ys.map(y=>by.get(y)||0),xaxis:'x'+ax,yaxis:'y'+ax,marker:{color:info.hex},hovertemplate:'%{x}：%{y:,.0f} 百萬美元<extra>'+info.label+'</extra>'});
+    layout['xaxis'+ax]={tickvals:ys,tickfont:{size:10},gridcolor:'rgba(0,0,0,0)'}; const ymax=Math.max(...ys.map(y=>by.get(y)||0)); layout['yaxis'+ax]={gridcolor:'#eeede9',zeroline:false,tickformat:',.0f',tickfont:{size:10},rangemode:'tozero',...(ymax>0?{}:{range:[0,1],tickvals:[0],ticktext:['0']})};
+    if(ymax===0) layout.annotations.push({text:'無資料',xref:'x'+ax+' domain',yref:'y'+ax+' domain',x:0.5,y:0.5,showarrow:false,font:{size:12,color:'#8a8984'}});
+    layout.annotations.push({text:info.label+(k==='CGIT_INV'||k==='CGIT_CON'?'（2026 僅上半年）':''),xref:'x'+ax+' domain',yref:'paper',x:0,y:1.08,showarrow:false,font:{size:11,color:'#52514e'},xanchor:'left'});
+  });
+  $('trendtitle').textContent=`年度趨勢 — ${iso?cnameFull(iso):(state.region?REG[state.region]:'全球（含區域性紀錄）')}（各來源分面，不堆疊；百萬美元）`;
+  Plotly.react('trend',traces,layout,{displayModeBar:false,responsive:true});
+}
+
+function table(el, head, rows, numCols){
+  el.innerHTML = '<thead><tr>'+head.map((h,i)=>`<th class="${numCols.includes(i)?'num':''}">${h}</th>`).join('')+'</tr></thead><tbody>'+
+    rows.map(r=>'<tr>'+r.map((c,i)=>`<td class="${numCols.includes(i)?'num':''}">${c==null?'':c}</td>`).join('')+'</tr>').join('')+'</tbody>';
+}
+function drawDetail(){
+  const iso=state.country; if(!iso){$('dbody').style.display='none';$('dnote').style.display='';$('dtitle').textContent='國家詳情';return;}
+  $('dbody').style.display='';$('dnote').style.display='none'; $('dtitle').textContent=`國家詳情 — ${cnameFull(iso)}（${iso}）`;
+  const rows=ROWS.filter(r=>r[IDX.country_iso3]===iso);
+  // year × source matrix
+  const years=[]; for(let y=2020;y<=2026;y++)years.push(y);
+  const mat=years.map(y=>[y,...SRC_ORDER.map(k=>{const v=rows.filter(r=>r[IDX.key]===k&&r[IDX.year]===y).reduce((a,r)=>a+(r[IDX.amount_usd_mn]||0),0); const info=SRC_INFO[k]; return (y<info.years[0]||y>info.years[1])?'<span class="note">無資料</span>':fmt(v);})]);
+  table($('t_year'),['年',...SRC_ORDER.map(k=>SRC_INFO[k].label)],mat,[1,2,3,4,5,6]);
+  // flow type
+  const ft=new Map(); rows.filter(r=>r[IDX.key]==='AID').forEach(r=>{const k=r[IDX.flow_type]||'(未註明)'; const o=ft.get(k)||{a:0,n:0}; o.a+=r[IDX.amount_usd_mn]||0; o.n++; ft.set(k,o);});
+  const ftot=[...ft.values()].reduce((a,o)=>a+o.a,0);
+  table($('t_flow'),['Flow type','金額','占比','筆數'],[...ft.entries()].sort((a,b)=>b[1].a-a[1].a).map(e=>[e[0],fmt(e[1].a),ftot?(e[1].a/ftot*100).toFixed(1)+'%':'–',e[1].n]),[1,2,3]);
+  // sector for current source
+  const info=SRC_INFO[state.src]; const cur=rows.filter(r=>r[IDX.key]===state.src);
+  const sc=new Map(); cur.forEach(r=>{const k=r[IDX.sector]||'(未註明)'; const o=sc.get(k)||{a:0,n:0}; o.a+=r[IDX.amount_usd_mn]||0; o.n++; sc.set(k,o);});
+  const stot=[...sc.values()].reduce((a,o)=>a+o.a,0);
+  $('sectortitle').textContent=`部門分布 — ${info.label}（全期間，百萬美元）`;
+  table($('t_sector'),['Sector','金額','占比','筆數'],[...sc.entries()].sort((a,b)=>b[1].a-a[1].a).map(e=>[e[0],fmt(e[1].a),stot?(e[1].a/stot*100).toFixed(1)+'%':'–',e[1].n]),[1,2,3]);
+  // dependence
+  const dp=(DATA.dep[iso]||[]); const f2=v=>v==null?'–':(typeof v==='number'?v.toLocaleString('zh-Hant-TW',{maximumFractionDigits:2}):v);
+  table($('t_dep'),['年','GDP','對中 PPG 債務存量','占 PPG 外債比','占 GDP %','IMF 信用占 GDP %','所有官方捐助 ODA 撥付','AidData ODA+OOF 承諾','AidData 占 GDP %','中國承諾／官方 ODA 撥付'],dp.map(r=>[r[0],fmt0(r[1]),fmt0(r[2]),r[3]==null?'–':(r[3]*100).toFixed(1)+'%',f2(r[4]),f2(r[5]),fmt0(r[6]),fmt0(r[7]),f2(r[8]),f2(r[9])]),[1,2,3,4,5,6,7,8,9]);
+  // top 10 projects
+  $('projtitle').textContent=`前十大計畫／交易 — ${info.label}`;
+  const top=cur.slice().sort((a,b)=>(b[IDX.amount_usd_mn]||0)-(a[IDX.amount_usd_mn]||0)).slice(0,10);
+  table($('t_proj'),['年','金額','放款人／投資者','計畫／交易對象','Flow／部門','狀態','記錄 ID'],top.map(r=>[r[IDX.year],fmt(r[IDX.amount_usd_mn]),r[IDX.funder_or_investor],r[IDX.project_title],[r[IDX.flow_type],r[IDX.sector]].filter(Boolean).join(' / '),r[IDX.status],r[IDX.record_id]]),[1]);
+}
+
+// ---- data table tab
+const TCOLS=[['source','來源'],['measure','measure'],['country_iso3','ISO3'],['country_name_zh','國名'],['country_name_en','Country'],['region_zh','區域'],['year','年'],['amount_usd_mn','金額(百萬美元)'],['amount_basis','基準'],['flow_type','flow_type'],['flow_class','flow_class'],['rescue','rescue'],['public_liability','債務歸屬'],['sector','sector'],['funder_or_investor','放款人／投資者'],['bri_flag','BRI'],['status','status'],['record_id','record_id'],['project_title','計畫／交易']];
+function rowObj(r){ const o={}; C.forEach((c,i)=>o[c]=r[i]); o.country_name_zh=cname(r[IDX.country_iso3]); o.country_name_en=NAMES[r[IDX.country_iso3]]?NAMES[r[IDX.country_iso3]][0]:r[IDX.country_iso3]; o.region_zh=NAMES[r[IDX.country_iso3]]?REG[NAMES[r[IDX.country_iso3]][2]]:''; return o; }
+let currentTableRows=[];
+function drawTable(rows){
+  const q=state.q.trim().toLowerCase();
+  let objs=rows.map(rowObj);
+  if(q) objs=objs.filter(o=>[o.country_name_zh,o.country_name_en,o.country_raw,o.project_title,o.funder_or_investor,o.sector,o.flow_type,o.record_id].some(v=>v&&String(v).toLowerCase().includes(q)));
+  const sc=state.sortCol, d=state.sortDir;
+  objs.sort((a,b)=>{const x=a[sc],y=b[sc]; if(x==null)return 1; if(y==null)return -1; return (typeof x==='number'? x-y : String(x).localeCompare(String(y)))*d;});
+  currentTableRows=objs; $('tcount').textContent=`（${objs.length.toLocaleString()} 列）`;
+  const el=$('t_data');
+  el.innerHTML='<thead><tr>'+TCOLS.map(([k,l])=>`<th data-k="${k}" class="${['year','amount_usd_mn','bri_flag'].includes(k)?'num':''}">${l}${sc===k?(d<0?' ▼':' ▲'):''}</th>`).join('')+'</tr></thead><tbody>'+
+    objs.slice(0,2000).map(o=>'<tr>'+TCOLS.map(([k])=>`<td class="${['year','amount_usd_mn','bri_flag'].includes(k)?'num':''}">${k==='amount_usd_mn'?fmt(o[k]):(o[k]==null?'':o[k])}</td>`).join('')+'</tr>').join('')+'</tbody>';
+  el.querySelectorAll('th').forEach(th=>th.onclick=()=>{const k=th.dataset.k; if(state.sortCol===k)state.sortDir*=-1; else {state.sortCol=k;state.sortDir=k==='amount_usd_mn'||k==='year'?-1:1;} drawTable(filtered());});
+}
+function csvEscape(v){ if(v==null)return ''; const s=String(v); return /[",\n]/.test(s)?'"'+s.replace(/"/g,'""')+'"':s; }
+$('dl').onclick=()=>{ const cols=TCOLS.map(c=>c[0]); const lines=[cols.join(',')].concat(currentTableRows.map(o=>cols.map(k=>csvEscape(o[k])).join(',')));
+  const blob=new Blob(['﻿'+lines.join('\n')],{type:'text/csv;charset=utf-8'}); const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=`china_finance_${state.src}_${state.y0}-${state.y1}${state.bri!=='all'?'_bri'+state.bri:''}.csv`; a.click(); };
+
+// ---- wiring
+function update(){
+  const info=SRC_INFO[state.src];
+  $('bri').disabled=!state.src.startsWith('CGIT'); if($('bri').disabled){state.bri='all';$('bri').value='all';}
+  $('rescue').disabled=state.src!=='AID'; if($('rescue').disabled){state.rescue='all';$('rescue').value='all';}
+  $('liab').disabled=state.src!=='AID'; if($('liab').disabled){state.liab='all';$('liab').value='all';}
+  $('yrlabel').textContent=`${state.y0}–${state.y1}`;
+  $('srcnote').innerHTML=`<span class="legend" style="background:${info.hex}"></span>${info.label}：${info.basis}。${info.note}`;
+  const rows=filtered(); drawMap(rows); drawBar(rows); drawTrend(); drawDetail(); drawTable(rows);
+}
+$('src').onchange=e=>{state.src=e.target.value;update();};
+$('bri').onchange=e=>{state.bri=e.target.value;update();};
+$('region').onchange=e=>{state.region=e.target.value;update();};
+$('rescue').onchange=e=>{state.rescue=e.target.value;update();};
+$('liab').onchange=e=>{state.liab=e.target.value;update();};
+$('country').onchange=e=>{state.country=e.target.value;drawTrend();drawDetail();};
+$('y0').oninput=e=>{state.y0=+e.target.value; if(state.y0>state.y1){state.y1=state.y0;$('y1').value=state.y1;} update();};
+$('y1').oninput=e=>{state.y1=+e.target.value; if(state.y1<state.y0){state.y0=state.y1;$('y0').value=state.y0;} update();};
+$('topn').querySelectorAll('button').forEach(b=>b.onclick=()=>{state.topn=+b.dataset.n;$('topn').querySelectorAll('button').forEach(x=>x.classList.toggle('active',x===b));drawBar(filtered());});
+$('q').oninput=e=>{state.q=e.target.value;drawTable(filtered());};
+document.querySelectorAll('nav.tabs button').forEach(b=>b.onclick=()=>{state.tab=b.dataset.tab;document.querySelectorAll('nav.tabs button').forEach(x=>x.classList.toggle('active',x===b));
+  ['dash','table','about'].forEach(t=>$('tab-'+t).style.display=t===state.tab?'':'none'); $('controls').style.display=state.tab==='about'?'none':''; if(state.tab==='dash'){window.dispatchEvent(new Event('resize'));}});
+$('aboutbody').innerHTML=DATA.about;
+update();
+</script>
+</body>
+</html>

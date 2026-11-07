@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>對中依賴與曝險 — 中國對外開發金融</title>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+<style>
+:root{--bg:#fcfcfb;--panel:#fff;--line:#e4e3df;--text:#0b0b0b;--text2:#52514e;--muted:#8a8984;--accent:#2a78d6}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;font-size:14px;line-height:1.5}
+header{padding:14px 20px 8px;border-bottom:1px solid var(--line);background:var(--panel);display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:8px}
+header h1{font-size:18px;margin:0 0 2px;font-weight:600}
+header .sub{color:var(--text2);font-size:12px;max-width:1100px}
+header nav a{font-size:13px;color:var(--accent);margin-left:14px}
+.controls{display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start;padding:12px 20px;background:var(--panel);border-bottom:1px solid var(--line)}
+.ctl{display:flex;flex-direction:column;gap:4px;font-size:12px;color:var(--text2)}
+.ctl select,.ctl input[type=search],.ctl input[type=number]{font:inherit;font-size:13px;padding:5px 8px;border:1px solid var(--line);border-radius:4px;background:#fff;color:var(--text)}
+.checks{display:grid;grid-template-columns:repeat(3,auto);gap:2px 18px;font-size:12.5px;color:var(--text)}
+.checks>div{display:flex;flex-direction:column;gap:2px}
+.checks label{display:flex;gap:5px;align-items:center;white-space:nowrap}
+.note{font-size:12px;color:var(--muted)}
+main{padding:16px 20px;max-width:1500px;margin:0 auto}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:12px 14px;min-width:0;margin-bottom:16px}
+.card h2{font-size:14px;margin:0 0 6px;font-weight:600}
+.h2row{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.grid>div{min-width:0}
+table{border-collapse:collapse;width:100%;font-size:12.5px}
+th,td{padding:4px 7px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{color:var(--text2);font-weight:600;white-space:nowrap;position:sticky;top:0;background:var(--panel);cursor:pointer;user-select:none}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+.tablewrap{max-height:560px;overflow:auto;border:1px solid var(--line);border-radius:4px}
+.btn{font:inherit;font-size:13px;padding:5px 10px;border:1px solid var(--line);border-radius:4px;background:#fff;cursor:pointer;color:var(--text)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.bar{display:inline-block;height:9px;background:#2a78d6;border-radius:2px;vertical-align:middle;margin-right:4px}
+.regblock{break-inside:avoid;margin-bottom:10px}
+.regblock h3{font-size:13px;margin:6px 0 4px;color:var(--text2)}
+.cols3{columns:3;column-gap:20px}
+.about{max-width:950px;line-height:1.7}
+@media (max-width:1000px){.grid{grid-template-columns:1fr !important}.cols3{columns:1}}
+</style>
+</head>
+<body>
+<header><div><h1>對中依賴與曝險</h1><div class="sub">把中國官方金融的金額換成「依賴」：相對於 GDP、相對於外債、相對於西方替代選項、以及財政壓力。指標分兩個概念：<b>債務</b>（已經被套住）與<b>依賴</b>（正在求援、沒有替代來源、財政壓力）；每個概念先算勾選指標的百分位平均得子分數，總分 = 子分數的平均（兩個概念等權）；<b>這是曝險排序，不是對台立場的預測</b>。</div></div>
+<nav><a href="index.html">主儀表板</a><a href="regions.html">區域排名</a></nav></header>
+<div class="controls">
+  <div class="ctl">納入分數的指標（即時重算）
+    <div class="checks" id="checks"></div></div>
+  <div class="ctl">區域<select id="region"><option value="">全部</option></select></div>
+  <div class="ctl">最少有值指標數<input type="number" id="minn" min="1" max="8" value="4" style="width:70px"></div>
+  <div class="ctl">地圖／排序變數<select id="mapvar"></select></div>
+  <div class="ctl">搜尋<input type="search" id="q" placeholder="國名／ISO3" style="width:160px"></div>
+  <div class="ctl">&nbsp;<button class="btn primary" id="dl">下載 CSV</button></div>
+</div>
+<main>
+  <div class="grid">
+    <div class="card"><div class="h2row"><h2 id="maptitle">世界地圖</h2><span class="note">點國家看年度走勢。灰色 = 無資料（高所得國在 IDS 無對中債務資料；台灣邦交國與中國無官方金融往來）。</span></div><div id="map" style="height:420px"></div></div>
+    <div class="card"><div class="h2row"><h2>散點圖 <span class="note">（超過 40 國時只標示分數 ≥ 0.6 的國家；滑鼠停在點上可看全部）</span></h2><div style="display:flex;gap:8px;font-size:12px;align-items:center;flex-wrap:wrap">X <select id="sx"></select> Y <select id="sy"></select> 顏色 <select id="sc"><option value="region">區域</option></select> <label><input type="checkbox" id="logx"> log X</label><label><input type="checkbox" id="logy"> log Y</label></div></div><div id="scatter" style="height:420px"></div></div>
+  </div>
+  <div class="card"><div class="h2row"><h2>曝險分數表</h2><span class="note" id="tcount"></span></div><div class="tablewrap"><table id="t"></table></div></div>
+  <div class="card"><div class="h2row"><h2>各區域前 N 名（依分數）</h2><div style="font-size:12px">N <input type="number" id="topn" min="3" max="15" value="5" style="width:60px"></div></div><div class="cols3" id="regtop"></div></div>
+  <div class="card"><div class="h2row"><h2>國家比較（雷達圖）</h2><div style="display:flex;gap:8px;font-size:12px;align-items:center;flex-wrap:wrap">加入國家 <select id="radarsel"><option value="">— 選擇 —</option></select> 基準線 <select id="radarbase"><option value="">無</option><option value="all">全體中位數</option><option value="region">同區域中位數</option></select> <button class="btn" id="radarclear">清除</button></div></div>
+    <div class="note">從表格或各區域名單點國名也會加入（最多 6 國）。軸為各指標的百分位（0–1），依債務→依賴→企業排列；形狀代表曝險類型，面積不等於排名。</div>
+    <div class="grid"><div id="radar" style="height:380px"></div><div><div class="tablewrap" style="max-height:380px"><table id="t_radar"></table></div></div></div></div>
+  <div class="card" id="cc" style="display:none"><h2 id="cctitle">國家走勢</h2><div class="grid" style="grid-template-columns:1fr 1fr 1fr"><div id="c0" style="height:280px"></div><div id="c1" style="height:280px"></div><div id="c2" style="height:280px"></div></div><div class="tablewrap" style="max-height:260px;margin-top:10px"><table id="t_cy"></table></div></div>
+  <div class="card about" id="about"></div>
+</main>
+<script>
+/*__DATA__*/
+const S=DATA.summary, DEP=DATA.dep, REG=DATA.regions, ABOUT=DATA.about;
+const GROUPS=[['stock','債務：已經被套住'],['flow','依賴：正在求援、沒有替代、財政壓力'],['firm','企業：中資商業存在（預設不計入）']];
+const IND=[ // key, label, default on, format, group
+  ['debt_pct_gdp','對中 PPG 債務存量 2023 占 GDP %',true,'pct','stock'],
+  ['debt_share','對中債務占 PPG 外債比 2023',true,'share','stock'],
+  ['pub_pct_gdp','AidData 公部門承諾 2020–23 占 GDP %',true,'pct','flow'],
+  ['rescue_pct_gdp','紓困貸款 2020–23 占 GDP %',true,'pct','flow'],
+  ['codf_pct_gdp','CODF 承諾 2020–24 占 GDP %',false,'pct','flow'],
+  ['china_oda_ratio','中國承諾 2020–23 ／ 全部官方 ODA 撥付（倍）',true,'x','flow'],
+  ['imf_pct_gdp','IMF 信用使用額 2023 占 GDP %',true,'pct','flow'],
+  ['private_pct_gdp','AidData 私人債務 2020–23 占 GDP %',false,'pct','firm'],
+  ['cgit_pct_gdp','CGIT 投資＋建設 2020–26H1 占 GDP %',false,'pct','firm'],
+];
+const SUB={stock:'s_stock',flow:'s_flow',firm:'s_firm'}; const SUBLABEL={s_stock:'債務子分數',s_flow:'依賴子分數',s_firm:'企業子分數'};
+const $=id=>document.getElementById(id);
+const fmtv=(v,f)=>v==null||isNaN(v)?'–':f==='share'?(v*100).toFixed(1)+'%':f==='x'?v.toFixed(2):f==='score'?v.toFixed(3):v.toLocaleString('zh-Hant-TW',{maximumFractionDigits:2});
+const state={on:new Set(IND.filter(i=>i[2]).map(i=>i[0])),region:'',minn:4,mapvar:'score',q:'',sortCol:'score',sortDir:-1,topn:5,sx:'s_stock',sy:'s_flow',sc:'region',logx:false,logy:false,radar:[],radarBase:'',country:null};
+GROUPS.forEach(([g,gl])=>{const box=document.createElement('div');box.innerHTML=`<div style="font-weight:600;color:var(--text2);margin:4px 0 2px">${gl}</div>`;IND.filter(i=>i[4]===g).forEach(([k,l,on])=>{const lab=document.createElement('label');lab.innerHTML=`<input type="checkbox" value="${k}" ${on?'checked':''}> ${l}`;box.appendChild(lab);});$('checks').appendChild(box);});
+Object.entries(REG).forEach(([c,z])=>{if(c==='REGIONAL')return;const o=document.createElement('option');o.value=c;o.textContent=z;$('region').appendChild(o);});
+[['score','曝險總分（子分數平均）'],['s_stock','債務子分數'],['s_flow','依賴子分數'],['s_firm','企業子分數'],...IND.map(i=>[i[0],i[1]])].forEach(([k,l])=>{[$('mapvar'),$('sx'),$('sy'),$('sc')].forEach(sel=>{const o=document.createElement('option');o.value=k;o.textContent=l;sel.appendChild(o);});});
+$('sx').value=state.sx;$('sy').value=state.sy;$('sc').value=state.sc;
+
+function rankPct(vals){ // percentile rank (average ties), ignore null
+  const idx=vals.map((v,i)=>[v,i]).filter(x=>x[0]!=null&&!isNaN(x[0])); idx.sort((a,b)=>a[0]-b[0]); const out=new Array(vals.length).fill(null); let i=0;
+  while(i<idx.length){let j=i;while(j+1<idx.length&&idx[j+1][0]===idx[i][0])j++; const r=((i+1)+(j+1))/2/idx.length; for(let k=i;k<=j;k++)out[idx[k][1]]=r; i=j+1;} return out; }
+function compute(){
+  const keys=[...state.on]; const pct={}; keys.forEach(k=>pct[k]=rankPct(S.map(r=>r[k])));
+  S.forEach((r,i)=>{keys.forEach(k=>r['p_'+k]=pct[k][i]); let n=0; const subs=[];
+    GROUPS.forEach(([g])=>{const vals=keys.filter(k=>IND.find(x=>x[0]===k)[4]===g).map(k=>pct[k][i]).filter(v=>v!=null); n+=vals.length; r[SUB[g]]=vals.length?vals.reduce((a,b)=>a+b,0)/vals.length:null; if(vals.length)subs.push(r[SUB[g]]);});
+    r.n=n; r.score=subs.length?subs.reduce((a,b)=>a+b,0)/subs.length:null;});
+}
+function rows(){ const q=state.q.trim().toLowerCase(); return S.filter(r=>r.n>=state.minn&&r.score!=null&&(!state.region||r.region_code===state.region)&&(!q||r.name_zh.toLowerCase().includes(q)||r.name_en.toLowerCase().includes(q)||r.iso3.toLowerCase().includes(q))); }
+const label=k=>k==='score'?'曝險總分':SUBLABEL[k]||IND.find(i=>i[0]===k)[1]; const fmtk=k=>(k==='score'||SUBLABEL[k])?'score':IND.find(i=>i[0]===k)[3]; const isScoreKey=k=>k==='score'||!!SUBLABEL[k];
+function drawMap(rs){
+  const k=state.mapvar; const d=rs.filter(r=>r[k]!=null&&!isNaN(r[k])); const isScore=isScoreKey(k);
+  const z=d.map(r=>isScore?r[k]:Math.log10(r[k]+0.01)); const ticks=isScore?[0,0.25,0.5,0.75,1]:[0.1,1,10,100];
+  Plotly.react('map',[{type:'choropleth',locations:d.map(r=>r.iso3),z:z,customdata:d.map(r=>r.iso3),text:d.map(r=>`${r.name_zh} ${r.name_en}<br>${label(k)}：${fmtv(r[k],fmtk(k))}<br>曝險分數：${fmtv(r.score,'score')}（${r.n} 項）`),hoverinfo:'text',
+    colorscale:[[0,'#cde2fb'],[0.25,'#9ec5f4'],[0.5,'#5598e7'],[0.75,'#256abf'],[1,'#0d366b']],marker:{line:{color:'#fff',width:0.5}},
+    colorbar:{thickness:10,len:0.7,outlinewidth:0,tickvals:isScore?ticks:ticks.map(v=>Math.log10(v+0.01)),ticktext:ticks.map(String),title:{text:isScore?'分數':fmtk(k)==='share'?'(比例)':'',font:{size:11}}}}],
+    {geo:{showframe:false,showcoastlines:false,projection:{type:'natural earth'},bgcolor:'rgba(0,0,0,0)',landcolor:'#f0efec',showland:true,showcountries:true,countrycolor:'#fff'},margin:{l:0,r:0,t:0,b:0},paper_bgcolor:'rgba(0,0,0,0)'},{displayModeBar:false,responsive:true});
+  $('maptitle').textContent=`世界地圖 — ${label(k)}${isScore?'':'（對數色階）'}`;
+  $('map').removeAllListeners&&$('map').removeAllListeners('plotly_click'); $('map').on('plotly_click',ev=>showCountry(ev.points[0].customdata));
+}
+const REGCOL={EAST_ASIA:'#2a78d6',SOUTH_ASIA:'#eb6834',MIDEAST_CASIA:'#1baf7a',OCEANIA:'#eda100',EUROPE:'#e87ba4',AFRICA:'#008300',LATAM_CARIB:'#6250d6',NORTH_AMERICA:'#e34948'};
+function drawScatter(rs){
+  const kx=state.sx,ky=state.sy,kc=state.sc; const nAll=rs.filter(r=>r[kx]!=null&&r[ky]!=null).length; const labelAll=nAll<=40;
+  const SYM={EAST_ASIA:'circle',SOUTH_ASIA:'square',MIDEAST_CASIA:'diamond',OCEANIA:'triangle-up',EUROPE:'cross',AFRICA:'circle-open',LATAM_CARIB:'star',NORTH_AMERICA:'x'};
+  const byRegion = kc==='region';
+  const traces=Object.keys(REGCOL).map((c,ci)=>{const d=rs.filter(r=>r.region_code===c&&r[kx]!=null&&r[ky]!=null&&!isNaN(r[kx])&&!isNaN(r[ky]));
+    const t={type:'scatter',mode:'markers+text',name:REG[c],x:d.map(r=>r[kx]),y:d.map(r=>r[ky]),text:d.map(r=>(labelAll||(r.score!=null&&r.score>=0.6))?r.name_zh:''),textposition:'top center',textfont:{size:9,color:'#52514e'},customdata:d.map(r=>r.iso3),
+      marker:{size:d.map(r=>Math.max(6,Math.min(30,Math.sqrt((r.gdp_usd_mn||1000)/1000)*1.3))),opacity:0.8,line:{color:'#fff',width:1},symbol:byRegion?'circle':SYM[c]},
+      hovertemplate:d.map(r=>`${r.name_zh} ${r.name_en}<br>${label(kx)}：${fmtv(r[kx],fmtk(kx))}<br>${label(ky)}：${fmtv(r[ky],fmtk(ky))}${byRegion?'':`<br>${label(kc)}：${fmtv(r[kc],fmtk(kc))}`}<br>GDP ${Math.round((r.gdp_usd_mn||0)/1000).toLocaleString()} 十億<extra></extra>`)};
+    if(byRegion) t.marker.color=REGCOL[c]; else { t.marker.color=d.map(r=>r[kc]==null?-0.05:r[kc]); t.marker.cmin=0; t.marker.cmax=1; t.marker.colorscale=[[0,'#cde2fb'],[0.5,'#5598e7'],[1,'#0d366b']]; t.marker.showscale=ci===0; t.marker.colorbar={title:{text:label(kc),font:{size:10}},thickness:8,len:0.6,y:0.65,outlinewidth:0}; }
+    return t;}).filter(t=>t.x.length);
+  Plotly.react('scatter',traces,{margin:{l:55,r:byRegion?10:70,t:10,b:45},xaxis:{title:{text:label(kx),font:{size:11}},type:state.logx?'log':'linear',gridcolor:'#eeede9',zeroline:false},yaxis:{title:{text:label(ky),font:{size:11}},type:state.logy?'log':'linear',gridcolor:'#eeede9',zeroline:false},legend:{orientation:'h',y:-0.2,font:{size:10},title:{text:byRegion?'':'形狀＝區域',font:{size:10}}},paper_bgcolor:'rgba(0,0,0,0)',plot_bgcolor:'rgba(0,0,0,0)',font:{size:11}},{displayModeBar:false,responsive:true});
+  $('scatter').removeAllListeners&&$('scatter').removeAllListeners('plotly_click'); $('scatter').on('plotly_click',ev=>showCountry(ev.points[0].customdata));
+}
+let current=[];
+function drawTable(rs){
+  const keys=[...state.on]; const sc=state.sortCol,d=state.sortDir;
+  rs=rs.slice().sort((a,b)=>{const x=a[sc],y=b[sc]; if(x==null||x==='')return 1; if(y==null||y==='')return -1; return (typeof x==='number'?x-y:String(x).localeCompare(String(y)))*d;}); current=rs;
+  $('tcount').textContent=`${rs.length} 國（至少 ${state.minn} 項指標有值）`;
+  const subCols=GROUPS.filter(([g])=>keys.some(k=>IND.find(x=>x[0]===k)[4]===g)).map(([g,gl])=>[SUB[g],gl.split('：')[0]]);
+  const head=[['rank','#'],['name_zh','國家'],['iso3','ISO3'],['region_zh','區域'],['score','總分'],...subCols,['n','項'],...keys.map(k=>[k,label(k)]),['gdp_usd_mn','GDP（百萬）']];
+  $('t').innerHTML='<thead><tr>'+head.map(([k,l])=>`<th data-k="${k}" class="${['name_zh','iso3','region_zh','rank'].includes(k)?'':'num'}">${l}${sc===k?(d<0?' ▼':' ▲'):''}</th>`).join('')+'</tr></thead><tbody>'+
+    rs.map((r,i)=>'<tr>'+head.map(([k])=>{if(k==='rank')return `<td>${i+1}</td>`; if(k==='score')return `<td class="num"><span class="bar" style="width:${Math.round(r.score*60)}px"></span>${fmtv(r.score,'score')}</td>`; if(SUBLABEL[k])return `<td class="num">${r[k]==null?'–':`<span class="bar" style="width:${Math.round(r[k]*40)}px;background:${{s_stock:'#2a78d6',s_flow:'#eb6834',s_firm:'#6250d6'}[k]}"></span>${r[k].toFixed(2)}`}</td>`; if(k==='gdp_usd_mn')return `<td class="num">${r.gdp_usd_mn==null?'–':Math.round(r.gdp_usd_mn).toLocaleString()}</td>`; if(['name_zh','iso3','region_zh'].includes(k))return `<td>${k==='name_zh'?`<a href="#" data-iso="${r.iso3}" style="color:inherit">${r.name_zh}</a>`:r[k]}</td>`; if(k==='n')return `<td class="num">${r.n}</td>`; return `<td class="num" title="百分位 ${r['p_'+k]==null?'–':(r['p_'+k]*100).toFixed(0)}">${fmtv(r[k],fmtk(k))}</td>`;}).join('')+'</tr>').join('')+'</tbody>';
+  $('t').querySelectorAll('th').forEach(th=>th.onclick=()=>{const k=th.dataset.k; if(k==='rank')return; if(state.sortCol===k)state.sortDir*=-1; else{state.sortCol=k;state.sortDir=['name_zh','iso3','region_zh'].includes(k)?1:-1;} drawTable(rows());});
+  $('t').querySelectorAll('a[data-iso]').forEach(a=>a.onclick=e=>{e.preventDefault();addRadar(a.dataset.iso);showCountry(a.dataset.iso);});
+}
+function drawRegTop(rs){
+  const by={}; rs.forEach(r=>{(by[r.region_code]=by[r.region_code]||[]).push(r);});
+  $('regtop').innerHTML=Object.keys(REG).filter(c=>by[c]).map(c=>{const t=by[c].sort((a,b)=>b.score-a.score).slice(0,state.topn);
+    return `<div class="regblock"><h3>${REG[c]}（${by[c].length} 國有分數）</h3><table>${t.map((r,i)=>`<tr><td>${i+1}</td><td><a href="#" data-iso="${r.iso3}" style="color:inherit">${r.name_zh}</a></td><td class="num"><span class="bar" style="width:${Math.round(r.score*50)}px"></span>${r.score.toFixed(2)}</td><td class="num note" title="債務／依賴">${['s_stock','s_flow'].map(k=>r[k]==null?'–':r[k].toFixed(2)).join(' / ')}</td></tr>`).join('')}</table></div>`;}).join('');
+  $('regtop').querySelectorAll('a[data-iso]').forEach(a=>a.onclick=e=>{e.preventDefault();addRadar(a.dataset.iso);showCountry(a.dataset.iso);});
+}
+function showCountry(iso){
+  const r=S.find(x=>x.iso3===iso); const d=DEP[iso]||[]; if(!r)return; state.country=iso; $('cc').style.display='';
+  $('cctitle').textContent=`國家走勢 — ${r.name_zh} ${r.name_en}（${iso}，${r.region_zh}）　曝險分數 ${fmtv(r.score,'score')}`;
+  const ys=d.map(x=>x.year);
+  { const ax=axesKeys(); Plotly.react('c0',[radarTrace(r.name_zh,ax.map(a=>r[a[0]]),'#2a78d6')],{title:{text:'曝險輪廓（各指標百分位）',font:{size:12},x:0,xanchor:'left'},polar:{radialaxis:{range:[0,1],tickvals:[0.5,1],tickfont:{size:9}},angularaxis:{tickfont:{size:9}},bgcolor:'rgba(0,0,0,0)'},showlegend:false,margin:{l:40,r:40,t:30,b:20},paper_bgcolor:'rgba(0,0,0,0)',font:{size:11}},{displayModeBar:false,responsive:true}); }
+  Plotly.react('c1',[{type:'bar',name:'對中 PPG 債務存量',x:ys,y:d.map(x=>x.ppg_debt_china_usd_mn),marker:{color:'#2a78d6'}},{type:'bar',name:'IMF 信用使用額',x:ys,y:d.map(x=>x.imf_credit_usd_mn),marker:{color:'#eb6834'}}],
+    {title:{text:'存量（百萬美元）',font:{size:12},x:0,xanchor:'left'},barmode:'group',margin:{l:55,r:10,t:30,b:30},legend:{orientation:'h',y:-0.15,font:{size:10}},yaxis:{gridcolor:'#eeede9',tickformat:',.0f'},paper_bgcolor:'rgba(0,0,0,0)',plot_bgcolor:'rgba(0,0,0,0)',font:{size:11}},{displayModeBar:false,responsive:true});
+  Plotly.react('c2',[{type:'bar',name:'AidData ODA+OOF 承諾',x:ys,y:d.map(x=>x.aiddata_odaoof_usd_mn),marker:{color:'#2a78d6'}},{type:'bar',name:'全部官方 ODA 撥付（OECD）',x:ys,y:d.map(x=>x.oda_gross_all_official_usd_mn),marker:{color:'#1baf7a'}},{type:'bar',name:'CODF 承諾',x:ys,y:d.map(x=>x.codf_usd_mn),marker:{color:'#eda100'}}],
+    {title:{text:'年度流量（百萬美元）：中國承諾 vs 西方／多邊 ODA 撥付',font:{size:12},x:0,xanchor:'left'},barmode:'group',margin:{l:55,r:10,t:30,b:30},legend:{orientation:'h',y:-0.15,font:{size:10}},yaxis:{gridcolor:'#eeede9',tickformat:',.0f'},paper_bgcolor:'rgba(0,0,0,0)',plot_bgcolor:'rgba(0,0,0,0)',font:{size:11}},{displayModeBar:false,responsive:true});
+  const f=(v,p=1)=>v==null?'–':Number(v).toLocaleString('zh-Hant-TW',{maximumFractionDigits:p});
+  $('t_cy').innerHTML='<thead><tr><th>年</th><th class="num">GDP</th><th class="num">對中 PPG 債務</th><th class="num">占外債</th><th class="num">占 GDP %</th><th class="num">IMF 信用 % GDP</th><th class="num">官方 ODA 撥付</th><th class="num">AidData 承諾</th><th class="num">AidData % GDP</th><th class="num">中國／ODA 倍</th></tr></thead><tbody>'+
+    d.map(x=>`<tr><td>${x.year}</td><td class="num">${f(x.gdp_usd_mn,0)}</td><td class="num">${f(x.ppg_debt_china_usd_mn,0)}</td><td class="num">${x.ppg_debt_china_share_of_ppg==null?'–':(x.ppg_debt_china_share_of_ppg*100).toFixed(1)+'%'}</td><td class="num">${f(x.ppg_debt_china_pct_gdp,2)}</td><td class="num">${f(x.imf_credit_pct_gdp,2)}</td><td class="num">${f(x.oda_gross_all_official_usd_mn,0)}</td><td class="num">${f(x.aiddata_odaoof_usd_mn,0)}</td><td class="num">${f(x.aiddata_odaoof_pct_gdp,2)}</td><td class="num">${f(x.china_vs_all_official_oda_ratio,2)}</td></tr>`).join('')+'</tbody>';
+  $('cc').scrollIntoView({behavior:'smooth',block:'start'});
+}
+const RADCOL=['#2a78d6','#eb6834','#1baf7a','#eda100','#e87ba4','#6250d6'];
+const SHORT={debt_pct_gdp:'對中債務/GDP',debt_share:'對中債務/外債',pub_pct_gdp:'公部門承諾/GDP',rescue_pct_gdp:'紓困/GDP',codf_pct_gdp:'CODF/GDP',china_oda_ratio:'中國/官方ODA',imf_pct_gdp:'IMF信用/GDP',private_pct_gdp:'私人債務/GDP',cgit_pct_gdp:'CGIT/GDP'};
+function axesKeys(){ const keys=[...state.on]; return GROUPS.flatMap(([g])=>IND.filter(i=>i[4]===g&&keys.includes(i[0])).map(i=>['p_'+i[0],SHORT[i[0]]])); }
+function median(a){ a=a.filter(v=>v!=null).sort((x,y)=>x-y); if(!a.length)return null; const m=Math.floor(a.length/2); return a.length%2?a[m]:(a[m-1]+a[m])/2; }
+function radarTrace(name,vals,color,dash){ const ax=axesKeys(); const th=[...ax.map(a=>a[1]),ax[0][1]]; const rr=[...vals,vals[0]].map(v=>v==null?0:v);
+  return {type:'scatterpolar',name:name,theta:th,r:rr,fill:dash?'none':'toself',fillcolor:dash?undefined:color+'33',line:{color:color,width:2,dash:dash||'solid'},marker:{size:6},hovertemplate:'%{theta}：%{r:.2f}<extra>'+name+'</extra>'}; }
+function drawRadar(){
+  const ax=axesKeys(); const tr=state.radar.map((iso,i)=>{const r=S.find(x=>x.iso3===iso); return radarTrace(`${r.name_zh} ${r.iso3}（總分 ${fmtv(r.score,'score')}）`,ax.map(a=>r[a[0]]),RADCOL[i%RADCOL.length]);});
+  if(state.radarBase){ const pool=S.filter(r=>r.score!=null&&r.n>=state.minn&&(state.radarBase==='all'||(state.radar.length&&r.region_code===S.find(x=>x.iso3===state.radar[0]).region_code)));
+    const nm=state.radarBase==='all'?'全體中位數':`${state.radar.length?REG[S.find(x=>x.iso3===state.radar[0]).region_code]:''}中位數`; tr.push(radarTrace(nm,ax.map(a=>median(pool.map(r=>r[a[0]]))),'#8a8984','dash')); }
+  Plotly.react('radar',tr,{polar:{radialaxis:{range:[0,1],tickvals:[0.25,0.5,0.75,1],tickfont:{size:9},gridcolor:'#e4e3df'},angularaxis:{tickfont:{size:10},gridcolor:'#e4e3df'},bgcolor:'rgba(0,0,0,0)'},showlegend:true,legend:{orientation:'h',y:-0.12,font:{size:10}},margin:{l:50,r:50,t:30,b:30},paper_bgcolor:'rgba(0,0,0,0)',font:{size:11}},{displayModeBar:false,responsive:true});
+  const keys=[...state.on];
+  const subs=GROUPS.filter(([g])=>keys.some(k=>IND.find(x=>x[0]===k)[4]===g)).map(([g,gl])=>[SUB[g],gl.split('：')[0]+'子分數']);
+  $('t_radar').innerHTML='<thead><tr><th>國家</th><th class="num">總分</th>'+subs.map(a=>`<th class="num">${a[1]}</th>`).join('')+keys.map(k=>`<th class="num">${label(k)}</th>`).join('')+'<th></th></tr></thead><tbody>'+
+    state.radar.map((iso,i)=>{const r=S.find(x=>x.iso3===iso); return `<tr><td><span class="bar" style="background:${RADCOL[i%RADCOL.length]};width:10px"></span>${r.name_zh} ${r.name_en}</td><td class="num">${fmtv(r.score,'score')}</td>${subs.map(a=>`<td class="num">${r[a[0]]==null?'–':r[a[0]].toFixed(2)}</td>`).join('')}${keys.map(k=>`<td class="num">${fmtv(r[k],fmtk(k))}</td>`).join('')}<td><a href="#" data-rm="${iso}" style="color:var(--muted)">✕</a></td></tr>`;}).join('')+'</tbody>';
+  $('t_radar').querySelectorAll('a[data-rm]').forEach(a=>a.onclick=e=>{e.preventDefault();state.radar=state.radar.filter(x=>x!==a.dataset.rm);drawRadar();});
+}
+function addRadar(iso){ if(!iso||state.radar.includes(iso))return; if(state.radar.length>=6)state.radar.shift(); state.radar.push(iso); drawRadar(); }
+function update(){ compute(); const rs=rows(); drawMap(rs); drawScatter(rs); drawTable(rs); drawRegTop(rs); drawRadar(); if(state.country)showCountry(state.country); }
+$('checks').querySelectorAll('input').forEach(c=>c.onchange=()=>{c.checked?state.on.add(c.value):state.on.delete(c.value); if(!state.on.size){c.checked=true;state.on.add(c.value);} update();});
+$('region').onchange=e=>{state.region=e.target.value;update();}; $('minn').onchange=e=>{state.minn=+e.target.value;update();}; $('mapvar').onchange=e=>{state.mapvar=e.target.value;drawMap(rows());};
+$('q').oninput=e=>{state.q=e.target.value;drawTable(rows());}; $('topn').onchange=e=>{state.topn=+e.target.value;drawRegTop(rows());};
+$('sx').onchange=e=>{state.sx=e.target.value;drawScatter(rows());}; $('sy').onchange=e=>{state.sy=e.target.value;drawScatter(rows());}; $('sc').onchange=e=>{state.sc=e.target.value;drawScatter(rows());}; $('logx').onchange=e=>{state.logx=e.target.checked;drawScatter(rows());}; $('logy').onchange=e=>{state.logy=e.target.checked;drawScatter(rows());};
+$('dl').onclick=()=>{const keys=[...state.on]; const cols=['iso3','name_en','name_zh','region_code','region_zh','score','s_stock','s_flow','s_firm','n',...keys,...keys.map(k=>'pctile_'+k),'gdp_usd_mn']; const esc=v=>v==null?'':/[",\n]/.test(String(v))?'"'+String(v).replace(/"/g,'""')+'"':String(v);
+  const lines=[cols.join(',')].concat(current.map(r=>cols.map(c=>esc(c.startsWith('pctile_')?r['p_'+c.slice(7)]:r[c])).join(','))); const a=document.createElement('a'); a.href=URL.createObjectURL(new Blob(['﻿'+lines.join('\n')],{type:'text/csv;charset=utf-8'})); a.download='china_exposure_scores.csv'; a.click();};
+S.slice().sort((a,b)=>a.name_zh.localeCompare(b.name_zh,'zh-Hant')).forEach(r=>{const o=document.createElement('option');o.value=r.iso3;o.textContent=`${r.name_zh} ${r.name_en}`;$('radarsel').appendChild(o);});
+$('radarsel').onchange=e=>{addRadar(e.target.value);e.target.value='';}; $('radarbase').onchange=e=>{state.radarBase=e.target.value;drawRadar();}; $('radarclear').onclick=()=>{state.radar=[];drawRadar();};
+$('about').innerHTML=ABOUT; update();
+</script>
+</body></html>

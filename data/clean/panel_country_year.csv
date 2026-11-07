@@ -1,0 +1,1482 @@
+country_iso3,country_name_en,country_name_zh,region_code,region_zh,year,source,measure,amount_usd_mn,n_records
+AFG,Afghanistan,阿富汗,SOUTH_ASIA,南亞,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),11.713536547069115,11
+AFG,Afghanistan,阿富汗,SOUTH_ASIA,南亞,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),49.7324410472944,16
+AFG,Afghanistan,阿富汗,SOUTH_ASIA,南亞,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),7.161939440153896,13
+AFG,Afghanistan,阿富汗,SOUTH_ASIA,南亞,2023,AEI CGIT,Investment,150.0,1
+AFG,Afghanistan,阿富汗,SOUTH_ASIA,南亞,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),8.31167523032859,12
+AGO,Angola,安哥拉,AFRICA,非洲,2020,AEI CGIT,Construction,160.0,1
+AGO,Angola,安哥拉,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),61.4787021257642,12
+AGO,Angola,安哥拉,AFRICA,非洲,2021,AEI CGIT,Construction,310.0,2
+AGO,Angola,安哥拉,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),76.81439837692855,5
+AGO,Angola,安哥拉,AFRICA,非洲,2021,BU CLA,Official & commercial loans to Africa (commitments),110.03,2
+AGO,Angola,安哥拉,AFRICA,非洲,2021,BU CODF,Official finance (commitments),79.7,1
+AGO,Angola,安哥拉,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,2
+AGO,Angola,安哥拉,AFRICA,非洲,2022,BU CLA,Official & commercial loans to Africa (commitments),18.57,1
+AGO,Angola,安哥拉,AFRICA,非洲,2023,AEI CGIT,Construction,250.0,1
+AGO,Angola,安哥拉,AFRICA,非洲,2023,AEI CGIT,Investment,120.0,1
+AGO,Angola,安哥拉,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),291.91170622001664,7
+AGO,Angola,安哥拉,AFRICA,非洲,2023,BU CLA,Official & commercial loans to Africa (commitments),249.0,1
+AGO,Angola,安哥拉,AFRICA,非洲,2023,BU CODF,Official finance (commitments),249.0,1
+AGO,Angola,安哥拉,AFRICA,非洲,2024,AEI CGIT,Construction,5770.0,1
+AGO,Angola,安哥拉,AFRICA,非洲,2024,AEI CGIT,Investment,250.0,1
+AGO,Angola,安哥拉,AFRICA,非洲,2024,BU CLA,Official & commercial loans to Africa (commitments),1450.6,2
+AGO,Angola,安哥拉,AFRICA,非洲,2024,BU CODF,Official finance (commitments),1450.6,2
+AGO,Angola,安哥拉,AFRICA,非洲,2025,AEI CGIT,Construction,290.0,2
+ALB,Albania,阿爾巴尼亞,EUROPE,歐洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.150633137919651,3
+ALB,Albania,阿爾巴尼亞,EUROPE,歐洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,3
+ALB,Albania,阿爾巴尼亞,EUROPE,歐洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,3
+ALB,Albania,阿爾巴尼亞,EUROPE,歐洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,6
+ARE,United Arab Emirates,阿拉伯聯合大公國,MIDEAST_CASIA,中東＋中亞,2020,AEI CGIT,Construction,2440.0,7
+ARE,United Arab Emirates,阿拉伯聯合大公國,MIDEAST_CASIA,中東＋中亞,2020,AEI CGIT,Investment,180.0,1
+ARE,United Arab Emirates,阿拉伯聯合大公國,MIDEAST_CASIA,中東＋中亞,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),480.34578956168605,5
+ARE,United Arab Emirates,阿拉伯聯合大公國,MIDEAST_CASIA,中東＋中亞,2021,AEI CGIT,Construction,1350.0,3
+ARE,United Arab Emirates,阿拉伯聯合大公國,MIDEAST_CASIA,中東＋中亞,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),564.581217362238,3
+ARE,United Arab Emirates,阿拉伯聯合大公國,MIDEAST_CASIA,中東＋中亞,2022,AEI CGIT,Construction,780.0,2
+ARE,United Arab Emirates,阿拉伯聯合大公國,MIDEAST_CASIA,中東＋中亞,2022,AEI CGIT,Investment,140.0,1
+ARE,United Arab Emirates,阿拉伯聯合大公國,MIDEAST_CASIA,中東＋中亞,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),1539.369673549857,9
+ARE,United Arab Emirates,阿拉伯聯合大公國,MIDEAST_CASIA,中東＋中亞,2023,AEI CGIT,Construction,2440.0,6
+ARE,United Arab Emirates,阿拉伯聯合大公國,MIDEAST_CASIA,中東＋中亞,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),1469.6141915616065,19
+ARE,United Arab Emirates,阿拉伯聯合大公國,MIDEAST_CASIA,中東＋中亞,2024,AEI CGIT,Construction,4560.0,11
+ARE,United Arab Emirates,阿拉伯聯合大公國,MIDEAST_CASIA,中東＋中亞,2025,AEI CGIT,Construction,2410.0,7
+ARE,United Arab Emirates,阿拉伯聯合大公國,MIDEAST_CASIA,中東＋中亞,2026,AEI CGIT,Construction,6460.0,2
+ARG,Argentina,阿根廷,LATAM_CARIB,拉丁美洲與加勒比海,2020,AEI CGIT,Investment,180.0,1
+ARG,Argentina,阿根廷,LATAM_CARIB,拉丁美洲與加勒比海,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),19619.812163800492,58
+ARG,Argentina,阿根廷,LATAM_CARIB,拉丁美洲與加勒比海,2021,AEI CGIT,Construction,500.0,2
+ARG,Argentina,阿根廷,LATAM_CARIB,拉丁美洲與加勒比海,2021,AEI CGIT,Investment,1250.0,3
+ARG,Argentina,阿根廷,LATAM_CARIB,拉丁美洲與加勒比海,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),18687.6601788637,19
+ARG,Argentina,阿根廷,LATAM_CARIB,拉丁美洲與加勒比海,2022,AEI CGIT,Construction,2730.0,2
+ARG,Argentina,阿根廷,LATAM_CARIB,拉丁美洲與加勒比海,2022,AEI CGIT,Investment,1340.0,2
+ARG,Argentina,阿根廷,LATAM_CARIB,拉丁美洲與加勒比海,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),19522.32356600856,18
+ARG,Argentina,阿根廷,LATAM_CARIB,拉丁美洲與加勒比海,2023,AEI CGIT,Investment,450.0,2
+ARG,Argentina,阿根廷,LATAM_CARIB,拉丁美洲與加勒比海,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),18594.732862242876,13
+ARG,Argentina,阿根廷,LATAM_CARIB,拉丁美洲與加勒比海,2024,AEI CGIT,Investment,220.0,1
+ARG,Argentina,阿根廷,LATAM_CARIB,拉丁美洲與加勒比海,2025,AEI CGIT,Investment,380.0,2
+ARM,Armenia,亞美尼亞,MIDEAST_CASIA,中東＋中亞,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.1710695563758867,4
+ARM,Armenia,亞美尼亞,MIDEAST_CASIA,中東＋中亞,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1.6829084878498703,6
+ARM,Armenia,亞美尼亞,MIDEAST_CASIA,中東＋中亞,2023,AEI CGIT,Construction,130.0,1
+ARM,Armenia,亞美尼亞,MIDEAST_CASIA,中東＋中亞,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,1
+ASM,American Samoa,美屬薩摩亞,OCEANIA,大洋洲,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0,1
+ATG,Antigua and Barbuda,安地卡及巴布達,LATAM_CARIB,拉丁美洲與加勒比海,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,1
+ATG,Antigua and Barbuda,安地卡及巴布達,LATAM_CARIB,拉丁美洲與加勒比海,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.331970989384085,5
+ATG,Antigua and Barbuda,安地卡及巴布達,LATAM_CARIB,拉丁美洲與加勒比海,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),0.2173096115922703,7
+ATG,Antigua and Barbuda,安地卡及巴布達,LATAM_CARIB,拉丁美洲與加勒比海,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0148148148148148,2
+AUS,Australia,澳大利亞,OCEANIA,大洋洲,2020,AEI CGIT,Construction,1770.0,6
+AUS,Australia,澳大利亞,OCEANIA,大洋洲,2020,AEI CGIT,Investment,2890.0,8
+AUS,Australia,澳大利亞,OCEANIA,大洋洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),4024.9219314235897,111
+AUS,Australia,澳大利亞,OCEANIA,大洋洲,2021,AEI CGIT,Construction,1710.0,5
+AUS,Australia,澳大利亞,OCEANIA,大洋洲,2021,AEI CGIT,Investment,140.0,1
+AUS,Australia,澳大利亞,OCEANIA,大洋洲,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),4120.207053160039,109
+AUS,Australia,澳大利亞,OCEANIA,大洋洲,2022,AEI CGIT,Construction,3360.0,8
+AUS,Australia,澳大利亞,OCEANIA,大洋洲,2022,AEI CGIT,Investment,1260.0,2
+AUS,Australia,澳大利亞,OCEANIA,大洋洲,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),4271.018334479935,106
+AUS,Australia,澳大利亞,OCEANIA,大洋洲,2023,AEI CGIT,Construction,1840.0,4
+AUS,Australia,澳大利亞,OCEANIA,大洋洲,2023,AEI CGIT,Investment,470.0,2
+AUS,Australia,澳大利亞,OCEANIA,大洋洲,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),4257.846377066522,58
+AUS,Australia,澳大利亞,OCEANIA,大洋洲,2024,AEI CGIT,Construction,1190.0,5
+AUS,Australia,澳大利亞,OCEANIA,大洋洲,2024,AEI CGIT,Investment,110.0,1
+AUS,Australia,澳大利亞,OCEANIA,大洋洲,2025,AEI CGIT,Construction,2590.0,3
+AUS,Australia,澳大利亞,OCEANIA,大洋洲,2025,AEI CGIT,Investment,680.0,3
+AUS,Australia,澳大利亞,OCEANIA,大洋洲,2026,AEI CGIT,Construction,2240.0,1
+AUS,Australia,澳大利亞,OCEANIA,大洋洲,2026,AEI CGIT,Investment,1960.0,2
+AUT,Austria,奧地利,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),0.1837930629384022,7
+AUT,Austria,奧地利,EUROPE,歐洲,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),124.33146465554,2
+AUT,Austria,奧地利,EUROPE,歐洲,2023,AEI CGIT,Investment,600.0,1
+AZE,Azerbaijan,亞塞拜然,MIDEAST_CASIA,中東＋中亞,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),22.62989727022727,9
+AZE,Azerbaijan,亞塞拜然,MIDEAST_CASIA,中東＋中亞,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),143.54056724312943,4
+AZE,Azerbaijan,亞塞拜然,MIDEAST_CASIA,中東＋中亞,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0452227179583814,3
+AZE,Azerbaijan,亞塞拜然,MIDEAST_CASIA,中東＋中亞,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,3
+AZE,Azerbaijan,亞塞拜然,MIDEAST_CASIA,中東＋中亞,2025,AEI CGIT,Construction,910.0,2
+BDI,Burundi,蒲隆地,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1.05538845226511,14
+BDI,Burundi,蒲隆地,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),8.374393314508279,17
+BDI,Burundi,蒲隆地,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),109.5151444989666,16
+BDI,Burundi,蒲隆地,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,12
+BDI,Burundi,蒲隆地,AFRICA,非洲,2025,AEI CGIT,Construction,750.0,1
+BEL,Belgium,比利時,EUROPE,歐洲,2020,AEI CGIT,Investment,120.0,1
+BEL,Belgium,比利時,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),0.10519856752033051,6
+BEL,Belgium,比利時,EUROPE,歐洲,2021,AEI CGIT,Investment,440.0,1
+BEL,Belgium,比利時,EUROPE,歐洲,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),33.1970989384085,1
+BEL,Belgium,比利時,EUROPE,歐洲,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),1039.858637793081,4
+BEL,Belgium,比利時,EUROPE,歐洲,2023,AEI CGIT,Construction,230.0,1
+BEL,Belgium,比利時,EUROPE,歐洲,2023,AEI CGIT,Investment,320.0,1
+BEL,Belgium,比利時,EUROPE,歐洲,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),90.1057189542139,1
+BEN,Benin,貝南,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),14.808810195226707,19
+BEN,Benin,貝南,AFRICA,非洲,2021,AEI CGIT,Construction,110.0,1
+BEN,Benin,貝南,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),776.2588301764515,12
+BEN,Benin,貝南,AFRICA,非洲,2022,AEI CGIT,Construction,110.0,1
+BEN,Benin,貝南,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),58.68815002550244,13
+BEN,Benin,貝南,AFRICA,非洲,2022,BU CLA,Official & commercial loans to Africa (commitments),39.33,1
+BEN,Benin,貝南,AFRICA,非洲,2022,BU CODF,Official finance (commitments),39.32,1
+BEN,Benin,貝南,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),76.2294382352953,14
+BFA,Burkina Faso,布吉納法索,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),146.33628299566584,19
+BFA,Burkina Faso,布吉納法索,AFRICA,非洲,2020,BU CLA,Official & commercial loans to Africa (commitments),80.0,1
+BFA,Burkina Faso,布吉納法索,AFRICA,非洲,2020,BU CODF,Official finance (commitments),80.0,1
+BFA,Burkina Faso,布吉納法索,AFRICA,非洲,2021,AEI CGIT,Construction,140.0,1
+BFA,Burkina Faso,布吉納法索,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),27.594401572516887,10
+BFA,Burkina Faso,布吉納法索,AFRICA,非洲,2022,AEI CGIT,Construction,110.0,1
+BFA,Burkina Faso,布吉納法索,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,2
+BFA,Burkina Faso,布吉納法索,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),50.20026811643801,4
+BFA,Burkina Faso,布吉納法索,AFRICA,非洲,2023,BU CLA,Official & commercial loans to Africa (commitments),50.14,1
+BFA,Burkina Faso,布吉納法索,AFRICA,非洲,2023,BU CODF,Official finance (commitments),50.13,1
+BGD,Bangladesh,孟加拉,SOUTH_ASIA,南亞,2020,AEI CGIT,Construction,690.0,4
+BGD,Bangladesh,孟加拉,SOUTH_ASIA,南亞,2020,AEI CGIT,Investment,1160.0,2
+BGD,Bangladesh,孟加拉,SOUTH_ASIA,南亞,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),3043.709924107963,22
+BGD,Bangladesh,孟加拉,SOUTH_ASIA,南亞,2020,BU CODF,Official finance (commitments),966.28,2
+BGD,Bangladesh,孟加拉,SOUTH_ASIA,南亞,2021,AEI CGIT,Construction,650.0,3
+BGD,Bangladesh,孟加拉,SOUTH_ASIA,南亞,2021,AEI CGIT,Investment,480.0,1
+BGD,Bangladesh,孟加拉,SOUTH_ASIA,南亞,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1406.3510195850936,12
+BGD,Bangladesh,孟加拉,SOUTH_ASIA,南亞,2021,BU CODF,Official finance (commitments),1126.99,1
+BGD,Bangladesh,孟加拉,SOUTH_ASIA,南亞,2022,AEI CGIT,Construction,1160.0,5
+BGD,Bangladesh,孟加拉,SOUTH_ASIA,南亞,2022,AEI CGIT,Investment,530.0,3
+BGD,Bangladesh,孟加拉,SOUTH_ASIA,南亞,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),215.88101549555282,10
+BGD,Bangladesh,孟加拉,SOUTH_ASIA,南亞,2023,AEI CGIT,Construction,240.0,2
+BGD,Bangladesh,孟加拉,SOUTH_ASIA,南亞,2023,AEI CGIT,Investment,100.0,1
+BGD,Bangladesh,孟加拉,SOUTH_ASIA,南亞,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),358.2009825344687,13
+BGD,Bangladesh,孟加拉,SOUTH_ASIA,南亞,2023,BU CODF,Official finance (commitments),276.25,1
+BGD,Bangladesh,孟加拉,SOUTH_ASIA,南亞,2024,AEI CGIT,Construction,370.0,2
+BGD,Bangladesh,孟加拉,SOUTH_ASIA,南亞,2025,AEI CGIT,Construction,620.0,2
+BGR,Bulgaria,保加利亞,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),87.94402391739122,8
+BGR,Bulgaria,保加利亞,EUROPE,歐洲,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),120.2834313725499,2
+BGR,Bulgaria,保加利亞,EUROPE,歐洲,2024,AEI CGIT,Investment,320.0,1
+BHR,Bahrain,巴林,MIDEAST_CASIA,中東＋中亞,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0072221367495723,1
+BHR,Bahrain,巴林,MIDEAST_CASIA,中東＋中亞,2024,AEI CGIT,Construction,630.0,2
+BHS,Bahamas,巴哈馬,LATAM_CARIB,拉丁美洲與加勒比海,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0100387700819055,4
+BHS,Bahamas,巴哈馬,LATAM_CARIB,拉丁美洲與加勒比海,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),0.3161739654259151,5
+BHS,Bahamas,巴哈馬,LATAM_CARIB,拉丁美洲與加勒比海,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0026457735678699,10
+BHS,Bahamas,巴哈馬,LATAM_CARIB,拉丁美洲與加勒比海,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),37.2094808969607,9
+BIH,Bosnia and Herzegovina,波士尼亞與赫塞哥維納,EUROPE,歐洲,2020,AEI CGIT,Construction,120.0,1
+BIH,Bosnia and Herzegovina,波士尼亞與赫塞哥維納,EUROPE,歐洲,2020,AEI CGIT,Investment,110.0,1
+BIH,Bosnia and Herzegovina,波士尼亞與赫塞哥維納,EUROPE,歐洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.2503027519990349,6
+BIH,Bosnia and Herzegovina,波士尼亞與赫塞哥維納,EUROPE,歐洲,2021,AEI CGIT,Construction,420.0,2
+BIH,Bosnia and Herzegovina,波士尼亞與赫塞哥維納,EUROPE,歐洲,2021,AEI CGIT,Investment,150.0,1
+BIH,Bosnia and Herzegovina,波士尼亞與赫塞哥維納,EUROPE,歐洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),432.7245665372789,10
+BIH,Bosnia and Herzegovina,波士尼亞與赫塞哥維納,EUROPE,歐洲,2021,BU CODF,Official finance (commitments),234.56,1
+BIH,Bosnia and Herzegovina,波士尼亞與赫塞哥維納,EUROPE,歐洲,2022,AEI CGIT,Construction,410.0,2
+BIH,Bosnia and Herzegovina,波士尼亞與赫塞哥維納,EUROPE,歐洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),99.25629486381138,4
+BIH,Bosnia and Herzegovina,波士尼亞與赫塞哥維納,EUROPE,歐洲,2023,AEI CGIT,Construction,270.0,1
+BIH,Bosnia and Herzegovina,波士尼亞與赫塞哥維納,EUROPE,歐洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),271.37411436470734,6
+BIH,Bosnia and Herzegovina,波士尼亞與赫塞哥維納,EUROPE,歐洲,2024,AEI CGIT,Investment,350.0,1
+BIH,Bosnia and Herzegovina,波士尼亞與赫塞哥維納,EUROPE,歐洲,2025,AEI CGIT,Construction,190.0,1
+BIH,Bosnia and Herzegovina,波士尼亞與赫塞哥維納,EUROPE,歐洲,2025,AEI CGIT,Investment,120.0,1
+BLR,Belarus,白俄羅斯,EUROPE,歐洲,2020,AEI CGIT,Construction,1480.0,3
+BLR,Belarus,白俄羅斯,EUROPE,歐洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.1952009438012621,9
+BLR,Belarus,白俄羅斯,EUROPE,歐洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),73.14763440180855,8
+BLR,Belarus,白俄羅斯,EUROPE,歐洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),59.5299052770728,4
+BLR,Belarus,白俄羅斯,EUROPE,歐洲,2023,AEI CGIT,Construction,160.0,1
+BLR,Belarus,白俄羅斯,EUROPE,歐洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,2
+BMU,Bermuda,百慕達,NORTH_AMERICA,北美,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),251.43353226725299,2
+BOL,Bolivia,玻利維亞,LATAM_CARIB,拉丁美洲與加勒比海,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.1871088161976518,9
+BOL,Bolivia,玻利維亞,LATAM_CARIB,拉丁美洲與加勒比海,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),67.4818643989392,20
+BOL,Bolivia,玻利維亞,LATAM_CARIB,拉丁美洲與加勒比海,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.000909295680129,6
+BOL,Bolivia,玻利維亞,LATAM_CARIB,拉丁美洲與加勒比海,2023,AEI CGIT,Investment,400.0,1
+BOL,Bolivia,玻利維亞,LATAM_CARIB,拉丁美洲與加勒比海,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.566072466641922,12
+BOL,Bolivia,玻利維亞,LATAM_CARIB,拉丁美洲與加勒比海,2024,AEI CGIT,Construction,350.0,1
+BOL,Bolivia,玻利維亞,LATAM_CARIB,拉丁美洲與加勒比海,2024,BU CODF,Official finance (commitments),350.0,1
+BRA,Brazil,巴西,LATAM_CARIB,拉丁美洲與加勒比海,2020,AEI CGIT,Construction,380.0,1
+BRA,Brazil,巴西,LATAM_CARIB,拉丁美洲與加勒比海,2020,AEI CGIT,Investment,260.0,1
+BRA,Brazil,巴西,LATAM_CARIB,拉丁美洲與加勒比海,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),390.9120663667027,24
+BRA,Brazil,巴西,LATAM_CARIB,拉丁美洲與加勒比海,2021,AEI CGIT,Construction,110.0,1
+BRA,Brazil,巴西,LATAM_CARIB,拉丁美洲與加勒比海,2021,AEI CGIT,Investment,5680.0,5
+BRA,Brazil,巴西,LATAM_CARIB,拉丁美洲與加勒比海,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),2536.596861413006,20
+BRA,Brazil,巴西,LATAM_CARIB,拉丁美洲與加勒比海,2022,AEI CGIT,Construction,280.0,2
+BRA,Brazil,巴西,LATAM_CARIB,拉丁美洲與加勒比海,2022,AEI CGIT,Investment,2570.0,4
+BRA,Brazil,巴西,LATAM_CARIB,拉丁美洲與加勒比海,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1581.377881150365,35
+BRA,Brazil,巴西,LATAM_CARIB,拉丁美洲與加勒比海,2022,BU CODF,Official finance (commitments),500.0,1
+BRA,Brazil,巴西,LATAM_CARIB,拉丁美洲與加勒比海,2023,AEI CGIT,Construction,110.0,1
+BRA,Brazil,巴西,LATAM_CARIB,拉丁美洲與加勒比海,2023,AEI CGIT,Investment,2760.0,8
+BRA,Brazil,巴西,LATAM_CARIB,拉丁美洲與加勒比海,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),2387.734733718916,46
+BRA,Brazil,巴西,LATAM_CARIB,拉丁美洲與加勒比海,2023,BU CODF,Official finance (commitments),1300.0,2
+BRA,Brazil,巴西,LATAM_CARIB,拉丁美洲與加勒比海,2024,AEI CGIT,Investment,1610.0,7
+BRA,Brazil,巴西,LATAM_CARIB,拉丁美洲與加勒比海,2024,BU CODF,Official finance (commitments),2494.69,4
+BRA,Brazil,巴西,LATAM_CARIB,拉丁美洲與加勒比海,2025,AEI CGIT,Construction,230.0,2
+BRA,Brazil,巴西,LATAM_CARIB,拉丁美洲與加勒比海,2025,AEI CGIT,Investment,8700.0,15
+BRA,Brazil,巴西,LATAM_CARIB,拉丁美洲與加勒比海,2026,AEI CGIT,Investment,2930.0,3
+BRB,Barbados,巴貝多,LATAM_CARIB,拉丁美洲與加勒比海,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),0.1866900897873114,9
+BRB,Barbados,巴貝多,LATAM_CARIB,拉丁美洲與加勒比海,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),0.5993920641657079,6
+BRB,Barbados,巴貝多,LATAM_CARIB,拉丁美洲與加勒比海,2022,AEI CGIT,Construction,120.0,1
+BRB,Barbados,巴貝多,LATAM_CARIB,拉丁美洲與加勒比海,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),152.2962528692674,7
+BRB,Barbados,巴貝多,LATAM_CARIB,拉丁美洲與加勒比海,2022,BU CODF,Official finance (commitments),120.99,1
+BRB,Barbados,巴貝多,LATAM_CARIB,拉丁美洲與加勒比海,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),0.03,3
+BRN,Brunei Darussalam,汶萊,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),0.24012101949588188,10
+BRN,Brunei Darussalam,汶萊,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),2.522979519319041,8
+BRN,Brunei Darussalam,汶萊,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0,5
+BRN,Brunei Darussalam,汶萊,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),0.683572951074819,9
+BRN,Brunei Darussalam,汶萊,EAST_ASIA,東亞（東北亞＋東南亞）,2024,AEI CGIT,Investment,150.0,1
+BRN,Brunei Darussalam,汶萊,EAST_ASIA,東亞（東北亞＋東南亞）,2025,AEI CGIT,Construction,100.0,1
+BRN,Brunei Darussalam,汶萊,EAST_ASIA,東亞（東北亞＋東南亞）,2026,AEI CGIT,Investment,3530.0,1
+BWA,Botswana,波札那,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),3.7036617545966366,14
+BWA,Botswana,波札那,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),3.448227741814683,16
+BWA,Botswana,波札那,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.054661584056489396,5
+BWA,Botswana,波札那,AFRICA,非洲,2023,AEI CGIT,Investment,2040.0,1
+BWA,Botswana,波札那,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),2000.0,4
+BWA,Botswana,波札那,AFRICA,非洲,2025,AEI CGIT,Investment,810.0,1
+CAF,Central African Republic,中非共和國,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),3.423709737128655,13
+CAF,Central African Republic,中非共和國,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),187.17752611010732,8
+CAF,Central African Republic,中非共和國,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,2
+CAF,Central African Republic,中非共和國,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.7524,6
+CAN,Canada,加拿大,NORTH_AMERICA,北美,2020,AEI CGIT,Investment,150.0,1
+CAN,Canada,加拿大,NORTH_AMERICA,北美,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),555.4764109057737,32
+CAN,Canada,加拿大,NORTH_AMERICA,北美,2021,AEI CGIT,Investment,300.0,2
+CAN,Canada,加拿大,NORTH_AMERICA,北美,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),88.57244196425789,10
+CAN,Canada,加拿大,NORTH_AMERICA,北美,2022,AEI CGIT,Investment,320.0,1
+CAN,Canada,加拿大,NORTH_AMERICA,北美,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),336.44058539226546,9
+CAN,Canada,加拿大,NORTH_AMERICA,北美,2023,AEI CGIT,Investment,130.0,1
+CAN,Canada,加拿大,NORTH_AMERICA,北美,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),249.9049077060912,2
+CAN,Canada,加拿大,NORTH_AMERICA,北美,2024,AEI CGIT,Investment,210.0,1
+CAN,Canada,加拿大,NORTH_AMERICA,北美,2025,AEI CGIT,Investment,190.0,1
+CAN,Canada,加拿大,NORTH_AMERICA,北美,2026,AEI CGIT,Investment,5280.0,2
+CHE,Switzerland,瑞士,EUROPE,歐洲,2020,AEI CGIT,Investment,310.0,2
+CHE,Switzerland,瑞士,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),126.1022110583172,11
+CHE,Switzerland,瑞士,EUROPE,歐洲,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),405.6627079685014,9
+CHE,Switzerland,瑞士,EUROPE,歐洲,2022,AEI CGIT,Investment,590.0,1
+CHE,Switzerland,瑞士,EUROPE,歐洲,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),796.0885781169974,13
+CHE,Switzerland,瑞士,EUROPE,歐洲,2023,AEI CGIT,Investment,100.0,1
+CHE,Switzerland,瑞士,EUROPE,歐洲,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),664.9368875009509,13
+CHE,Switzerland,瑞士,EUROPE,歐洲,2024,AEI CGIT,Investment,810.0,1
+CHL,Chile,智利,LATAM_CARIB,拉丁美洲與加勒比海,2020,AEI CGIT,Construction,160.0,1
+CHL,Chile,智利,LATAM_CARIB,拉丁美洲與加勒比海,2020,AEI CGIT,Investment,3030.0,1
+CHL,Chile,智利,LATAM_CARIB,拉丁美洲與加勒比海,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),363.4254724983188,13
+CHL,Chile,智利,LATAM_CARIB,拉丁美洲與加勒比海,2021,AEI CGIT,Construction,220.0,1
+CHL,Chile,智利,LATAM_CARIB,拉丁美洲與加勒比海,2021,AEI CGIT,Investment,1100.0,2
+CHL,Chile,智利,LATAM_CARIB,拉丁美洲與加勒比海,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),973.3550692940972,25
+CHL,Chile,智利,LATAM_CARIB,拉丁美洲與加勒比海,2022,AEI CGIT,Construction,1620.0,2
+CHL,Chile,智利,LATAM_CARIB,拉丁美洲與加勒比海,2022,AEI CGIT,Investment,970.0,3
+CHL,Chile,智利,LATAM_CARIB,拉丁美洲與加勒比海,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),141.73786970731652,3
+CHL,Chile,智利,LATAM_CARIB,拉丁美洲與加勒比海,2023,AEI CGIT,Investment,1110.0,2
+CHL,Chile,智利,LATAM_CARIB,拉丁美洲與加勒比海,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),8.36008129816084,3
+CHL,Chile,智利,LATAM_CARIB,拉丁美洲與加勒比海,2024,AEI CGIT,Construction,180.0,1
+CHL,Chile,智利,LATAM_CARIB,拉丁美洲與加勒比海,2025,AEI CGIT,Construction,470.0,1
+CHL,Chile,智利,LATAM_CARIB,拉丁美洲與加勒比海,2025,AEI CGIT,Investment,120.0,1
+CHL,Chile,智利,LATAM_CARIB,拉丁美洲與加勒比海,2026,AEI CGIT,Construction,200.0,1
+CIV,Côte d'Ivoire,象牙海岸,AFRICA,非洲,2020,AEI CGIT,Construction,1450.0,5
+CIV,Côte d'Ivoire,象牙海岸,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),922.3730253670566,22
+CIV,Côte d'Ivoire,象牙海岸,AFRICA,非洲,2020,BU CLA,Official & commercial loans to Africa (commitments),554.3,4
+CIV,Côte d'Ivoire,象牙海岸,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),15.24410783251712,5
+CIV,Côte d'Ivoire,象牙海岸,AFRICA,非洲,2021,BU CLA,Official & commercial loans to Africa (commitments),69.69,1
+CIV,Côte d'Ivoire,象牙海岸,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),84.9260859304465,2
+CIV,Côte d'Ivoire,象牙海岸,AFRICA,非洲,2022,BU CLA,Official & commercial loans to Africa (commitments),199.32,1
+CIV,Côte d'Ivoire,象牙海岸,AFRICA,非洲,2022,BU CODF,Official finance (commitments),199.66,1
+CIV,Côte d'Ivoire,象牙海岸,AFRICA,非洲,2023,AEI CGIT,Construction,230.0,1
+CIV,Côte d'Ivoire,象牙海岸,AFRICA,非洲,2023,AEI CGIT,Investment,310.0,2
+CIV,Côte d'Ivoire,象牙海岸,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),210.27043644419626,14
+CIV,Côte d'Ivoire,象牙海岸,AFRICA,非洲,2023,BU CLA,Official & commercial loans to Africa (commitments),61.94,1
+CIV,Côte d'Ivoire,象牙海岸,AFRICA,非洲,2024,AEI CGIT,Construction,140.0,1
+CIV,Côte d'Ivoire,象牙海岸,AFRICA,非洲,2024,AEI CGIT,Investment,480.0,1
+CMR,Cameroon,喀麥隆,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),77.08025842460565,27
+CMR,Cameroon,喀麥隆,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),109.02413717933254,13
+CMR,Cameroon,喀麥隆,AFRICA,非洲,2022,AEI CGIT,Construction,270.0,1
+CMR,Cameroon,喀麥隆,AFRICA,非洲,2022,AEI CGIT,Investment,680.0,1
+CMR,Cameroon,喀麥隆,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0658143870578352,8
+CMR,Cameroon,喀麥隆,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,6
+CMR,Cameroon,喀麥隆,AFRICA,非洲,2024,AEI CGIT,Construction,640.0,2
+CMR,Cameroon,喀麥隆,AFRICA,非洲,2025,AEI CGIT,Construction,390.0,1
+COD,DR Congo,剛果民主共和國,AFRICA,非洲,2020,AEI CGIT,Investment,790.0,2
+COD,DR Congo,剛果民主共和國,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),2595.3578903041343,17
+COD,DR Congo,剛果民主共和國,AFRICA,非洲,2020,BU CLA,Official & commercial loans to Africa (commitments),150.0,1
+COD,DR Congo,剛果民主共和國,AFRICA,非洲,2020,BU CODF,Official finance (commitments),150.0,1
+COD,DR Congo,剛果民主共和國,AFRICA,非洲,2021,AEI CGIT,Construction,130.0,1
+COD,DR Congo,剛果民主共和國,AFRICA,非洲,2021,AEI CGIT,Investment,1360.0,4
+COD,DR Congo,剛果民主共和國,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),299.69603208285434,9
+COD,DR Congo,剛果民主共和國,AFRICA,非洲,2022,AEI CGIT,Construction,190.0,1
+COD,DR Congo,剛果民主共和國,AFRICA,非洲,2022,AEI CGIT,Investment,550.0,1
+COD,DR Congo,剛果民主共和國,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),18.8983826276422,6
+COD,DR Congo,剛果民主共和國,AFRICA,非洲,2022,BU CLA,Official & commercial loans to Africa (commitments),23.99,1
+COD,DR Congo,剛果民主共和國,AFRICA,非洲,2023,AEI CGIT,Construction,930.0,2
+COD,DR Congo,剛果民主共和國,AFRICA,非洲,2023,AEI CGIT,Investment,3860.0,3
+COD,DR Congo,剛果民主共和國,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),496.972112980579,13
+COD,DR Congo,剛果民主共和國,AFRICA,非洲,2024,AEI CGIT,Construction,470.0,2
+COD,DR Congo,剛果民主共和國,AFRICA,非洲,2024,AEI CGIT,Investment,390.0,1
+COD,DR Congo,剛果民主共和國,AFRICA,非洲,2024,BU CLA,Official & commercial loans to Africa (commitments),240.0,1
+COD,DR Congo,剛果民主共和國,AFRICA,非洲,2024,BU CODF,Official finance (commitments),240.0,1
+COD,DR Congo,剛果民主共和國,AFRICA,非洲,2025,AEI CGIT,Construction,1090.0,3
+COD,DR Congo,剛果民主共和國,AFRICA,非洲,2025,AEI CGIT,Investment,1940.0,6
+COG,Congo Republic,剛果共和國,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),951.2660522344274,16
+COG,Congo Republic,剛果共和國,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),9.08627314160893,10
+COG,Congo Republic,剛果共和國,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.9522208343019212,10
+COG,Congo Republic,剛果共和國,AFRICA,非洲,2023,AEI CGIT,Investment,100.0,1
+COG,Congo Republic,剛果共和國,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.105925560600436,4
+COK,Cook Islands,庫克群島,OCEANIA,大洋洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),0.23884637964657052,4
+COK,Cook Islands,庫克群島,OCEANIA,大洋洲,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),0.21101870664438538,2
+COK,Cook Islands,庫克群島,OCEANIA,大洋洲,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0173224198711454,1
+COL,Colombia,哥倫比亞,LATAM_CARIB,拉丁美洲與加勒比海,2020,AEI CGIT,Investment,140.0,1
+COL,Colombia,哥倫比亞,LATAM_CARIB,拉丁美洲與加勒比海,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),687.385921264226,32
+COL,Colombia,哥倫比亞,LATAM_CARIB,拉丁美洲與加勒比海,2021,AEI CGIT,Investment,4040.0,1
+COL,Colombia,哥倫比亞,LATAM_CARIB,拉丁美洲與加勒比海,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),105.06982327444742,5
+COL,Colombia,哥倫比亞,LATAM_CARIB,拉丁美洲與加勒比海,2022,AEI CGIT,Construction,380.0,1
+COL,Colombia,哥倫比亞,LATAM_CARIB,拉丁美洲與加勒比海,2022,AEI CGIT,Investment,100.0,1
+COL,Colombia,哥倫比亞,LATAM_CARIB,拉丁美洲與加勒比海,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),332.42255042022634,5
+COL,Colombia,哥倫比亞,LATAM_CARIB,拉丁美洲與加勒比海,2023,AEI CGIT,Construction,2320.0,3
+COL,Colombia,哥倫比亞,LATAM_CARIB,拉丁美洲與加勒比海,2023,AEI CGIT,Investment,750.0,1
+COL,Colombia,哥倫比亞,LATAM_CARIB,拉丁美洲與加勒比海,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),550.0,4
+COL,Colombia,哥倫比亞,LATAM_CARIB,拉丁美洲與加勒比海,2024,AEI CGIT,Investment,100.0,1
+COL,Colombia,哥倫比亞,LATAM_CARIB,拉丁美洲與加勒比海,2025,AEI CGIT,Construction,170.0,1
+COL,Colombia,哥倫比亞,LATAM_CARIB,拉丁美洲與加勒比海,2025,AEI CGIT,Investment,130.0,1
+COM,Comoros,葛摩,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.1285929110689892,2
+COM,Comoros,葛摩,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),4.992631928952479,7
+COM,Comoros,葛摩,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,2
+COM,Comoros,葛摩,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,5
+CPV,Cabo Verde,維德角,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0541660256217926,4
+CPV,Cabo Verde,維德角,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),20.927190801369232,5
+CPV,Cabo Verde,維德角,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0361454253526244,5
+CPV,Cabo Verde,維德角,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1.598972479596943,5
+CRI,Costa Rica,哥斯大黎加,LATAM_CARIB,拉丁美洲與加勒比海,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),56.987248027719076,16
+CRI,Costa Rica,哥斯大黎加,LATAM_CARIB,拉丁美洲與加勒比海,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),4.4509201524182505,4
+CRI,Costa Rica,哥斯大黎加,LATAM_CARIB,拉丁美洲與加勒比海,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1.26713655518341,1
+CRI,Costa Rica,哥斯大黎加,LATAM_CARIB,拉丁美洲與加勒比海,2022,BU CODF,Official finance (commitments),50.0,1
+CRI,Costa Rica,哥斯大黎加,LATAM_CARIB,拉丁美洲與加勒比海,2023,AEI CGIT,Construction,470.0,1
+CRI,Costa Rica,哥斯大黎加,LATAM_CARIB,拉丁美洲與加勒比海,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.3148489668478176,7
+CUB,Cuba,古巴,LATAM_CARIB,拉丁美洲與加勒比海,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),17.392062330116516,8
+CUB,Cuba,古巴,LATAM_CARIB,拉丁美洲與加勒比海,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),2.7836546853967254,10
+CUB,Cuba,古巴,LATAM_CARIB,拉丁美洲與加勒比海,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),123.36923149018021,16
+CUB,Cuba,古巴,LATAM_CARIB,拉丁美洲與加勒比海,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),233.14632472200887,13
+CUW,Curaçao,古拉索,LATAM_CARIB,拉丁美洲與加勒比海,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0,1
+CYP,Cyprus,賽普勒斯,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),0.2817517096765788,7
+CYP,Cyprus,賽普勒斯,EUROPE,歐洲,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0130184701719249,1
+CYP,Cyprus,賽普勒斯,EUROPE,歐洲,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0099465171724432,1
+CYP,Cyprus,賽普勒斯,EUROPE,歐洲,2024,AEI CGIT,Investment,1200.0,1
+CZE,Czechia,捷克,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),195.7949411004183,2
+CZE,Czechia,捷克,EUROPE,歐洲,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),135.609064290884,1
+CZE,Czechia,捷克,EUROPE,歐洲,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0,1
+CZE,Czechia,捷克,EUROPE,歐洲,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),709.6790786063614,7
+DEU,Germany,德國,EUROPE,歐洲,2020,AEI CGIT,Investment,420.0,3
+DEU,Germany,德國,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),2154.058934996102,48
+DEU,Germany,德國,EUROPE,歐洲,2021,AEI CGIT,Investment,2560.0,6
+DEU,Germany,德國,EUROPE,歐洲,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),1511.9839069017537,19
+DEU,Germany,德國,EUROPE,歐洲,2022,AEI CGIT,Investment,1130.0,2
+DEU,Germany,德國,EUROPE,歐洲,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),2224.5110679669874,14
+DEU,Germany,德國,EUROPE,歐洲,2023,AEI CGIT,Investment,150.0,1
+DEU,Germany,德國,EUROPE,歐洲,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),1382.9968860090912,19
+DEU,Germany,德國,EUROPE,歐洲,2024,AEI CGIT,Investment,1810.0,4
+DEU,Germany,德國,EUROPE,歐洲,2025,AEI CGIT,Investment,2180.0,2
+DEU,Germany,德國,EUROPE,歐洲,2026,AEI CGIT,Investment,1780.0,1
+DJI,Djibouti,吉布地,AFRICA,非洲,2020,AEI CGIT,Investment,510.0,1
+DJI,Djibouti,吉布地,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.361106837478617,9
+DJI,Djibouti,吉布地,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),40.020947053525646,6
+DJI,Djibouti,吉布地,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),18.7093988013657,7
+DJI,Djibouti,吉布地,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.5571354074182566,9
+DMA,Dominica,多米尼克,LATAM_CARIB,拉丁美洲與加勒比海,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.5250544255996955,6
+DMA,Dominica,多米尼克,LATAM_CARIB,拉丁美洲與加勒比海,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),29.930928588022187,14
+DMA,Dominica,多米尼克,LATAM_CARIB,拉丁美洲與加勒比海,2022,AEI CGIT,Construction,370.0,1
+DMA,Dominica,多米尼克,LATAM_CARIB,拉丁美洲與加勒比海,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),2.3622978284552696,6
+DMA,Dominica,多米尼克,LATAM_CARIB,拉丁美洲與加勒比海,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.022,7
+DNK,Denmark,丹麥,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),633.802022882432,3
+DNK,Denmark,丹麥,EUROPE,歐洲,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),317.216723189236,3
+DNK,Denmark,丹麥,EUROPE,歐洲,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),35.2454836005527,1
+DNK,Denmark,丹麥,EUROPE,歐洲,2024,AEI CGIT,Investment,110.0,1
+DOM,Dominican Republic,多明尼加,LATAM_CARIB,拉丁美洲與加勒比海,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),2.0631067945138972,10
+DOM,Dominican Republic,多明尼加,LATAM_CARIB,拉丁美洲與加勒比海,2021,AEI CGIT,Construction,120.0,1
+DOM,Dominican Republic,多明尼加,LATAM_CARIB,拉丁美洲與加勒比海,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),47.38516094661287,7
+DOM,Dominican Republic,多明尼加,LATAM_CARIB,拉丁美洲與加勒比海,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0186043695873809,5
+DOM,Dominican Republic,多明尼加,LATAM_CARIB,拉丁美洲與加勒比海,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),105.8810494317032,6
+DZA,Algeria,阿爾及利亞,AFRICA,非洲,2020,AEI CGIT,Construction,120.0,1
+DZA,Algeria,阿爾及利亞,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),7.012075743541925,7
+DZA,Algeria,阿爾及利亞,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),56.43506819529445,3
+DZA,Algeria,阿爾及利亞,AFRICA,非洲,2022,AEI CGIT,Construction,1800.0,3
+DZA,Algeria,阿爾及利亞,AFRICA,非洲,2022,AEI CGIT,Investment,430.0,1
+DZA,Algeria,阿爾及利亞,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0531936742738504,2
+DZA,Algeria,阿爾及利亞,AFRICA,非洲,2023,AEI CGIT,Construction,950.0,3
+DZA,Algeria,阿爾及利亞,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0220983405619459,6
+DZA,Algeria,阿爾及利亞,AFRICA,非洲,2024,AEI CGIT,Construction,2300.0,4
+DZA,Algeria,阿爾及利亞,AFRICA,非洲,2025,AEI CGIT,Construction,1550.0,3
+DZA,Algeria,阿爾及利亞,AFRICA,非洲,2025,AEI CGIT,Investment,530.0,2
+DZA,Algeria,阿爾及利亞,AFRICA,非洲,2026,AEI CGIT,Construction,1450.0,2
+ECU,Ecuador,厄瓜多,LATAM_CARIB,拉丁美洲與加勒比海,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),265.3010788476505,51
+ECU,Ecuador,厄瓜多,LATAM_CARIB,拉丁美洲與加勒比海,2021,AEI CGIT,Construction,130.0,1
+ECU,Ecuador,厄瓜多,LATAM_CARIB,拉丁美洲與加勒比海,2021,AEI CGIT,Investment,200.0,1
+ECU,Ecuador,厄瓜多,LATAM_CARIB,拉丁美洲與加勒比海,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),11.625965240636408,16
+ECU,Ecuador,厄瓜多,LATAM_CARIB,拉丁美洲與加勒比海,2022,AEI CGIT,Construction,230.0,1
+ECU,Ecuador,厄瓜多,LATAM_CARIB,拉丁美洲與加勒比海,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),42.76532715485993,16
+ECU,Ecuador,厄瓜多,LATAM_CARIB,拉丁美洲與加勒比海,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),92.584946,9
+ECU,Ecuador,厄瓜多,LATAM_CARIB,拉丁美洲與加勒比海,2025,AEI CGIT,Construction,110.0,1
+ECU,Ecuador,厄瓜多,LATAM_CARIB,拉丁美洲與加勒比海,2025,AEI CGIT,Investment,420.0,1
+ECU,Ecuador,厄瓜多,LATAM_CARIB,拉丁美洲與加勒比海,2026,AEI CGIT,Investment,1170.0,1
+EGY,Egypt,埃及,AFRICA,非洲,2020,AEI CGIT,Construction,380.0,1
+EGY,Egypt,埃及,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),3625.543579466714,22
+EGY,Egypt,埃及,AFRICA,非洲,2021,AEI CGIT,Construction,2360.0,2
+EGY,Egypt,埃及,AFRICA,非洲,2021,AEI CGIT,Investment,690.0,2
+EGY,Egypt,埃及,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),3472.7413455679516,10
+EGY,Egypt,埃及,AFRICA,非洲,2022,AEI CGIT,Construction,660.0,2
+EGY,Egypt,埃及,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),3015.799201302987,9
+EGY,Egypt,埃及,AFRICA,非洲,2023,AEI CGIT,Construction,620.0,2
+EGY,Egypt,埃及,AFRICA,非洲,2023,AEI CGIT,Investment,260.0,2
+EGY,Egypt,埃及,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),3849.552020014558,5
+EGY,Egypt,埃及,AFRICA,非洲,2023,BU CLA,Official & commercial loans to Africa (commitments),1288.4,2
+EGY,Egypt,埃及,AFRICA,非洲,2023,BU CODF,Official finance (commitments),1288.1399999999999,2
+EGY,Egypt,埃及,AFRICA,非洲,2024,AEI CGIT,Construction,1950.0,3
+EGY,Egypt,埃及,AFRICA,非洲,2024,AEI CGIT,Investment,530.0,3
+EGY,Egypt,埃及,AFRICA,非洲,2024,BU CLA,Official & commercial loans to Africa (commitments),76.5,1
+EGY,Egypt,埃及,AFRICA,非洲,2024,BU CODF,Official finance (commitments),76.5,1
+EGY,Egypt,埃及,AFRICA,非洲,2025,AEI CGIT,Construction,1830.0,5
+EGY,Egypt,埃及,AFRICA,非洲,2025,AEI CGIT,Investment,1930.0,9
+EGY,Egypt,埃及,AFRICA,非洲,2026,AEI CGIT,Construction,220.0,1
+EGY,Egypt,埃及,AFRICA,非洲,2026,AEI CGIT,Investment,290.0,1
+ERI,Eritrea,厄利垂亞,AFRICA,非洲,2021,AEI CGIT,Investment,120.0,1
+ERI,Eritrea,厄利垂亞,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,2
+ERI,Eritrea,厄利垂亞,AFRICA,非洲,2022,AEI CGIT,Investment,170.0,1
+ERI,Eritrea,厄利垂亞,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,5
+ERI,Eritrea,厄利垂亞,AFRICA,非洲,2023,AEI CGIT,Investment,780.0,1
+ERI,Eritrea,厄利垂亞,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),291.0,6
+ERI,Eritrea,厄利垂亞,AFRICA,非洲,2023,BU CLA,Official & commercial loans to Africa (commitments),85.8,1
+ESP,Spain,西班牙,EUROPE,歐洲,2020,AEI CGIT,Investment,610.0,1
+ESP,Spain,西班牙,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),375.0115114249787,41
+ESP,Spain,西班牙,EUROPE,歐洲,2021,AEI CGIT,Investment,940.0,2
+ESP,Spain,西班牙,EUROPE,歐洲,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),335.4730611815288,11
+ESP,Spain,西班牙,EUROPE,歐洲,2022,AEI CGIT,Investment,220.0,1
+ESP,Spain,西班牙,EUROPE,歐洲,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),404.7594838368786,13
+ESP,Spain,西班牙,EUROPE,歐洲,2023,AEI CGIT,Investment,1360.0,3
+ESP,Spain,西班牙,EUROPE,歐洲,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),738.6470374706006,13
+ESP,Spain,西班牙,EUROPE,歐洲,2024,AEI CGIT,Investment,960.0,4
+ESP,Spain,西班牙,EUROPE,歐洲,2025,AEI CGIT,Investment,2040.0,2
+EST,Estonia,愛沙尼亞,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0,1
+ETH,Ethiopia,衣索比亞,AFRICA,非洲,2020,AEI CGIT,Construction,230.0,2
+ETH,Ethiopia,衣索比亞,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),14.097151545091375,23
+ETH,Ethiopia,衣索比亞,AFRICA,非洲,2021,AEI CGIT,Construction,810.0,5
+ETH,Ethiopia,衣索比亞,AFRICA,非洲,2021,AEI CGIT,Investment,300.0,1
+ETH,Ethiopia,衣索比亞,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),63.90699744469739,12
+ETH,Ethiopia,衣索比亞,AFRICA,非洲,2022,AEI CGIT,Construction,400.0,1
+ETH,Ethiopia,衣索比亞,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),76.20036198357269,9
+ETH,Ethiopia,衣索比亞,AFRICA,非洲,2023,AEI CGIT,Construction,1130.0,5
+ETH,Ethiopia,衣索比亞,AFRICA,非洲,2023,AEI CGIT,Investment,370.0,1
+ETH,Ethiopia,衣索比亞,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),24.83121996733434,10
+ETH,Ethiopia,衣索比亞,AFRICA,非洲,2024,AEI CGIT,Construction,140.0,1
+ETH,Ethiopia,衣索比亞,AFRICA,非洲,2025,AEI CGIT,Construction,560.0,2
+ETH,Ethiopia,衣索比亞,AFRICA,非洲,2025,AEI CGIT,Investment,630.0,1
+FIN,Finland,芬蘭,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0447084621534779,2
+FIN,Finland,芬蘭,EUROPE,歐洲,2021,AEI CGIT,Investment,1060.0,2
+FIN,Finland,芬蘭,EUROPE,歐洲,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),68.306787939136,1
+FIN,Finland,芬蘭,EUROPE,歐洲,2022,AEI CGIT,Investment,560.0,2
+FIN,Finland,芬蘭,EUROPE,歐洲,2023,AEI CGIT,Investment,590.0,1
+FIN,Finland,芬蘭,EUROPE,歐洲,2024,AEI CGIT,Investment,220.0,1
+FIN,Finland,芬蘭,EUROPE,歐洲,2025,AEI CGIT,Investment,1130.0,1
+FJI,Fiji,斐濟,OCEANIA,大洋洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),2.1395590105128894,15
+FJI,Fiji,斐濟,OCEANIA,大洋洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1.5714208169803263,12
+FJI,Fiji,斐濟,OCEANIA,大洋洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.43146992300553,6
+FJI,Fiji,斐濟,OCEANIA,大洋洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),2.9582802401692296,9
+FJI,Fiji,斐濟,OCEANIA,大洋洲,2024,AEI CGIT,Construction,140.0,1
+FRA,France,法國,EUROPE,歐洲,2020,AEI CGIT,Investment,4200.0,3
+FRA,France,法國,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),1787.7015760829486,20
+FRA,France,法國,EUROPE,歐洲,2021,AEI CGIT,Investment,190.0,1
+FRA,France,法國,EUROPE,歐洲,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),601.6429935134701,9
+FRA,France,法國,EUROPE,歐洲,2022,AEI CGIT,Investment,2000.0,5
+FRA,France,法國,EUROPE,歐洲,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),1156.1737331067548,13
+FRA,France,法國,EUROPE,歐洲,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),590.0126786415314,10
+FRA,France,法國,EUROPE,歐洲,2025,AEI CGIT,Investment,2060.0,6
+FSM,"Micronesia, Fed. Sts.",密克羅尼西亞,OCEANIA,大洋洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),26.210705594807827,16
+FSM,"Micronesia, Fed. Sts.",密克羅尼西亞,OCEANIA,大洋洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),23.191862175027,9
+FSM,"Micronesia, Fed. Sts.",密克羅尼西亞,OCEANIA,大洋洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.557502287515445,7
+FSM,"Micronesia, Fed. Sts.",密克羅尼西亞,OCEANIA,大洋洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,2
+GAB,Gabon,加彭,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),52.63700547792434,7
+GAB,Gabon,加彭,AFRICA,非洲,2021,AEI CGIT,Construction,140.0,1
+GAB,Gabon,加彭,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),24.12756471863408,5
+GAB,Gabon,加彭,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,3
+GAB,Gabon,加彭,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),14.0,9
+GBR,United Kingdom,英國,EUROPE,歐洲,2020,AEI CGIT,Investment,1770.0,5
+GBR,United Kingdom,英國,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),3314.162528924918,121
+GBR,United Kingdom,英國,EUROPE,歐洲,2021,AEI CGIT,Investment,2570.0,9
+GBR,United Kingdom,英國,EUROPE,歐洲,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),2737.6263088723567,66
+GBR,United Kingdom,英國,EUROPE,歐洲,2022,AEI CGIT,Investment,1410.0,3
+GBR,United Kingdom,英國,EUROPE,歐洲,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),1843.4848055691741,47
+GBR,United Kingdom,英國,EUROPE,歐洲,2023,AEI CGIT,Investment,1150.0,4
+GBR,United Kingdom,英國,EUROPE,歐洲,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),2920.406325567214,57
+GBR,United Kingdom,英國,EUROPE,歐洲,2024,AEI CGIT,Investment,5240.0,3
+GBR,United Kingdom,英國,EUROPE,歐洲,2025,AEI CGIT,Investment,100.0,1
+GBR,United Kingdom,英國,EUROPE,歐洲,2026,AEI CGIT,Investment,130.0,1
+GEO,Georgia,喬治亞,MIDEAST_CASIA,中東＋中亞,2020,AEI CGIT,Construction,200.0,1
+GEO,Georgia,喬治亞,MIDEAST_CASIA,中東＋中亞,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1.0456931799705784,3
+GEO,Georgia,喬治亞,MIDEAST_CASIA,中東＋中亞,2021,AEI CGIT,Construction,310.0,1
+GEO,Georgia,喬治亞,MIDEAST_CASIA,中東＋中亞,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0331520493599958,1
+GEO,Georgia,喬治亞,MIDEAST_CASIA,中東＋中亞,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0084740448480349,4
+GEO,Georgia,喬治亞,MIDEAST_CASIA,中東＋中亞,2026,AEI CGIT,Construction,140.0,1
+GEO,Georgia,喬治亞,MIDEAST_CASIA,中東＋中亞,2026,AEI CGIT,Investment,250.0,1
+GHA,Ghana,迦納,AFRICA,非洲,2020,AEI CGIT,Construction,1110.0,2
+GHA,Ghana,迦納,AFRICA,非洲,2020,AEI CGIT,Investment,430.0,1
+GHA,Ghana,迦納,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1139.7463179644874,29
+GHA,Ghana,迦納,AFRICA,非洲,2020,BU CLA,Official & commercial loans to Africa (commitments),473.88,3
+GHA,Ghana,迦納,AFRICA,非洲,2020,BU CODF,Official finance (commitments),417.49,3
+GHA,Ghana,迦納,AFRICA,非洲,2021,AEI CGIT,Construction,330.0,2
+GHA,Ghana,迦納,AFRICA,非洲,2021,AEI CGIT,Investment,1220.0,2
+GHA,Ghana,迦納,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),164.28073324182893,9
+GHA,Ghana,迦納,AFRICA,非洲,2022,AEI CGIT,Construction,340.0,3
+GHA,Ghana,迦納,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),198.9627430349725,10
+GHA,Ghana,迦納,AFRICA,非洲,2022,BU CLA,Official & commercial loans to Africa (commitments),84.99,1
+GHA,Ghana,迦納,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),233.40474469900977,9
+GHA,Ghana,迦納,AFRICA,非洲,2024,AEI CGIT,Investment,900.0,1
+GHA,Ghana,迦納,AFRICA,非洲,2026,AEI CGIT,Investment,210.0,1
+GIN,Guinea,幾內亞,AFRICA,非洲,2020,AEI CGIT,Construction,1100.0,1
+GIN,Guinea,幾內亞,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1351.048835984255,7
+GIN,Guinea,幾內亞,AFRICA,非洲,2021,AEI CGIT,Construction,300.0,1
+GIN,Guinea,幾內亞,AFRICA,非洲,2021,AEI CGIT,Investment,2210.0,2
+GIN,Guinea,幾內亞,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),4.97956484076127,8
+GIN,Guinea,幾內亞,AFRICA,非洲,2022,AEI CGIT,Construction,190.0,1
+GIN,Guinea,幾內亞,AFRICA,非洲,2022,AEI CGIT,Investment,160.0,1
+GIN,Guinea,幾內亞,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,6
+GIN,Guinea,幾內亞,AFRICA,非洲,2023,AEI CGIT,Construction,550.0,2
+GIN,Guinea,幾內亞,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1245.999999,5
+GIN,Guinea,幾內亞,AFRICA,非洲,2024,AEI CGIT,Construction,240.0,2
+GIN,Guinea,幾內亞,AFRICA,非洲,2024,AEI CGIT,Investment,3140.0,3
+GIN,Guinea,幾內亞,AFRICA,非洲,2025,AEI CGIT,Construction,140.0,1
+GIN,Guinea,幾內亞,AFRICA,非洲,2025,AEI CGIT,Investment,2620.0,4
+GIN,Guinea,幾內亞,AFRICA,非洲,2026,AEI CGIT,Construction,130.0,1
+GIN,Guinea,幾內亞,AFRICA,非洲,2026,AEI CGIT,Investment,280.0,1
+GMB,Gambia,甘比亞,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.3024001896544938,17
+GMB,Gambia,甘比亞,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),8.690559807921781,6
+GMB,Gambia,甘比亞,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.4968708241982349,12
+GMB,Gambia,甘比亞,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0082350438841154,10
+GNB,Guinea-Bissau,幾內亞比索,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.3088598367645678,8
+GNB,Guinea-Bissau,幾內亞比索,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),4.97956484076127,16
+GNB,Guinea-Bissau,幾內亞比索,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),5.720669477883542,12
+GNB,Guinea-Bissau,幾內亞比索,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,7
+GNQ,Equatorial Guinea,赤道幾內亞,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),2.0718246866880263,10
+GNQ,Equatorial Guinea,赤道幾內亞,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),25.59593170299443,12
+GNQ,Equatorial Guinea,赤道幾內亞,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.5616161256357269,12
+GNQ,Equatorial Guinea,赤道幾內亞,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,8
+GRC,Greece,希臘,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),351.0603575312448,18
+GRC,Greece,希臘,EUROPE,歐洲,2021,AEI CGIT,Investment,110.0,1
+GRC,Greece,希臘,EUROPE,歐洲,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0,3
+GRC,Greece,希臘,EUROPE,歐洲,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0,1
+GRC,Greece,希臘,EUROPE,歐洲,2024,AEI CGIT,Investment,200.0,1
+GRD,Grenada,格瑞那達,LATAM_CARIB,拉丁美洲與加勒比海,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1.5397310867978253,17
+GRD,Grenada,格瑞那達,LATAM_CARIB,拉丁美洲與加勒比海,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.8268226396445302,17
+GRD,Grenada,格瑞那達,LATAM_CARIB,拉丁美洲與加勒比海,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.5373099676262924,15
+GRD,Grenada,格瑞那達,LATAM_CARIB,拉丁美洲與加勒比海,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.05,20
+GTM,Guatemala,瓜地馬拉,LATAM_CARIB,拉丁美洲與加勒比海,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),18.4428327435602,1
+GUY,Guyana,蓋亞那,LATAM_CARIB,拉丁美洲與加勒比海,2020,AEI CGIT,Investment,2520.0,2
+GUY,Guyana,蓋亞那,LATAM_CARIB,拉丁美洲與加勒比海,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),46.140257999454214,12
+GUY,Guyana,蓋亞那,LATAM_CARIB,拉丁美洲與加勒比海,2021,AEI CGIT,Construction,260.0,1
+GUY,Guyana,蓋亞那,LATAM_CARIB,拉丁美洲與加勒比海,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),194.1957754933581,13
+GUY,Guyana,蓋亞那,LATAM_CARIB,拉丁美洲與加勒比海,2022,AEI CGIT,Construction,440.0,2
+GUY,Guyana,蓋亞那,LATAM_CARIB,拉丁美洲與加勒比海,2022,AEI CGIT,Investment,2430.0,1
+GUY,Guyana,蓋亞那,LATAM_CARIB,拉丁美洲與加勒比海,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),516.2542845255516,26
+GUY,Guyana,蓋亞那,LATAM_CARIB,拉丁美洲與加勒比海,2022,BU CODF,Official finance (commitments),192.0,1
+GUY,Guyana,蓋亞那,LATAM_CARIB,拉丁美洲與加勒比海,2023,AEI CGIT,Construction,300.0,2
+GUY,Guyana,蓋亞那,LATAM_CARIB,拉丁美洲與加勒比海,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),199.93705642289117,6
+GUY,Guyana,蓋亞那,LATAM_CARIB,拉丁美洲與加勒比海,2024,AEI CGIT,Investment,3180.0,1
+GUY,Guyana,蓋亞那,LATAM_CARIB,拉丁美洲與加勒比海,2025,AEI CGIT,Construction,260.0,1
+GUY,Guyana,蓋亞那,LATAM_CARIB,拉丁美洲與加勒比海,2025,AEI CGIT,Investment,3460.0,2
+HND,Honduras,宏都拉斯,LATAM_CARIB,拉丁美洲與加勒比海,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),33.2321463862464,1
+HND,Honduras,宏都拉斯,LATAM_CARIB,拉丁美洲與加勒比海,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.265604070651642,2
+HRV,Croatia,克羅埃西亞,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0030952014641024,5
+HRV,Croatia,克羅埃西亞,EUROPE,歐洲,2025,AEI CGIT,Construction,180.0,1
+HUN,Hungary,匈牙利,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),2242.1342079424344,17
+HUN,Hungary,匈牙利,EUROPE,歐洲,2020,BU CODF,Official finance (commitments),1258.35,1
+HUN,Hungary,匈牙利,EUROPE,歐洲,2021,AEI CGIT,Investment,480.0,2
+HUN,Hungary,匈牙利,EUROPE,歐洲,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),363.58211382387225,7
+HUN,Hungary,匈牙利,EUROPE,歐洲,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),1444.0183751498323,9
+HUN,Hungary,匈牙利,EUROPE,歐洲,2023,AEI CGIT,Investment,4430.0,4
+HUN,Hungary,匈牙利,EUROPE,歐洲,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),406.0,1
+HUN,Hungary,匈牙利,EUROPE,歐洲,2024,AEI CGIT,Investment,4590.0,2
+HUN,Hungary,匈牙利,EUROPE,歐洲,2025,AEI CGIT,Investment,670.0,3
+IDN,Indonesia,印尼,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AEI CGIT,Construction,3280.0,6
+IDN,Indonesia,印尼,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AEI CGIT,Investment,2470.0,5
+IDN,Indonesia,印尼,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1935.7737164382536,33
+IDN,Indonesia,印尼,EAST_ASIA,東亞（東北亞＋東南亞）,2020,BU CODF,Official finance (commitments),565.0,4
+IDN,Indonesia,印尼,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AEI CGIT,Construction,1620.0,4
+IDN,Indonesia,印尼,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AEI CGIT,Investment,3020.0,9
+IDN,Indonesia,印尼,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),936.9514553004566,27
+IDN,Indonesia,印尼,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AEI CGIT,Construction,2090.0,5
+IDN,Indonesia,印尼,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AEI CGIT,Investment,4140.0,6
+IDN,Indonesia,印尼,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),2315.5881120596223,40
+IDN,Indonesia,印尼,EAST_ASIA,東亞（東北亞＋東南亞）,2022,BU CODF,Official finance (commitments),935.09,2
+IDN,Indonesia,印尼,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AEI CGIT,Construction,1530.0,5
+IDN,Indonesia,印尼,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AEI CGIT,Investment,6230.0,13
+IDN,Indonesia,印尼,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),5089.478812094577,66
+IDN,Indonesia,印尼,EAST_ASIA,東亞（東北亞＋東南亞）,2024,AEI CGIT,Construction,1990.0,9
+IDN,Indonesia,印尼,EAST_ASIA,東亞（東北亞＋東南亞）,2024,AEI CGIT,Investment,3180.0,6
+IDN,Indonesia,印尼,EAST_ASIA,東亞（東北亞＋東南亞）,2025,AEI CGIT,Construction,800.0,3
+IDN,Indonesia,印尼,EAST_ASIA,東亞（東北亞＋東南亞）,2025,AEI CGIT,Investment,2980.0,8
+IDN,Indonesia,印尼,EAST_ASIA,東亞（東北亞＋東南亞）,2026,AEI CGIT,Construction,400.0,1
+IDN,Indonesia,印尼,EAST_ASIA,東亞（東北亞＋東南亞）,2026,AEI CGIT,Investment,1700.0,5
+IND,India,印度,SOUTH_ASIA,南亞,2020,AEI CGIT,Construction,140.0,1
+IND,India,印度,SOUTH_ASIA,南亞,2020,AEI CGIT,Investment,100.0,1
+IND,India,印度,SOUTH_ASIA,南亞,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),312.5215538905942,2
+IND,India,印度,SOUTH_ASIA,南亞,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),361.479521773781,1
+IND,India,印度,SOUTH_ASIA,南亞,2022,AEI CGIT,Investment,260.0,1
+IND,India,印度,SOUTH_ASIA,南亞,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,3
+IND,India,印度,SOUTH_ASIA,南亞,2023,AEI CGIT,Construction,280.0,1
+IND,India,印度,SOUTH_ASIA,南亞,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),645.5,9
+IND,India,印度,SOUTH_ASIA,南亞,2024,AEI CGIT,Construction,200.0,1
+IND,India,印度,SOUTH_ASIA,南亞,2025,AEI CGIT,Investment,350.0,2
+IRL,Ireland,愛爾蘭,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),61.9222909706868,10
+IRL,Ireland,愛爾蘭,EUROPE,歐洲,2021,AEI CGIT,Investment,540.0,1
+IRL,Ireland,愛爾蘭,EUROPE,歐洲,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0,3
+IRL,Ireland,愛爾蘭,EUROPE,歐洲,2022,AEI CGIT,Investment,150.0,1
+IRL,Ireland,愛爾蘭,EUROPE,歐洲,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),250.767000250824,4
+IRL,Ireland,愛爾蘭,EUROPE,歐洲,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),50.0,2
+IRL,Ireland,愛爾蘭,EUROPE,歐洲,2025,AEI CGIT,Investment,3330.0,1
+IRN,Iran,伊朗,MIDEAST_CASIA,中東＋中亞,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.7822089966697524,7
+IRN,Iran,伊朗,MIDEAST_CASIA,中東＋中亞,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),41.49637367301047,6
+IRN,Iran,伊朗,MIDEAST_CASIA,中東＋中亞,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,3
+IRN,Iran,伊朗,MIDEAST_CASIA,中東＋中亞,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),2703.1856920355704,2
+IRQ,Iraq,伊拉克,MIDEAST_CASIA,中東＋中亞,2020,AEI CGIT,Construction,200.0,1
+IRQ,Iraq,伊拉克,MIDEAST_CASIA,中東＋中亞,2020,AEI CGIT,Investment,180.0,1
+IRQ,Iraq,伊拉克,MIDEAST_CASIA,中東＋中亞,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1165.6429805099383,4
+IRQ,Iraq,伊拉克,MIDEAST_CASIA,中東＋中亞,2021,AEI CGIT,Construction,4260.0,3
+IRQ,Iraq,伊拉克,MIDEAST_CASIA,中東＋中亞,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1837.2288908316086,16
+IRQ,Iraq,伊拉克,MIDEAST_CASIA,中東＋中亞,2022,AEI CGIT,Construction,3510.0,7
+IRQ,Iraq,伊拉克,MIDEAST_CASIA,中東＋中亞,2022,AEI CGIT,Investment,1030.0,2
+IRQ,Iraq,伊拉克,MIDEAST_CASIA,中東＋中亞,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),831.4343437031181,4
+IRQ,Iraq,伊拉克,MIDEAST_CASIA,中東＋中亞,2023,AEI CGIT,Construction,710.0,4
+IRQ,Iraq,伊拉克,MIDEAST_CASIA,中東＋中亞,2023,AEI CGIT,Investment,100.0,1
+IRQ,Iraq,伊拉克,MIDEAST_CASIA,中東＋中亞,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),2950.8005,12
+IRQ,Iraq,伊拉克,MIDEAST_CASIA,中東＋中亞,2024,AEI CGIT,Construction,970.0,4
+IRQ,Iraq,伊拉克,MIDEAST_CASIA,中東＋中亞,2025,AEI CGIT,Construction,4390.0,8
+IRQ,Iraq,伊拉克,MIDEAST_CASIA,中東＋中亞,2025,AEI CGIT,Investment,1330.0,2
+IRQ,Iraq,伊拉克,MIDEAST_CASIA,中東＋中亞,2026,AEI CGIT,Construction,2750.0,2
+ISL,Iceland,冰島,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),0.3673946586376735,7
+ISR,Israel,以色列,MIDEAST_CASIA,中東＋中亞,2020,AEI CGIT,Investment,110.0,1
+ISR,Israel,以色列,MIDEAST_CASIA,中東＋中亞,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),129.3405442728794,2
+ISR,Israel,以色列,MIDEAST_CASIA,中東＋中亞,2021,AEI CGIT,Investment,2000.0,2
+ISR,Israel,以色列,MIDEAST_CASIA,中東＋中亞,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),57.1727815050368,1
+ISR,Israel,以色列,MIDEAST_CASIA,中東＋中亞,2024,AEI CGIT,Investment,700.0,1
+ISR,Israel,以色列,MIDEAST_CASIA,中東＋中亞,2026,AEI CGIT,Investment,180.0,1
+ITA,Italy,義大利,EUROPE,歐洲,2020,AEI CGIT,Investment,580.0,1
+ITA,Italy,義大利,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),323.18374168588673,42
+ITA,Italy,義大利,EUROPE,歐洲,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),1124.2637187154367,6
+ITA,Italy,義大利,EUROPE,歐洲,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),3982.164907592583,44
+ITA,Italy,義大利,EUROPE,歐洲,2023,AEI CGIT,Investment,140.0,1
+ITA,Italy,義大利,EUROPE,歐洲,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),414.54175686316677,6
+ITA,Italy,義大利,EUROPE,歐洲,2025,AEI CGIT,Investment,1560.0,1
+JAM,Jamaica,牙買加,LATAM_CARIB,拉丁美洲與加勒比海,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.12862821002875618,5
+JAM,Jamaica,牙買加,LATAM_CARIB,拉丁美洲與加勒比海,2021,AEI CGIT,Construction,280.0,1
+JAM,Jamaica,牙買加,LATAM_CARIB,拉丁美洲與加勒比海,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1.798319363285508,3
+JAM,Jamaica,牙買加,LATAM_CARIB,拉丁美洲與加勒比海,2022,AEI CGIT,Construction,130.0,1
+JAM,Jamaica,牙買加,LATAM_CARIB,拉丁美洲與加勒比海,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0693220608522659,8
+JAM,Jamaica,牙買加,LATAM_CARIB,拉丁美洲與加勒比海,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.5599021121354514,9
+JAM,Jamaica,牙買加,LATAM_CARIB,拉丁美洲與加勒比海,2025,AEI CGIT,Construction,280.0,1
+JOR,Jordan,約旦,MIDEAST_CASIA,中東＋中亞,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),2.326147073655111,4
+JOR,Jordan,約旦,MIDEAST_CASIA,中東＋中亞,2021,AEI CGIT,Investment,160.0,1
+JOR,Jordan,約旦,MIDEAST_CASIA,中東＋中亞,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),11.61898462844297,3
+JOR,Jordan,約旦,MIDEAST_CASIA,中東＋中亞,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),7.02020157044658,1
+JOR,Jordan,約旦,MIDEAST_CASIA,中東＋中亞,2023,AEI CGIT,Construction,1000.0,1
+JOR,Jordan,約旦,MIDEAST_CASIA,中東＋中亞,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,3
+JOR,Jordan,約旦,MIDEAST_CASIA,中東＋中亞,2026,AEI CGIT,Construction,190.0,1
+JPN,Japan,日本,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AEI CGIT,Investment,820.0,3
+JPN,Japan,日本,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),113.74480293308456,149
+JPN,Japan,日本,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AEI CGIT,Investment,1570.0,4
+JPN,Japan,日本,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),387.2994876055434,7
+JPN,Japan,日本,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AEI CGIT,Investment,140.0,1
+JPN,Japan,日本,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),94.4919128169384,4
+JPN,Japan,日本,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AEI CGIT,Investment,120.0,1
+JPN,Japan,日本,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),217.4755152447296,5
+JPN,Japan,日本,EAST_ASIA,東亞（東北亞＋東南亞）,2024,AEI CGIT,Investment,1060.0,1
+JPN,Japan,日本,EAST_ASIA,東亞（東北亞＋東南亞）,2026,AEI CGIT,Investment,790.0,2
+KAZ,Kazakhstan,哈薩克,MIDEAST_CASIA,中東＋中亞,2020,AEI CGIT,Construction,1490.0,1
+KAZ,Kazakhstan,哈薩克,MIDEAST_CASIA,中東＋中亞,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1078.825059031199,26
+KAZ,Kazakhstan,哈薩克,MIDEAST_CASIA,中東＋中亞,2021,AEI CGIT,Construction,220.0,2
+KAZ,Kazakhstan,哈薩克,MIDEAST_CASIA,中東＋中亞,2021,AEI CGIT,Investment,440.0,1
+KAZ,Kazakhstan,哈薩克,MIDEAST_CASIA,中東＋中亞,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),587.4042228823939,2
+KAZ,Kazakhstan,哈薩克,MIDEAST_CASIA,中東＋中亞,2021,BU CODF,Official finance (commitments),217.0,1
+KAZ,Kazakhstan,哈薩克,MIDEAST_CASIA,中東＋中亞,2022,AEI CGIT,Construction,410.0,2
+KAZ,Kazakhstan,哈薩克,MIDEAST_CASIA,中東＋中亞,2022,AEI CGIT,Investment,120.0,1
+KAZ,Kazakhstan,哈薩克,MIDEAST_CASIA,中東＋中亞,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),697.0346350527221,13
+KAZ,Kazakhstan,哈薩克,MIDEAST_CASIA,中東＋中亞,2023,AEI CGIT,Construction,980.0,2
+KAZ,Kazakhstan,哈薩克,MIDEAST_CASIA,中東＋中亞,2023,AEI CGIT,Investment,120.0,1
+KAZ,Kazakhstan,哈薩克,MIDEAST_CASIA,中東＋中亞,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1154.8707596102247,15
+KAZ,Kazakhstan,哈薩克,MIDEAST_CASIA,中東＋中亞,2023,BU CODF,Official finance (commitments),300.0,1
+KAZ,Kazakhstan,哈薩克,MIDEAST_CASIA,中東＋中亞,2024,AEI CGIT,Construction,1370.0,3
+KAZ,Kazakhstan,哈薩克,MIDEAST_CASIA,中東＋中亞,2024,AEI CGIT,Investment,2410.0,2
+KAZ,Kazakhstan,哈薩克,MIDEAST_CASIA,中東＋中亞,2024,BU CODF,Official finance (commitments),277.87,1
+KAZ,Kazakhstan,哈薩克,MIDEAST_CASIA,中東＋中亞,2025,AEI CGIT,Construction,2000.0,5
+KAZ,Kazakhstan,哈薩克,MIDEAST_CASIA,中東＋中亞,2025,AEI CGIT,Investment,1810.0,4
+KAZ,Kazakhstan,哈薩克,MIDEAST_CASIA,中東＋中亞,2026,AEI CGIT,Construction,2390.0,5
+KAZ,Kazakhstan,哈薩克,MIDEAST_CASIA,中東＋中亞,2026,AEI CGIT,Investment,1250.0,4
+KEN,Kenya,肯亞,AFRICA,非洲,2020,AEI CGIT,Construction,140.0,1
+KEN,Kenya,肯亞,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),37.839482934022435,12
+KEN,Kenya,肯亞,AFRICA,非洲,2021,AEI CGIT,Construction,170.0,1
+KEN,Kenya,肯亞,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),20.35936645540643,11
+KEN,Kenya,肯亞,AFRICA,非洲,2022,AEI CGIT,Construction,660.0,3
+KEN,Kenya,肯亞,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,1
+KEN,Kenya,肯亞,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),494.0,6
+KEN,Kenya,肯亞,AFRICA,非洲,2024,AEI CGIT,Construction,550.0,3
+KEN,Kenya,肯亞,AFRICA,非洲,2024,BU CLA,Official & commercial loans to Africa (commitments),277.78999999999996,15
+KEN,Kenya,肯亞,AFRICA,非洲,2024,BU CODF,Official finance (commitments),121.09,4
+KEN,Kenya,肯亞,AFRICA,非洲,2025,AEI CGIT,Construction,640.0,2
+KEN,Kenya,肯亞,AFRICA,非洲,2025,AEI CGIT,Investment,800.0,2
+KEN,Kenya,肯亞,AFRICA,非洲,2026,AEI CGIT,Construction,1690.0,1
+KGZ,Kyrgyzstan,吉爾吉斯,MIDEAST_CASIA,中東＋中亞,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),9.625110737243986,21
+KGZ,Kyrgyzstan,吉爾吉斯,MIDEAST_CASIA,中東＋中亞,2021,AEI CGIT,Construction,160.0,1
+KGZ,Kyrgyzstan,吉爾吉斯,MIDEAST_CASIA,中東＋中亞,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),81.52373602872983,15
+KGZ,Kyrgyzstan,吉爾吉斯,MIDEAST_CASIA,中東＋中亞,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),13.62059508698046,13
+KGZ,Kyrgyzstan,吉爾吉斯,MIDEAST_CASIA,中東＋中亞,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.1181042130600003,9
+KGZ,Kyrgyzstan,吉爾吉斯,MIDEAST_CASIA,中東＋中亞,2024,AEI CGIT,Construction,480.0,1
+KGZ,Kyrgyzstan,吉爾吉斯,MIDEAST_CASIA,中東＋中亞,2024,AEI CGIT,Investment,660.0,3
+KGZ,Kyrgyzstan,吉爾吉斯,MIDEAST_CASIA,中東＋中亞,2025,AEI CGIT,Construction,2130.0,5
+KGZ,Kyrgyzstan,吉爾吉斯,MIDEAST_CASIA,中東＋中亞,2025,AEI CGIT,Investment,100.0,1
+KGZ,Kyrgyzstan,吉爾吉斯,MIDEAST_CASIA,中東＋中亞,2026,AEI CGIT,Investment,190.0,1
+KHM,Cambodia,柬埔寨,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AEI CGIT,Construction,1480.0,5
+KHM,Cambodia,柬埔寨,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AEI CGIT,Investment,1860.0,2
+KHM,Cambodia,柬埔寨,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1239.0465520073747,29
+KHM,Cambodia,柬埔寨,EAST_ASIA,東亞（東北亞＋東南亞）,2020,BU CODF,Official finance (commitments),316.52,3
+KHM,Cambodia,柬埔寨,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AEI CGIT,Construction,170.0,1
+KHM,Cambodia,柬埔寨,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AEI CGIT,Investment,220.0,1
+KHM,Cambodia,柬埔寨,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),955.9615431089636,33
+KHM,Cambodia,柬埔寨,EAST_ASIA,東亞（東北亞＋東南亞）,2021,BU CODF,Official finance (commitments),116.27,1
+KHM,Cambodia,柬埔寨,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AEI CGIT,Construction,110.0,1
+KHM,Cambodia,柬埔寨,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AEI CGIT,Investment,1020.0,3
+KHM,Cambodia,柬埔寨,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),791.3399528223052,29
+KHM,Cambodia,柬埔寨,EAST_ASIA,東亞（東北亞＋東南亞）,2022,BU CODF,Official finance (commitments),509.14,5
+KHM,Cambodia,柬埔寨,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AEI CGIT,Construction,1420.0,8
+KHM,Cambodia,柬埔寨,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AEI CGIT,Investment,1480.0,2
+KHM,Cambodia,柬埔寨,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),619.6927064551311,17
+KHM,Cambodia,柬埔寨,EAST_ASIA,東亞（東北亞＋東南亞）,2023,BU CODF,Official finance (commitments),224.82,2
+KHM,Cambodia,柬埔寨,EAST_ASIA,東亞（東北亞＋東南亞）,2024,AEI CGIT,Investment,490.0,3
+KHM,Cambodia,柬埔寨,EAST_ASIA,東亞（東北亞＋東南亞）,2025,AEI CGIT,Construction,1360.0,3
+KHM,Cambodia,柬埔寨,EAST_ASIA,東亞（東北亞＋東南亞）,2025,AEI CGIT,Investment,810.0,2
+KHM,Cambodia,柬埔寨,EAST_ASIA,東亞（東北亞＋東南亞）,2026,AEI CGIT,Construction,110.0,1
+KHM,Cambodia,柬埔寨,EAST_ASIA,東亞（東北亞＋東南亞）,2026,AEI CGIT,Investment,990.0,1
+KIR,Kiribati,吉里巴斯,OCEANIA,大洋洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),4.6323069727983475,13
+KIR,Kiribati,吉里巴斯,OCEANIA,大洋洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),38.36649545668091,31
+KIR,Kiribati,吉里巴斯,OCEANIA,大洋洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.5099669757101069,20
+KIR,Kiribati,吉里巴斯,OCEANIA,大洋洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.2649485624177497,13
+KOR,South Korea,南韓,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AEI CGIT,Investment,940.0,2
+KOR,South Korea,南韓,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),482.3803410181544,164
+KOR,South Korea,南韓,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0389005449643544,4
+KOR,South Korea,南韓,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AEI CGIT,Construction,140.0,1
+KOR,South Korea,南韓,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AEI CGIT,Investment,200.0,1
+KOR,South Korea,南韓,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),796.6945092457015,18
+KOR,South Korea,南韓,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AEI CGIT,Investment,3130.0,8
+KOR,South Korea,南韓,EAST_ASIA,東亞（東北亞＋東南亞）,2024,AEI CGIT,Investment,620.0,2
+KOR,South Korea,南韓,EAST_ASIA,東亞（東北亞＋東南亞）,2025,AEI CGIT,Investment,180.0,1
+KOR,South Korea,南韓,EAST_ASIA,東亞（東北亞＋東南亞）,2026,AEI CGIT,Investment,110.0,1
+KWT,Kuwait,科威特,MIDEAST_CASIA,中東＋中亞,2020,AEI CGIT,Construction,100.0,1
+KWT,Kuwait,科威特,MIDEAST_CASIA,中東＋中亞,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),80.47523806666321,4
+KWT,Kuwait,科威特,MIDEAST_CASIA,中東＋中亞,2021,AEI CGIT,Construction,1210.0,4
+KWT,Kuwait,科威特,MIDEAST_CASIA,中東＋中亞,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0,1
+KWT,Kuwait,科威特,MIDEAST_CASIA,中東＋中亞,2022,AEI CGIT,Construction,1220.0,2
+KWT,Kuwait,科威特,MIDEAST_CASIA,中東＋中亞,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),59.9660213631328,3
+KWT,Kuwait,科威特,MIDEAST_CASIA,中東＋中亞,2023,AEI CGIT,Construction,1520.0,2
+KWT,Kuwait,科威特,MIDEAST_CASIA,中東＋中亞,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),346.86868599999997,5
+KWT,Kuwait,科威特,MIDEAST_CASIA,中東＋中亞,2024,AEI CGIT,Construction,1700.0,4
+KWT,Kuwait,科威特,MIDEAST_CASIA,中東＋中亞,2025,AEI CGIT,Construction,860.0,2
+LAO,Laos,寮國,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AEI CGIT,Construction,460.0,2
+LAO,Laos,寮國,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AEI CGIT,Investment,2400.0,1
+LAO,Laos,寮國,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),551.7167198998359,28
+LAO,Laos,寮國,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AEI CGIT,Investment,410.0,1
+LAO,Laos,寮國,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),983.6313080142152,26
+LAO,Laos,寮國,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AEI CGIT,Construction,410.0,1
+LAO,Laos,寮國,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AEI CGIT,Investment,750.0,1
+LAO,Laos,寮國,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),335.58262442512057,16
+LAO,Laos,寮國,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AEI CGIT,Construction,1440.0,2
+LAO,Laos,寮國,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AEI CGIT,Investment,1420.0,5
+LAO,Laos,寮國,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1033.7352290336592,21
+LAO,Laos,寮國,EAST_ASIA,東亞（東北亞＋東南亞）,2024,AEI CGIT,Investment,620.0,1
+LAO,Laos,寮國,EAST_ASIA,東亞（東北亞＋東南亞）,2025,AEI CGIT,Construction,520.0,3
+LBN,Lebanon,黎巴嫩,MIDEAST_CASIA,中東＋中亞,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),31.323652639812863,10
+LBN,Lebanon,黎巴嫩,MIDEAST_CASIA,中東＋中亞,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),6.493721409007568,5
+LBN,Lebanon,黎巴嫩,MIDEAST_CASIA,中東＋中亞,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,1
+LBN,Lebanon,黎巴嫩,MIDEAST_CASIA,中東＋中亞,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1.0,7
+LBR,Liberia,賴比瑞亞,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),5.801764273703039,15
+LBR,Liberia,賴比瑞亞,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),12.445428405203025,16
+LBR,Liberia,賴比瑞亞,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0661443391967477,19
+LBR,Liberia,賴比瑞亞,AFRICA,非洲,2023,AEI CGIT,Construction,150.0,1
+LBR,Liberia,賴比瑞亞,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1.001,12
+LBY,Libya,利比亞,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),3.879058985706637,3
+LBY,Libya,利比亞,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,1
+LBY,Libya,利比亞,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),4.2370224240174705,1
+LCA,St. Lucia,聖露西亞,LATAM_CARIB,拉丁美洲與加勒比海,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,1
+LKA,Sri Lanka,斯里蘭卡,SOUTH_ASIA,南亞,2020,AEI CGIT,Construction,230.0,1
+LKA,Sri Lanka,斯里蘭卡,SOUTH_ASIA,南亞,2020,AEI CGIT,Investment,1730.0,2
+LKA,Sri Lanka,斯里蘭卡,SOUTH_ASIA,南亞,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),758.4847035048355,52
+LKA,Sri Lanka,斯里蘭卡,SOUTH_ASIA,南亞,2020,BU CODF,Official finance (commitments),640.0,2
+LKA,Sri Lanka,斯里蘭卡,SOUTH_ASIA,南亞,2021,AEI CGIT,Construction,240.0,1
+LKA,Sri Lanka,斯里蘭卡,SOUTH_ASIA,南亞,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),2279.0883631912334,22
+LKA,Sri Lanka,斯里蘭卡,SOUTH_ASIA,南亞,2021,BU CODF,Official finance (commitments),810.0799999999999,2
+LKA,Sri Lanka,斯里蘭卡,SOUTH_ASIA,南亞,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1524.337183334582,35
+LKA,Sri Lanka,斯里蘭卡,SOUTH_ASIA,南亞,2023,AEI CGIT,Investment,370.0,2
+LKA,Sri Lanka,斯里蘭卡,SOUTH_ASIA,南亞,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1418.2014298895,23
+LSO,Lesotho,賴索托,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),73.67383982168481,7
+LSO,Lesotho,賴索托,AFRICA,非洲,2020,BU CLA,Official & commercial loans to Africa (commitments),66.88,1
+LSO,Lesotho,賴索托,AFRICA,非洲,2020,BU CODF,Official finance (commitments),66.83,1
+LSO,Lesotho,賴索托,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),3.836219867656997,3
+LSO,Lesotho,賴索托,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.4995891925541943,6
+LSO,Lesotho,賴索托,AFRICA,非洲,2022,BU CLA,Official & commercial loans to Africa (commitments),30.0,1
+LSO,Lesotho,賴索托,AFRICA,非洲,2022,BU CODF,Official finance (commitments),30.0,1
+LSO,Lesotho,賴索托,AFRICA,非洲,2023,AEI CGIT,Construction,570.0,1
+LSO,Lesotho,賴索托,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1.8847435908070655,6
+LUX,Luxembourg,盧森堡,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),82.55394791142587,5
+LUX,Luxembourg,盧森堡,EUROPE,歐洲,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),43.8083144918959,5
+LUX,Luxembourg,盧森堡,EUROPE,歐洲,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),547.5373508666648,4
+LUX,Luxembourg,盧森堡,EUROPE,歐洲,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),64.8761176470599,3
+LVA,Latvia,拉脫維亞,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0,1
+LVA,Latvia,拉脫維亞,EUROPE,歐洲,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0219100852993496,1
+LVA,Latvia,拉脫維亞,EUROPE,歐洲,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0,1
+MAR,Morocco,摩洛哥,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1.9049403560145146,6
+MAR,Morocco,摩洛哥,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),8.3198124102631,4
+MAR,Morocco,摩洛哥,AFRICA,非洲,2022,AEI CGIT,Investment,200.0,1
+MAR,Morocco,摩洛哥,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,5
+MAR,Morocco,摩洛哥,AFRICA,非洲,2023,AEI CGIT,Investment,300.0,1
+MAR,Morocco,摩洛哥,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,1
+MAR,Morocco,摩洛哥,AFRICA,非洲,2024,AEI CGIT,Construction,320.0,1
+MAR,Morocco,摩洛哥,AFRICA,非洲,2024,AEI CGIT,Investment,2110.0,5
+MAR,Morocco,摩洛哥,AFRICA,非洲,2025,AEI CGIT,Construction,850.0,3
+MAR,Morocco,摩洛哥,AFRICA,非洲,2025,AEI CGIT,Investment,1170.0,2
+MAR,Morocco,摩洛哥,AFRICA,非洲,2026,AEI CGIT,Construction,340.0,1
+MAR,Morocco,摩洛哥,AFRICA,非洲,2026,AEI CGIT,Investment,150.0,1
+MDA,Moldova,摩爾多瓦,EUROPE,歐洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.089821475511806,3
+MDA,Moldova,摩爾多瓦,EUROPE,歐洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),2.4897824203806302,1
+MDA,Moldova,摩爾多瓦,EUROPE,歐洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),2.188178015767029,6
+MDA,Moldova,摩爾多瓦,EUROPE,歐洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0551207447474064,3
+MDG,Madagascar,馬達加斯加,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),50.80187058892294,7
+MDG,Madagascar,馬達加斯加,AFRICA,非洲,2020,BU CLA,Official & commercial loans to Africa (commitments),48.98,1
+MDG,Madagascar,馬達加斯加,AFRICA,非洲,2020,BU CODF,Official finance (commitments),48.99,1
+MDG,Madagascar,馬達加斯加,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),5.421583406073535,14
+MDG,Madagascar,馬達加斯加,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.280808062817863,9
+MDG,Madagascar,馬達加斯加,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),253.515175037045,10
+MDG,Madagascar,馬達加斯加,AFRICA,非洲,2023,BU CLA,Official & commercial loans to Africa (commitments),240.0,1
+MDG,Madagascar,馬達加斯加,AFRICA,非洲,2023,BU CODF,Official finance (commitments),240.0,1
+MDV,Maldives,馬爾地夫,SOUTH_ASIA,南亞,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.403923791065366,7
+MDV,Maldives,馬爾地夫,SOUTH_ASIA,南亞,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),4.867025138457326,15
+MDV,Maldives,馬爾地夫,SOUTH_ASIA,南亞,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.292924930728454,4
+MDV,Maldives,馬爾地夫,SOUTH_ASIA,南亞,2023,AEI CGIT,Construction,140.0,1
+MDV,Maldives,馬爾地夫,SOUTH_ASIA,南亞,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,6
+MEX,Mexico,墨西哥,LATAM_CARIB,拉丁美洲與加勒比海,2020,AEI CGIT,Construction,940.0,2
+MEX,Mexico,墨西哥,LATAM_CARIB,拉丁美洲與加勒比海,2020,AEI CGIT,Investment,790.0,2
+MEX,Mexico,墨西哥,LATAM_CARIB,拉丁美洲與加勒比海,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),218.32144260073488,19
+MEX,Mexico,墨西哥,LATAM_CARIB,拉丁美洲與加勒比海,2021,AEI CGIT,Construction,360.0,1
+MEX,Mexico,墨西哥,LATAM_CARIB,拉丁美洲與加勒比海,2021,AEI CGIT,Investment,470.0,2
+MEX,Mexico,墨西哥,LATAM_CARIB,拉丁美洲與加勒比海,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),668.7502887387232,9
+MEX,Mexico,墨西哥,LATAM_CARIB,拉丁美洲與加勒比海,2022,AEI CGIT,Construction,340.0,2
+MEX,Mexico,墨西哥,LATAM_CARIB,拉丁美洲與加勒比海,2022,AEI CGIT,Investment,890.0,5
+MEX,Mexico,墨西哥,LATAM_CARIB,拉丁美洲與加勒比海,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),991.5169823839651,5
+MEX,Mexico,墨西哥,LATAM_CARIB,拉丁美洲與加勒比海,2023,AEI CGIT,Construction,1630.0,5
+MEX,Mexico,墨西哥,LATAM_CARIB,拉丁美洲與加勒比海,2023,AEI CGIT,Investment,650.0,3
+MEX,Mexico,墨西哥,LATAM_CARIB,拉丁美洲與加勒比海,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1010.2012645998643,13
+MEX,Mexico,墨西哥,LATAM_CARIB,拉丁美洲與加勒比海,2024,AEI CGIT,Construction,340.0,2
+MEX,Mexico,墨西哥,LATAM_CARIB,拉丁美洲與加勒比海,2024,AEI CGIT,Investment,760.0,4
+MEX,Mexico,墨西哥,LATAM_CARIB,拉丁美洲與加勒比海,2026,AEI CGIT,Construction,190.0,1
+MHL,Marshall Islands,馬紹爾群島,OCEANIA,大洋洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),539.5596461576216,9
+MHL,Marshall Islands,馬紹爾群島,OCEANIA,大洋洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),754.1076703110358,12
+MHL,Marshall Islands,馬紹爾群島,OCEANIA,大洋洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),395.35416457027304,3
+MHL,Marshall Islands,馬紹爾群島,OCEANIA,大洋洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),80.8,1
+MKD,North Macedonia,北馬其頓,EUROPE,歐洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),25.176110130980156,14
+MKD,North Macedonia,北馬其頓,EUROPE,歐洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),5.057201160310852,8
+MKD,North Macedonia,北馬其頓,EUROPE,歐洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0048391215331961,10
+MKD,North Macedonia,北馬其頓,EUROPE,歐洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0288915159580399,4
+MLI,Mali,馬利,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0541660256217926,6
+MLI,Mali,馬利,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),14.232720817840276,8
+MLI,Mali,馬利,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),10.20512661892678,9
+MLI,Mali,馬利,AFRICA,非洲,2023,AEI CGIT,Investment,260.0,2
+MLI,Mali,馬利,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.2059550297094922,15
+MLI,Mali,馬利,AFRICA,非洲,2024,AEI CGIT,Construction,150.0,1
+MLI,Mali,馬利,AFRICA,非洲,2024,AEI CGIT,Investment,340.0,1
+MLT,Malta,馬爾他,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),141.22593619297763,6
+MLT,Malta,馬爾他,EUROPE,歐洲,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0,1
+MLT,Malta,馬爾他,EUROPE,歐洲,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0497325858622163,4
+MLT,Malta,馬爾他,EUROPE,歐洲,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0,1
+MMR,Myanmar,緬甸,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AEI CGIT,Investment,1190.0,2
+MMR,Myanmar,緬甸,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),75.76469743061853,82
+MMR,Myanmar,緬甸,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AEI CGIT,Investment,170.0,1
+MMR,Myanmar,緬甸,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),269.5558296454788,41
+MMR,Myanmar,緬甸,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AEI CGIT,Construction,150.0,1
+MMR,Myanmar,緬甸,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),298.0911577413587,22
+MMR,Myanmar,緬甸,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),109.38748079768862,30
+MMR,Myanmar,緬甸,EAST_ASIA,東亞（東北亞＋東南亞）,2024,AEI CGIT,Construction,520.0,1
+MMR,Myanmar,緬甸,EAST_ASIA,東亞（東北亞＋東南亞）,2026,AEI CGIT,Construction,200.0,1
+MNE,Montenegro,蒙特內哥羅,EUROPE,歐洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,1
+MNE,Montenegro,蒙特內哥羅,EUROPE,歐洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.5359270220775746,3
+MNE,Montenegro,蒙特內哥羅,EUROPE,歐洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,1
+MNE,Montenegro,蒙特內哥羅,EUROPE,歐洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0324380588235299,3
+MNE,Montenegro,蒙特內哥羅,EUROPE,歐洲,2026,AEI CGIT,Construction,810.0,1
+MNG,Mongolia,蒙古,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),2522.7016335345693,29
+MNG,Mongolia,蒙古,EAST_ASIA,東亞（東北亞＋東南亞）,2020,BU CODF,Official finance (commitments),310.46999999999997,2
+MNG,Mongolia,蒙古,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AEI CGIT,Construction,340.0,1
+MNG,Mongolia,蒙古,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1722.2517680258416,7
+MNG,Mongolia,蒙古,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),2397.4501694254313,7
+MNG,Mongolia,蒙古,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AEI CGIT,Construction,370.0,1
+MNG,Mongolia,蒙古,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),2036.09231052611,5
+MNG,Mongolia,蒙古,EAST_ASIA,東亞（東北亞＋東南亞）,2024,AEI CGIT,Construction,310.0,1
+MNG,Mongolia,蒙古,EAST_ASIA,東亞（東北亞＋東南亞）,2025,AEI CGIT,Construction,250.0,1
+MNG,Mongolia,蒙古,EAST_ASIA,東亞（東北亞＋東南亞）,2026,AEI CGIT,Investment,190.0,1
+MOZ,Mozambique,莫三比克,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),298.9361655665196,16
+MOZ,Mozambique,莫三比克,AFRICA,非洲,2020,BU CLA,Official & commercial loans to Africa (commitments),132.0,1
+MOZ,Mozambique,莫三比克,AFRICA,非洲,2020,BU CODF,Official finance (commitments),132.0,1
+MOZ,Mozambique,莫三比克,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),26.603050363559177,14
+MOZ,Mozambique,莫三比克,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),24.8662929311081,2
+MOZ,Mozambique,莫三比克,AFRICA,非洲,2023,AEI CGIT,Investment,100.0,1
+MOZ,Mozambique,莫三比克,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,2
+MOZ,Mozambique,莫三比克,AFRICA,非洲,2026,AEI CGIT,Investment,1590.0,2
+MRT,Mauritania,茅利塔尼亞,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.275902544268334,14
+MRT,Mauritania,茅利塔尼亞,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),41.48957716564286,12
+MRT,Mauritania,茅利塔尼亞,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),41.12698255240342,12
+MRT,Mauritania,茅利塔尼亞,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.45403408080058205,12
+MUS,Mauritius,模里西斯,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,6
+MUS,Mauritius,模里西斯,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),50.19674907814082,7
+MUS,Mauritius,模里西斯,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),18.8983826276422,8
+MUS,Mauritius,模里西斯,AFRICA,非洲,2023,AEI CGIT,Construction,130.0,1
+MUS,Mauritius,模里西斯,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,2
+MWI,Malawi,馬拉威,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),168.0705867493802,13
+MWI,Malawi,馬拉威,AFRICA,非洲,2020,BU CLA,Official & commercial loans to Africa (commitments),100.42,1
+MWI,Malawi,馬拉威,AFRICA,非洲,2020,BU CODF,Official finance (commitments),100.43,1
+MWI,Malawi,馬拉威,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),89.50935039316481,14
+MWI,Malawi,馬拉威,AFRICA,非洲,2022,AEI CGIT,Construction,130.0,1
+MWI,Malawi,馬拉威,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),28.128783119172677,9
+MWI,Malawi,馬拉威,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1.5715921880001777,10
+MWI,Malawi,馬拉威,AFRICA,非洲,2025,AEI CGIT,Investment,100.0,1
+MYS,Malaysia,馬來西亞,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AEI CGIT,Construction,100.0,1
+MYS,Malaysia,馬來西亞,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AEI CGIT,Investment,770.0,3
+MYS,Malaysia,馬來西亞,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1079.2007834115652,72
+MYS,Malaysia,馬來西亞,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AEI CGIT,Investment,300.0,1
+MYS,Malaysia,馬來西亞,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1180.42843366945,15
+MYS,Malaysia,馬來西亞,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AEI CGIT,Construction,1760.0,3
+MYS,Malaysia,馬來西亞,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AEI CGIT,Investment,1250.0,3
+MYS,Malaysia,馬來西亞,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),7602.0290389249985,8
+MYS,Malaysia,馬來西亞,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AEI CGIT,Construction,980.0,3
+MYS,Malaysia,馬來西亞,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AEI CGIT,Investment,3150.0,10
+MYS,Malaysia,馬來西亞,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),7970.004483515914,13
+MYS,Malaysia,馬來西亞,EAST_ASIA,東亞（東北亞＋東南亞）,2024,AEI CGIT,Construction,3270.0,8
+MYS,Malaysia,馬來西亞,EAST_ASIA,東亞（東北亞＋東南亞）,2024,AEI CGIT,Investment,2590.0,5
+MYS,Malaysia,馬來西亞,EAST_ASIA,東亞（東北亞＋東南亞）,2025,AEI CGIT,Construction,960.0,4
+MYS,Malaysia,馬來西亞,EAST_ASIA,東亞（東北亞＋東南亞）,2025,AEI CGIT,Investment,2970.0,5
+MYS,Malaysia,馬來西亞,EAST_ASIA,東亞（東北亞＋東南亞）,2026,AEI CGIT,Construction,210.0,1
+MYS,Malaysia,馬來西亞,EAST_ASIA,東亞（東北亞＋東南亞）,2026,AEI CGIT,Investment,370.0,2
+NAM,Namibia,納米比亞,AFRICA,非洲,2020,AEI CGIT,Construction,110.0,1
+NAM,Namibia,納米比亞,AFRICA,非洲,2020,AEI CGIT,Investment,100.0,1
+NAM,Namibia,納米比亞,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),11.759578398218276,16
+NAM,Namibia,納米比亞,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),6.6680688771899295,9
+NAM,Namibia,納米比亞,AFRICA,非洲,2022,AEI CGIT,Investment,140.0,1
+NAM,Namibia,納米比亞,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.442393641589907,5
+NAM,Namibia,納米比亞,AFRICA,非洲,2023,AEI CGIT,Investment,780.0,1
+NAM,Namibia,納米比亞,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0905883578229284,12
+NAM,Namibia,納米比亞,AFRICA,非洲,2024,AEI CGIT,Construction,130.0,1
+NAM,Namibia,納米比亞,AFRICA,非洲,2024,AEI CGIT,Investment,280.0,1
+NAM,Namibia,納米比亞,AFRICA,非洲,2025,AEI CGIT,Investment,220.0,1
+NCL,New Caledonia,新喀里多尼亞,OCEANIA,大洋洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0,1
+NER,Niger,尼日,AFRICA,非洲,2020,AEI CGIT,Construction,110.0,1
+NER,Niger,尼日,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),8.990214290690439,8
+NER,Niger,尼日,AFRICA,非洲,2021,AEI CGIT,Investment,700.0,1
+NER,Niger,尼日,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),13.2788395753634,8
+NER,Niger,尼日,AFRICA,非洲,2022,AEI CGIT,Construction,110.0,1
+NER,Niger,尼日,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),22.863937415864044,8
+NER,Niger,尼日,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1.5249662529089751,9
+NGA,Nigeria,奈及利亞,AFRICA,非洲,2020,AEI CGIT,Construction,2230.0,3
+NGA,Nigeria,奈及利亞,AFRICA,非洲,2020,AEI CGIT,Investment,540.0,1
+NGA,Nigeria,奈及利亞,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),2852.4960284374097,27
+NGA,Nigeria,奈及利亞,AFRICA,非洲,2021,AEI CGIT,Construction,240.0,1
+NGA,Nigeria,奈及利亞,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),704.9675244549775,9
+NGA,Nigeria,奈及利亞,AFRICA,非洲,2022,AEI CGIT,Construction,2020.0,3
+NGA,Nigeria,奈及利亞,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1370.6572211491757,8
+NGA,Nigeria,奈及利亞,AFRICA,非洲,2023,AEI CGIT,Construction,3080.0,6
+NGA,Nigeria,奈及利亞,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1358.5576034066899,9
+NGA,Nigeria,奈及利亞,AFRICA,非洲,2023,BU CLA,Official & commercial loans to Africa (commitments),264.92,1
+NGA,Nigeria,奈及利亞,AFRICA,非洲,2023,BU CODF,Official finance (commitments),264.91,1
+NGA,Nigeria,奈及利亞,AFRICA,非洲,2024,AEI CGIT,Investment,840.0,1
+NGA,Nigeria,奈及利亞,AFRICA,非洲,2025,AEI CGIT,Construction,330.0,1
+NGA,Nigeria,奈及利亞,AFRICA,非洲,2025,AEI CGIT,Investment,170.0,1
+NGA,Nigeria,奈及利亞,AFRICA,非洲,2026,AEI CGIT,Construction,300.0,1
+NIC,Nicaragua,尼加拉瓜,LATAM_CARIB,拉丁美洲與加勒比海,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),16.59854946920425,2
+NIC,Nicaragua,尼加拉瓜,LATAM_CARIB,拉丁美洲與加勒比海,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),90.1787012933286,6
+NIC,Nicaragua,尼加拉瓜,LATAM_CARIB,拉丁美洲與加勒比海,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),477.3193316919859,9
+NIC,Nicaragua,尼加拉瓜,LATAM_CARIB,拉丁美洲與加勒比海,2024,AEI CGIT,Construction,630.0,2
+NIU,Niue,紐埃,OCEANIA,大洋洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,2
+NIU,Niue,紐埃,OCEANIA,大洋洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,1
+NLD,Netherlands,荷蘭,EUROPE,歐洲,2020,AEI CGIT,Investment,890.0,1
+NLD,Netherlands,荷蘭,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),525.0069577622892,12
+NLD,Netherlands,荷蘭,EUROPE,歐洲,2021,AEI CGIT,Investment,4380.0,1
+NLD,Netherlands,荷蘭,EUROPE,歐洲,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),561.9165016074355,12
+NLD,Netherlands,荷蘭,EUROPE,歐洲,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),2137.253507261611,22
+NLD,Netherlands,荷蘭,EUROPE,歐洲,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),181.2122180598841,5
+NLD,Netherlands,荷蘭,EUROPE,歐洲,2024,AEI CGIT,Investment,200.0,1
+NOR,Norway,挪威,EUROPE,歐洲,2020,AEI CGIT,Investment,290.0,2
+NOR,Norway,挪威,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),361.13904820852014,3
+NOR,Norway,挪威,EUROPE,歐洲,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),52.0087883368399,3
+NOR,Norway,挪威,EUROPE,歐洲,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),64.0352324987096,2
+NOR,Norway,挪威,EUROPE,歐洲,2023,AEI CGIT,Construction,640.0,1
+NOR,Norway,挪威,EUROPE,歐洲,2023,AEI CGIT,Investment,810.0,1
+NOR,Norway,挪威,EUROPE,歐洲,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),34.0,1
+NOR,Norway,挪威,EUROPE,歐洲,2026,AEI CGIT,Investment,1020.0,1
+NPL,Nepal,尼泊爾,SOUTH_ASIA,南亞,2020,AEI CGIT,Construction,130.0,1
+NPL,Nepal,尼泊爾,SOUTH_ASIA,南亞,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),2.3499411283807876,16
+NPL,Nepal,尼泊爾,SOUTH_ASIA,南亞,2021,AEI CGIT,Construction,420.0,1
+NPL,Nepal,尼泊爾,SOUTH_ASIA,南亞,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),137.88135607773592,22
+NPL,Nepal,尼泊爾,SOUTH_ASIA,南亞,2022,AEI CGIT,Investment,230.0,1
+NPL,Nepal,尼泊爾,SOUTH_ASIA,南亞,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),93.3069031131196,7
+NPL,Nepal,尼泊爾,SOUTH_ASIA,南亞,2023,AEI CGIT,Construction,140.0,1
+NPL,Nepal,尼泊爾,SOUTH_ASIA,南亞,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),3.03640441882384,11
+NRU,Nauru,諾魯,OCEANIA,大洋洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0152077565269566,1
+NZL,New Zealand,紐西蘭,OCEANIA,大洋洲,2020,AEI CGIT,Construction,250.0,2
+NZL,New Zealand,紐西蘭,OCEANIA,大洋洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),689.9469921258354,42
+NZL,New Zealand,紐西蘭,OCEANIA,大洋洲,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),937.6247827495215,22
+NZL,New Zealand,紐西蘭,OCEANIA,大洋洲,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),563.5020460740277,19
+NZL,New Zealand,紐西蘭,OCEANIA,大洋洲,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),692.1332253096277,20
+NZL,New Zealand,紐西蘭,OCEANIA,大洋洲,2024,AEI CGIT,Investment,110.0,1
+OMN,Oman,阿曼,MIDEAST_CASIA,中東＋中亞,2020,AEI CGIT,Construction,1130.0,3
+OMN,Oman,阿曼,MIDEAST_CASIA,中東＋中亞,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),284.46039007776074,3
+OMN,Oman,阿曼,MIDEAST_CASIA,中東＋中亞,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),1.65985494692042,2
+OMN,Oman,阿曼,MIDEAST_CASIA,中東＋中亞,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0,3
+OMN,Oman,阿曼,MIDEAST_CASIA,中東＋中亞,2023,AEI CGIT,Construction,330.0,1
+OMN,Oman,阿曼,MIDEAST_CASIA,中東＋中亞,2023,AEI CGIT,Investment,190.0,1
+OMN,Oman,阿曼,MIDEAST_CASIA,中東＋中亞,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),184.7404484803495,2
+OMN,Oman,阿曼,MIDEAST_CASIA,中東＋中亞,2024,AEI CGIT,Construction,510.0,3
+OMN,Oman,阿曼,MIDEAST_CASIA,中東＋中亞,2024,AEI CGIT,Investment,960.0,4
+OMN,Oman,阿曼,MIDEAST_CASIA,中東＋中亞,2025,AEI CGIT,Construction,610.0,2
+OMN,Oman,阿曼,MIDEAST_CASIA,中東＋中亞,2025,AEI CGIT,Investment,570.0,1
+OMN,Oman,阿曼,MIDEAST_CASIA,中東＋中亞,2026,AEI CGIT,Construction,420.0,3
+PAK,Pakistan,巴基斯坦,SOUTH_ASIA,南亞,2020,AEI CGIT,Construction,2060.0,2
+PAK,Pakistan,巴基斯坦,SOUTH_ASIA,南亞,2020,AEI CGIT,Investment,1340.0,2
+PAK,Pakistan,巴基斯坦,SOUTH_ASIA,南亞,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),11453.895520801727,69
+PAK,Pakistan,巴基斯坦,SOUTH_ASIA,南亞,2021,AEI CGIT,Construction,1360.0,5
+PAK,Pakistan,巴基斯坦,SOUTH_ASIA,南亞,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),11294.433465995404,41
+PAK,Pakistan,巴基斯坦,SOUTH_ASIA,南亞,2021,BU CODF,Official finance (commitments),1000.0,1
+PAK,Pakistan,巴基斯坦,SOUTH_ASIA,南亞,2022,AEI CGIT,Construction,970.0,5
+PAK,Pakistan,巴基斯坦,SOUTH_ASIA,南亞,2022,AEI CGIT,Investment,1130.0,2
+PAK,Pakistan,巴基斯坦,SOUTH_ASIA,南亞,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),10583.375198803049,116
+PAK,Pakistan,巴基斯坦,SOUTH_ASIA,南亞,2023,AEI CGIT,Construction,280.0,1
+PAK,Pakistan,巴基斯坦,SOUTH_ASIA,南亞,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),14614.846308048993,45
+PAK,Pakistan,巴基斯坦,SOUTH_ASIA,南亞,2023,BU CODF,Official finance (commitments),700.0,1
+PAK,Pakistan,巴基斯坦,SOUTH_ASIA,南亞,2024,AEI CGIT,Construction,3480.0,1
+PAK,Pakistan,巴基斯坦,SOUTH_ASIA,南亞,2025,AEI CGIT,Construction,150.0,1
+PAK,Pakistan,巴基斯坦,SOUTH_ASIA,南亞,2026,AEI CGIT,Investment,120.0,1
+PAN,Panama,巴拿馬,LATAM_CARIB,拉丁美洲與加勒比海,2020,AEI CGIT,Construction,1380.0,2
+PAN,Panama,巴拿馬,LATAM_CARIB,拉丁美洲與加勒比海,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1.7859476596722006,38
+PAN,Panama,巴拿馬,LATAM_CARIB,拉丁美洲與加勒比海,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),120.8339010705776,5
+PAN,Panama,巴拿馬,LATAM_CARIB,拉丁美洲與加勒比海,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.8785978831057876,10
+PAN,Panama,巴拿馬,LATAM_CARIB,拉丁美洲與加勒比海,2025,AEI CGIT,Construction,330.0,1
+PER,Peru,秘魯,LATAM_CARIB,拉丁美洲與加勒比海,2020,AEI CGIT,Construction,120.0,1
+PER,Peru,秘魯,LATAM_CARIB,拉丁美洲與加勒比海,2020,AEI CGIT,Investment,780.0,1
+PER,Peru,秘魯,LATAM_CARIB,拉丁美洲與加勒比海,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),3515.299048888835,28
+PER,Peru,秘魯,LATAM_CARIB,拉丁美洲與加勒比海,2021,AEI CGIT,Construction,1010.0,3
+PER,Peru,秘魯,LATAM_CARIB,拉丁美洲與加勒比海,2021,AEI CGIT,Investment,560.0,1
+PER,Peru,秘魯,LATAM_CARIB,拉丁美洲與加勒比海,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),437.3977199345439,20
+PER,Peru,秘魯,LATAM_CARIB,拉丁美洲與加勒比海,2022,AEI CGIT,Construction,110.0,1
+PER,Peru,秘魯,LATAM_CARIB,拉丁美洲與加勒比海,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),480.0189187421114,8
+PER,Peru,秘魯,LATAM_CARIB,拉丁美洲與加勒比海,2023,AEI CGIT,Investment,4780.0,2
+PER,Peru,秘魯,LATAM_CARIB,拉丁美洲與加勒比海,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1602.218800120444,12
+PER,Peru,秘魯,LATAM_CARIB,拉丁美洲與加勒比海,2024,AEI CGIT,Construction,620.0,2
+PER,Peru,秘魯,LATAM_CARIB,拉丁美洲與加勒比海,2024,AEI CGIT,Investment,510.0,3
+PER,Peru,秘魯,LATAM_CARIB,拉丁美洲與加勒比海,2025,AEI CGIT,Construction,190.0,1
+PER,Peru,秘魯,LATAM_CARIB,拉丁美洲與加勒比海,2025,AEI CGIT,Investment,610.0,2
+PHL,Philippines,菲律賓,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AEI CGIT,Construction,1420.0,3
+PHL,Philippines,菲律賓,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),340.06744194541204,41
+PHL,Philippines,菲律賓,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AEI CGIT,Construction,490.0,2
+PHL,Philippines,菲律賓,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),594.4781547483043,50
+PHL,Philippines,菲律賓,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AEI CGIT,Construction,910.0,3
+PHL,Philippines,菲律賓,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),435.47616574899337,41
+PHL,Philippines,菲律賓,EAST_ASIA,東亞（東北亞＋東南亞）,2022,BU CODF,Official finance (commitments),337.5,1
+PHL,Philippines,菲律賓,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),3648.316596011696,30
+PHL,Philippines,菲律賓,EAST_ASIA,東亞（東北亞＋東南亞）,2023,BU CODF,Official finance (commitments),201.8,1
+PHL,Philippines,菲律賓,EAST_ASIA,東亞（東北亞＋東南亞）,2024,AEI CGIT,Construction,660.0,2
+PHL,Philippines,菲律賓,EAST_ASIA,東亞（東北亞＋東南亞）,2024,AEI CGIT,Investment,1050.0,1
+PHL,Philippines,菲律賓,EAST_ASIA,東亞（東北亞＋東南亞）,2025,AEI CGIT,Construction,1690.0,6
+PNG,Papua New Guinea,巴布亞紐幾內亞,OCEANIA,大洋洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),311.3841014935368,20
+PNG,Papua New Guinea,巴布亞紐幾內亞,OCEANIA,大洋洲,2020,BU CODF,Official finance (commitments),61.47,1
+PNG,Papua New Guinea,巴布亞紐幾內亞,OCEANIA,大洋洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),3.8950057008232966,10
+PNG,Papua New Guinea,巴布亞紐幾內亞,OCEANIA,大洋洲,2022,AEI CGIT,Construction,140.0,1
+PNG,Papua New Guinea,巴布亞紐幾內亞,OCEANIA,大洋洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),283.47158651574557,12
+PNG,Papua New Guinea,巴布亞紐幾內亞,OCEANIA,大洋洲,2023,AEI CGIT,Construction,280.0,2
+PNG,Papua New Guinea,巴布亞紐幾內亞,OCEANIA,大洋洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),346.92639608217934,9
+PNG,Papua New Guinea,巴布亞紐幾內亞,OCEANIA,大洋洲,2025,AEI CGIT,Investment,240.0,1
+PNG,Papua New Guinea,巴布亞紐幾內亞,OCEANIA,大洋洲,2026,AEI CGIT,Construction,370.0,1
+POL,Poland,波蘭,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),750.6983678292113,25
+POL,Poland,波蘭,EUROPE,歐洲,2021,AEI CGIT,Construction,530.0,1
+POL,Poland,波蘭,EUROPE,歐洲,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),45.93333873358863,6
+POL,Poland,波蘭,EUROPE,歐洲,2022,AEI CGIT,Construction,220.0,2
+POL,Poland,波蘭,EUROPE,歐洲,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),1122.9498945778985,13
+POL,Poland,波蘭,EUROPE,歐洲,2023,AEI CGIT,Construction,390.0,2
+POL,Poland,波蘭,EUROPE,歐洲,2023,AEI CGIT,Investment,1520.0,1
+POL,Poland,波蘭,EUROPE,歐洲,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),572.8420977693789,12
+POL,Poland,波蘭,EUROPE,歐洲,2024,AEI CGIT,Construction,510.0,3
+POL,Poland,波蘭,EUROPE,歐洲,2026,AEI CGIT,Investment,270.0,1
+PRI,Puerto Rico,波多黎各,LATAM_CARIB,拉丁美洲與加勒比海,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),30.3071810026696,1
+PRI,Puerto Rico,波多黎各,LATAM_CARIB,拉丁美洲與加勒比海,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),34.5803113941755,1
+PRK,North Korea,北韓,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),551.2017305979309,4
+PRK,North Korea,北韓,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,2
+PRT,Portugal,葡萄牙,EUROPE,歐洲,2020,AEI CGIT,Investment,460.0,2
+PRT,Portugal,葡萄牙,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),207.57420739797823,8
+PRT,Portugal,葡萄牙,EUROPE,歐洲,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),151.88215200579,1
+PRT,Portugal,葡萄牙,EUROPE,歐洲,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),249.5235294126,3
+PRT,Portugal,葡萄牙,EUROPE,歐洲,2025,AEI CGIT,Investment,2220.0,1
+PSE,Palestine,巴勒斯坦,MIDEAST_CASIA,中東＋中亞,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,6
+PSE,Palestine,巴勒斯坦,MIDEAST_CASIA,中東＋中亞,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),8.545389542428417,5
+PSE,Palestine,巴勒斯坦,MIDEAST_CASIA,中東＋中亞,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.94491913138211,1
+PSE,Palestine,巴勒斯坦,MIDEAST_CASIA,中東＋中亞,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),3.11851121200873,4
+PYF,French Polynesia,法屬玻里尼西亞,OCEANIA,大洋洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0,1
+QAT,Qatar,卡達,MIDEAST_CASIA,中東＋中亞,2020,AEI CGIT,Construction,750.0,2
+QAT,Qatar,卡達,MIDEAST_CASIA,中東＋中亞,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),464.85799055532874,4
+QAT,Qatar,卡達,MIDEAST_CASIA,中東＋中亞,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),619.679180183624,3
+QAT,Qatar,卡達,MIDEAST_CASIA,中東＋中亞,2022,AEI CGIT,Construction,800.0,4
+QAT,Qatar,卡達,MIDEAST_CASIA,中東＋中亞,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),787.432609485722,3
+QAT,Qatar,卡達,MIDEAST_CASIA,中東＋中亞,2023,AEI CGIT,Construction,220.0,1
+QAT,Qatar,卡達,MIDEAST_CASIA,中東＋中亞,2023,AEI CGIT,Investment,950.0,3
+QAT,Qatar,卡達,MIDEAST_CASIA,中東＋中亞,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),906.36,9
+QAT,Qatar,卡達,MIDEAST_CASIA,中東＋中亞,2024,AEI CGIT,Construction,1590.0,3
+QAT,Qatar,卡達,MIDEAST_CASIA,中東＋中亞,2025,AEI CGIT,Construction,4220.0,2
+REGIONAL,Regional / multi-country,區域性／多國,REGIONAL,區域性／多國,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),709.3632144830113,22
+REGIONAL,Regional / multi-country,區域性／多國,REGIONAL,區域性／多國,2020,BU CLA,Official & commercial loans to Africa (commitments),200.0,1
+REGIONAL,Regional / multi-country,區域性／多國,REGIONAL,區域性／多國,2020,BU CODF,Official finance (commitments),217.39,1
+REGIONAL,Regional / multi-country,區域性／多國,REGIONAL,區域性／多國,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),114.56873235197038,18
+REGIONAL,Regional / multi-country,區域性／多國,REGIONAL,區域性／多國,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),492.54630921679404,20
+REGIONAL,Regional / multi-country,區域性／多國,REGIONAL,區域性／多國,2022,BU CLA,Official & commercial loans to Africa (commitments),300.0,1
+REGIONAL,Regional / multi-country,區域性／多國,REGIONAL,區域性／多國,2022,BU CODF,Official finance (commitments),300.0,1
+REGIONAL,Regional / multi-country,區域性／多國,REGIONAL,區域性／多國,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1868.7304839411788,38
+REGIONAL,Regional / multi-country,區域性／多國,REGIONAL,區域性／多國,2023,BU CLA,Official & commercial loans to Africa (commitments),1300.0,3
+REGIONAL,Regional / multi-country,區域性／多國,REGIONAL,區域性／多國,2023,BU CODF,Official finance (commitments),1300.0,3
+ROU,Romania,羅馬尼亞,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),135.08170898091777,6
+ROU,Romania,羅馬尼亞,EUROPE,歐洲,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0,1
+RUS,Russia,俄羅斯,EUROPE,歐洲,2020,AEI CGIT,Construction,1340.0,2
+RUS,Russia,俄羅斯,EUROPE,歐洲,2020,AEI CGIT,Investment,540.0,1
+RUS,Russia,俄羅斯,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),5062.943350123573,42
+RUS,Russia,俄羅斯,EUROPE,歐洲,2021,AEI CGIT,Construction,2680.0,3
+RUS,Russia,俄羅斯,EUROPE,歐洲,2021,AEI CGIT,Investment,360.0,1
+RUS,Russia,俄羅斯,EUROPE,歐洲,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),8175.480202016169,15
+RUS,Russia,俄羅斯,EUROPE,歐洲,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0,2
+RUS,Russia,俄羅斯,EUROPE,歐洲,2023,AEI CGIT,Construction,1440.0,3
+RUS,Russia,俄羅斯,EUROPE,歐洲,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),8431.67462379477,4
+RUS,Russia,俄羅斯,EUROPE,歐洲,2024,AEI CGIT,Construction,140.0,1
+RWA,Rwanda,盧安達,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),280.16786212143955,16
+RWA,Rwanda,盧安達,AFRICA,非洲,2020,BU CLA,Official & commercial loans to Africa (commitments),214.0,1
+RWA,Rwanda,盧安達,AFRICA,非洲,2020,BU CODF,Official finance (commitments),214.0,1
+RWA,Rwanda,盧安達,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),8.34804728219903,6
+RWA,Rwanda,盧安達,AFRICA,非洲,2022,AEI CGIT,Construction,310.0,2
+RWA,Rwanda,盧安達,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),65.66855280359717,9
+RWA,Rwanda,盧安達,AFRICA,非洲,2022,BU CLA,Official & commercial loans to Africa (commitments),29.46,1
+RWA,Rwanda,盧安達,AFRICA,非洲,2022,BU CODF,Official finance (commitments),29.45,1
+RWA,Rwanda,盧安達,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),50.0,6
+SAU,Saudi Arabia,沙烏地阿拉伯,MIDEAST_CASIA,中東＋中亞,2020,AEI CGIT,Construction,1650.0,2
+SAU,Saudi Arabia,沙烏地阿拉伯,MIDEAST_CASIA,中東＋中亞,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0,5
+SAU,Saudi Arabia,沙烏地阿拉伯,MIDEAST_CASIA,中東＋中亞,2021,AEI CGIT,Construction,1230.0,8
+SAU,Saudi Arabia,沙烏地阿拉伯,MIDEAST_CASIA,中東＋中亞,2021,AEI CGIT,Investment,1360.0,2
+SAU,Saudi Arabia,沙烏地阿拉伯,MIDEAST_CASIA,中東＋中亞,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),2213.6730947554693,9
+SAU,Saudi Arabia,沙烏地阿拉伯,MIDEAST_CASIA,中東＋中亞,2022,AEI CGIT,Construction,3030.0,6
+SAU,Saudi Arabia,沙烏地阿拉伯,MIDEAST_CASIA,中東＋中亞,2022,AEI CGIT,Investment,5550.0,5
+SAU,Saudi Arabia,沙烏地阿拉伯,MIDEAST_CASIA,中東＋中亞,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),6079.874268669284,18
+SAU,Saudi Arabia,沙烏地阿拉伯,MIDEAST_CASIA,中東＋中亞,2023,AEI CGIT,Construction,5660.0,11
+SAU,Saudi Arabia,沙烏地阿拉伯,MIDEAST_CASIA,中東＋中亞,2023,AEI CGIT,Investment,1150.0,3
+SAU,Saudi Arabia,沙烏地阿拉伯,MIDEAST_CASIA,中東＋中亞,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),5739.012654528102,14
+SAU,Saudi Arabia,沙烏地阿拉伯,MIDEAST_CASIA,中東＋中亞,2024,AEI CGIT,Construction,13090.0,15
+SAU,Saudi Arabia,沙烏地阿拉伯,MIDEAST_CASIA,中東＋中亞,2024,AEI CGIT,Investment,910.0,3
+SAU,Saudi Arabia,沙烏地阿拉伯,MIDEAST_CASIA,中東＋中亞,2025,AEI CGIT,Construction,10650.0,18
+SAU,Saudi Arabia,沙烏地阿拉伯,MIDEAST_CASIA,中東＋中亞,2025,AEI CGIT,Investment,860.0,3
+SAU,Saudi Arabia,沙烏地阿拉伯,MIDEAST_CASIA,中東＋中亞,2026,AEI CGIT,Construction,1380.0,2
+SAU,Saudi Arabia,沙烏地阿拉伯,MIDEAST_CASIA,中東＋中亞,2026,AEI CGIT,Investment,290.0,1
+SDN,Sudan,蘇丹,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),2.352353112717843,7
+SDN,Sudan,蘇丹,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),4.14963736730106,6
+SDN,Sudan,蘇丹,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),15.989345279577867,11
+SDN,Sudan,蘇丹,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.4,8
+SEN,Senegal,塞內加爾,AFRICA,非洲,2020,AEI CGIT,Construction,300.0,1
+SEN,Senegal,塞內加爾,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),100.34039905646003,9
+SEN,Senegal,塞內加爾,AFRICA,非洲,2020,BU CLA,Official & commercial loans to Africa (commitments),5.71,1
+SEN,Senegal,塞內加爾,AFRICA,非洲,2021,AEI CGIT,Construction,110.0,1
+SEN,Senegal,塞內加爾,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),593.1079504490315,9
+SEN,Senegal,塞內加爾,AFRICA,非洲,2021,BU CLA,Official & commercial loans to Africa (commitments),441.36,4
+SEN,Senegal,塞內加爾,AFRICA,非洲,2021,BU CODF,Official finance (commitments),259.64,2
+SEN,Senegal,塞內加爾,AFRICA,非洲,2022,AEI CGIT,Construction,170.0,1
+SEN,Senegal,塞內加爾,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),58.0876602870687,4
+SEN,Senegal,塞內加爾,AFRICA,非洲,2022,BU CLA,Official & commercial loans to Africa (commitments),478.74,2
+SEN,Senegal,塞內加爾,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),316.06704386556214,8
+SEN,Senegal,塞內加爾,AFRICA,非洲,2024,AEI CGIT,Construction,560.0,1
+SEN,Senegal,塞內加爾,AFRICA,非洲,2024,BU CLA,Official & commercial loans to Africa (commitments),85.0,1
+SEN,Senegal,塞內加爾,AFRICA,非洲,2024,BU CODF,Official finance (commitments),85.0,1
+SEN,Senegal,塞內加爾,AFRICA,非洲,2025,AEI CGIT,Construction,420.0,3
+SGP,Singapore,新加坡,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AEI CGIT,Construction,1110.0,5
+SGP,Singapore,新加坡,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AEI CGIT,Investment,1360.0,3
+SGP,Singapore,新加坡,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),4457.393720198109,27
+SGP,Singapore,新加坡,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AEI CGIT,Construction,3460.0,12
+SGP,Singapore,新加坡,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AEI CGIT,Investment,340.0,2
+SGP,Singapore,新加坡,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),4921.23988634432,21
+SGP,Singapore,新加坡,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AEI CGIT,Construction,1810.0,8
+SGP,Singapore,新加坡,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AEI CGIT,Investment,2590.0,6
+SGP,Singapore,新加坡,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),5890.271902789207,41
+SGP,Singapore,新加坡,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AEI CGIT,Construction,1860.0,5
+SGP,Singapore,新加坡,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AEI CGIT,Investment,2550.0,7
+SGP,Singapore,新加坡,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),3827.2269939939983,26
+SGP,Singapore,新加坡,EAST_ASIA,東亞（東北亞＋東南亞）,2024,AEI CGIT,Construction,1150.0,3
+SGP,Singapore,新加坡,EAST_ASIA,東亞（東北亞＋東南亞）,2024,AEI CGIT,Investment,1140.0,4
+SGP,Singapore,新加坡,EAST_ASIA,東亞（東北亞＋東南亞）,2025,AEI CGIT,Construction,2060.0,5
+SGP,Singapore,新加坡,EAST_ASIA,東亞（東北亞＋東南亞）,2025,AEI CGIT,Investment,1380.0,4
+SGP,Singapore,新加坡,EAST_ASIA,東亞（東北亞＋東南亞）,2026,AEI CGIT,Construction,790.0,4
+SGP,Singapore,新加坡,EAST_ASIA,東亞（東北亞＋東南亞）,2026,AEI CGIT,Investment,1360.0,2
+SLB,Solomon Islands,索羅門群島,OCEANIA,大洋洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),79.69394743891569,18
+SLB,Solomon Islands,索羅門群島,OCEANIA,大洋洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),36.16622327711091,18
+SLB,Solomon Islands,索羅門群島,OCEANIA,大洋洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),12.30807819812874,16
+SLB,Solomon Islands,索羅門群島,OCEANIA,大洋洲,2022,BU CODF,Official finance (commitments),66.0,1
+SLB,Solomon Islands,索羅門群島,OCEANIA,大洋洲,2023,AEI CGIT,Construction,170.0,1
+SLB,Solomon Islands,索羅門群島,OCEANIA,大洋洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),65.63301544750615,21
+SLE,Sierra Leone,獅子山,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1.5201465426807408,9
+SLE,Sierra Leone,獅子山,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1891.1100496600393,13
+SLE,Sierra Leone,獅子山,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),7.170801982544934,18
+SLE,Sierra Leone,獅子山,AFRICA,非洲,2023,AEI CGIT,Investment,520.0,1
+SLE,Sierra Leone,獅子山,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0623702242401747,14
+SLV,El Salvador,薩爾瓦多,LATAM_CARIB,拉丁美洲與加勒比海,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),64.72810569692902,26
+SLV,El Salvador,薩爾瓦多,LATAM_CARIB,拉丁美洲與加勒比海,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),62.183883589789524,8
+SLV,El Salvador,薩爾瓦多,LATAM_CARIB,拉丁美洲與加勒比海,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),94.58640505134922,5
+SLV,El Salvador,薩爾瓦多,LATAM_CARIB,拉丁美洲與加勒比海,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),15.733408080058199,7
+SOM,Somalia,索馬利亞,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1.3348726940925602,1
+SOM,Somalia,索馬利亞,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),15.522717251782677,6
+SOM,Somalia,索馬利亞,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.587388071687907,3
+SOM,Somalia,索馬利亞,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),3.4107412928093117,7
+SRB,Serbia,塞爾維亞,EUROPE,歐洲,2020,AEI CGIT,Construction,890.0,2
+SRB,Serbia,塞爾維亞,EUROPE,歐洲,2020,AEI CGIT,Investment,360.0,1
+SRB,Serbia,塞爾維亞,EUROPE,歐洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),418.1826047300607,17
+SRB,Serbia,塞爾維亞,EUROPE,歐洲,2020,BU CODF,Official finance (commitments),187.14,1
+SRB,Serbia,塞爾維亞,EUROPE,歐洲,2021,AEI CGIT,Construction,5410.0,4
+SRB,Serbia,塞爾維亞,EUROPE,歐洲,2021,AEI CGIT,Investment,410.0,1
+SRB,Serbia,塞爾維亞,EUROPE,歐洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),531.7068679968417,8
+SRB,Serbia,塞爾維亞,EUROPE,歐洲,2021,BU CODF,Official finance (commitments),158.0,1
+SRB,Serbia,塞爾維亞,EUROPE,歐洲,2022,AEI CGIT,Construction,1910.0,2
+SRB,Serbia,塞爾維亞,EUROPE,歐洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),804.2635056482411,14
+SRB,Serbia,塞爾維亞,EUROPE,歐洲,2022,BU CODF,Official finance (commitments),765.42,2
+SRB,Serbia,塞爾維亞,EUROPE,歐洲,2023,AEI CGIT,Construction,1620.0,3
+SRB,Serbia,塞爾維亞,EUROPE,歐洲,2023,AEI CGIT,Investment,1100.0,5
+SRB,Serbia,塞爾維亞,EUROPE,歐洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),161.298247500002,4
+SRB,Serbia,塞爾維亞,EUROPE,歐洲,2024,AEI CGIT,Construction,1270.0,4
+SRB,Serbia,塞爾維亞,EUROPE,歐洲,2024,AEI CGIT,Investment,310.0,1
+SRB,Serbia,塞爾維亞,EUROPE,歐洲,2026,AEI CGIT,Construction,580.0,2
+SRB,Serbia,塞爾維亞,EUROPE,歐洲,2026,AEI CGIT,Investment,820.0,2
+SSD,South Sudan,南蘇丹,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),24.62505051629744,22
+SSD,South Sudan,南蘇丹,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),2.120925765509427,9
+SSD,South Sudan,南蘇丹,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.114240722984097,8
+SSD,South Sudan,南蘇丹,AFRICA,非洲,2023,AEI CGIT,Construction,660.0,1
+SSD,South Sudan,南蘇丹,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,6
+STP,Sao Tome and Principe,聖多美普林西比,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1.0850228732411002,18
+STP,Sao Tome and Principe,聖多美普林西比,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1.8195816555613005,5
+STP,Sao Tome and Principe,聖多美普林西比,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),94.56750666872158,29
+STP,Sao Tome and Principe,聖多美普林西比,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,24
+SUR,Suriname,蘇利南,LATAM_CARIB,拉丁美洲與加勒比海,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),147.759624653166,5
+SUR,Suriname,蘇利南,LATAM_CARIB,拉丁美洲與加勒比海,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),142.09702241978238,9
+SUR,Suriname,蘇利南,LATAM_CARIB,拉丁美洲與加勒比海,2022,AEI CGIT,Investment,360.0,1
+SUR,Suriname,蘇利南,LATAM_CARIB,拉丁美洲與加勒比海,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1.5591165667804776,7
+SUR,Suriname,蘇利南,LATAM_CARIB,拉丁美洲與加勒比海,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,5
+SUR,Suriname,蘇利南,LATAM_CARIB,拉丁美洲與加勒比海,2025,AEI CGIT,Investment,350.0,1
+SVK,Slovakia,斯洛伐克,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0,2
+SVK,Slovakia,斯洛伐克,EUROPE,歐洲,2021,AEI CGIT,Investment,130.0,1
+SVK,Slovakia,斯洛伐克,EUROPE,歐洲,2024,AEI CGIT,Investment,1730.0,2
+SVN,Slovenia,斯洛維尼亞,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),0.5809693148120264,5
+SWE,Sweden,瑞典,EUROPE,歐洲,2020,AEI CGIT,Investment,380.0,1
+SWE,Sweden,瑞典,EUROPE,歐洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),0.3014136693330238,5
+SWE,Sweden,瑞典,EUROPE,歐洲,2021,AEI CGIT,Investment,400.0,2
+SWE,Sweden,瑞典,EUROPE,歐洲,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),46.85188856585208,4
+SWE,Sweden,瑞典,EUROPE,歐洲,2022,AEI CGIT,Investment,210.0,2
+SWE,Sweden,瑞典,EUROPE,歐洲,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),805.4716910415414,6
+SWE,Sweden,瑞典,EUROPE,歐洲,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),189.4794547152269,2
+SWE,Sweden,瑞典,EUROPE,歐洲,2025,AEI CGIT,Investment,1110.0,2
+SWZ,Eswatini,史瓦帝尼,AFRICA,非洲,2024,AEI CGIT,Construction,140.0,1
+SYC,Seychelles,塞席爾,AFRICA,非洲,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),0.1811889667732705,12
+SYC,Seychelles,塞席爾,AFRICA,非洲,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),0.6011604348449171,11
+SYC,Seychelles,塞席爾,AFRICA,非洲,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0530404309453521,9
+SYC,Seychelles,塞席爾,AFRICA,非洲,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),0.2873815711096089,13
+SYR,Syria,敘利亞,MIDEAST_CASIA,中東＋中亞,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0202381604851216,3
+SYR,Syria,敘利亞,MIDEAST_CASIA,中東＋中亞,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),15.768621995744011,6
+SYR,Syria,敘利亞,MIDEAST_CASIA,中東＋中亞,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),17.0085443648779,5
+SYR,Syria,敘利亞,MIDEAST_CASIA,中東＋中亞,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),6.87457923202329,4
+TCD,Chad,查德,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),3.2654956868431553,18
+TCD,Chad,查德,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),3.372923484430532,5
+TCD,Chad,查德,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0999818242131898,7
+TCD,Chad,查德,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.5875337761304229,10
+TCD,Chad,查德,AFRICA,非洲,2024,AEI CGIT,Construction,280.0,1
+TGO,Togo,多哥,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0340472161051267,16
+TGO,Togo,多哥,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),29.9437832424443,10
+TGO,Togo,多哥,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,11
+TGO,Togo,多哥,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.5189590399010305,6
+THA,Thailand,泰國,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AEI CGIT,Construction,1200.0,3
+THA,Thailand,泰國,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AEI CGIT,Investment,940.0,2
+THA,Thailand,泰國,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),132.55111889423316,18
+THA,Thailand,泰國,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AEI CGIT,Construction,590.0,3
+THA,Thailand,泰國,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AEI CGIT,Investment,280.0,1
+THA,Thailand,泰國,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),48.485522261018836,18
+THA,Thailand,泰國,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AEI CGIT,Construction,770.0,3
+THA,Thailand,泰國,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AEI CGIT,Investment,750.0,3
+THA,Thailand,泰國,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),117.15825852925357,17
+THA,Thailand,泰國,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AEI CGIT,Construction,270.0,1
+THA,Thailand,泰國,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AEI CGIT,Investment,1320.0,7
+THA,Thailand,泰國,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),132.82426239560945,14
+THA,Thailand,泰國,EAST_ASIA,東亞（東北亞＋東南亞）,2024,AEI CGIT,Construction,190.0,1
+THA,Thailand,泰國,EAST_ASIA,東亞（東北亞＋東南亞）,2024,AEI CGIT,Investment,2120.0,7
+THA,Thailand,泰國,EAST_ASIA,東亞（東北亞＋東南亞）,2025,AEI CGIT,Construction,380.0,2
+THA,Thailand,泰國,EAST_ASIA,東亞（東北亞＋東南亞）,2025,AEI CGIT,Investment,1940.0,8
+THA,Thailand,泰國,EAST_ASIA,東亞（東北亞＋東南亞）,2026,AEI CGIT,Investment,150.0,1
+TJK,Tajikistan,塔吉克,MIDEAST_CASIA,中東＋中亞,2020,AEI CGIT,Construction,430.0,2
+TJK,Tajikistan,塔吉克,MIDEAST_CASIA,中東＋中亞,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),628.1563473100224,14
+TJK,Tajikistan,塔吉克,MIDEAST_CASIA,中東＋中亞,2021,AEI CGIT,Construction,110.0,1
+TJK,Tajikistan,塔吉克,MIDEAST_CASIA,中東＋中亞,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),264.21323710965777,12
+TJK,Tajikistan,塔吉克,MIDEAST_CASIA,中東＋中亞,2022,AEI CGIT,Investment,480.0,1
+TJK,Tajikistan,塔吉克,MIDEAST_CASIA,中東＋中亞,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),95.03278484901409,6
+TJK,Tajikistan,塔吉克,MIDEAST_CASIA,中東＋中亞,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),120.6234080800582,6
+TJK,Tajikistan,塔吉克,MIDEAST_CASIA,中東＋中亞,2023,BU CODF,Official finance (commitments),35.0,1
+TJK,Tajikistan,塔吉克,MIDEAST_CASIA,中東＋中亞,2025,AEI CGIT,Construction,100.0,1
+TKM,Turkmenistan,土庫曼,MIDEAST_CASIA,中東＋中亞,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,1
+TKM,Turkmenistan,土庫曼,MIDEAST_CASIA,中東＋中亞,2021,AEI CGIT,Construction,7070.0,1
+TKM,Turkmenistan,土庫曼,MIDEAST_CASIA,中東＋中亞,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,4
+TKM,Turkmenistan,土庫曼,MIDEAST_CASIA,中東＋中亞,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),85.06634480267445,6
+TKM,Turkmenistan,土庫曼,MIDEAST_CASIA,中東＋中亞,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,1
+TKM,Turkmenistan,土庫曼,MIDEAST_CASIA,中東＋中亞,2026,AEI CGIT,Construction,4600.0,1
+TLS,Timor-Leste,東帝汶,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.7838081840928729,10
+TLS,Timor-Leste,東帝汶,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),2.9075929190017034,21
+TLS,Timor-Leste,東帝汶,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),11.858329978990785,14
+TLS,Timor-Leste,東帝汶,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.02,10
+TON,Tonga,東加,OCEANIA,大洋洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),14.016255070199012,8
+TON,Tonga,東加,OCEANIA,大洋洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,6
+TON,Tonga,東加,OCEANIA,大洋洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),10.96914761603633,20
+TON,Tonga,東加,OCEANIA,大洋洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.5598812175064309,8
+TTO,Trinidad and Tobago,千里達及托巴哥,LATAM_CARIB,拉丁美洲與加勒比海,2020,AEI CGIT,Construction,120.0,1
+TTO,Trinidad and Tobago,千里達及托巴哥,LATAM_CARIB,拉丁美洲與加勒比海,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),15.264841748799423,6
+TTO,Trinidad and Tobago,千里達及托巴哥,LATAM_CARIB,拉丁美洲與加勒比海,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),1.8023437008263838,9
+TTO,Trinidad and Tobago,千里達及托巴哥,LATAM_CARIB,拉丁美洲與加勒比海,2021,BU CODF,Official finance (commitments),204.0,1
+TTO,Trinidad and Tobago,千里達及托巴哥,LATAM_CARIB,拉丁美洲與加勒比海,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),0.0,10
+TTO,Trinidad and Tobago,千里達及托巴哥,LATAM_CARIB,拉丁美洲與加勒比海,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),0.2525989253466769,6
+TUN,Tunisia,突尼西亞,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,7
+TUN,Tunisia,突尼西亞,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),9.95912968152255,2
+TUN,Tunisia,突尼西亞,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),25.687575760363224,7
+TUN,Tunisia,突尼西亞,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,8
+TUN,Tunisia,突尼西亞,AFRICA,非洲,2024,AEI CGIT,Construction,200.0,1
+TUN,Tunisia,突尼西亞,AFRICA,非洲,2024,AEI CGIT,Investment,130.0,1
+TUR,Türkiye,土耳其,MIDEAST_CASIA,中東＋中亞,2020,AEI CGIT,Construction,600.0,1
+TUR,Türkiye,土耳其,MIDEAST_CASIA,中東＋中亞,2020,AEI CGIT,Investment,170.0,1
+TUR,Türkiye,土耳其,MIDEAST_CASIA,中東＋中亞,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1480.3537998467125,20
+TUR,Türkiye,土耳其,MIDEAST_CASIA,中東＋中亞,2021,AEI CGIT,Construction,1250.0,1
+TUR,Türkiye,土耳其,MIDEAST_CASIA,中東＋中亞,2021,AEI CGIT,Investment,350.0,1
+TUR,Türkiye,土耳其,MIDEAST_CASIA,中東＋中亞,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),11605.954530200132,26
+TUR,Türkiye,土耳其,MIDEAST_CASIA,中東＋中亞,2021,BU CODF,Official finance (commitments),1607.1599999999999,6
+TUR,Türkiye,土耳其,MIDEAST_CASIA,中東＋中亞,2022,AEI CGIT,Construction,160.0,1
+TUR,Türkiye,土耳其,MIDEAST_CASIA,中東＋中亞,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),770.8495189708804,17
+TUR,Türkiye,土耳其,MIDEAST_CASIA,中東＋中亞,2023,AEI CGIT,Construction,360.0,1
+TUR,Türkiye,土耳其,MIDEAST_CASIA,中東＋中亞,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),526.9127980089512,11
+TUR,Türkiye,土耳其,MIDEAST_CASIA,中東＋中亞,2024,AEI CGIT,Construction,300.0,1
+TUR,Türkiye,土耳其,MIDEAST_CASIA,中東＋中亞,2024,AEI CGIT,Investment,250.0,1
+TUR,Türkiye,土耳其,MIDEAST_CASIA,中東＋中亞,2024,BU CODF,Official finance (commitments),587.1,3
+TUR,Türkiye,土耳其,MIDEAST_CASIA,中東＋中亞,2025,AEI CGIT,Investment,220.0,1
+TZA,Tanzania,坦尚尼亞,AFRICA,非洲,2020,AEI CGIT,Construction,100.0,1
+TZA,Tanzania,坦尚尼亞,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),52.433667677090426,18
+TZA,Tanzania,坦尚尼亞,AFRICA,非洲,2021,AEI CGIT,Construction,1320.0,1
+TZA,Tanzania,坦尚尼亞,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),45.05664600359909,19
+TZA,Tanzania,坦尚尼亞,AFRICA,非洲,2022,AEI CGIT,Construction,410.0,2
+TZA,Tanzania,坦尚尼亞,AFRICA,非洲,2022,AEI CGIT,Investment,220.0,1
+TZA,Tanzania,坦尚尼亞,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),124.09878253519794,14
+TZA,Tanzania,坦尚尼亞,AFRICA,非洲,2022,BU CLA,Official & commercial loans to Africa (commitments),56.72,1
+TZA,Tanzania,坦尚尼亞,AFRICA,非洲,2022,BU CODF,Official finance (commitments),56.72,1
+TZA,Tanzania,坦尚尼亞,AFRICA,非洲,2023,AEI CGIT,Construction,3140.0,4
+TZA,Tanzania,坦尚尼亞,AFRICA,非洲,2023,AEI CGIT,Investment,110.0,1
+TZA,Tanzania,坦尚尼亞,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),9.935282019410305,22
+TZA,Tanzania,坦尚尼亞,AFRICA,非洲,2024,AEI CGIT,Construction,380.0,2
+TZA,Tanzania,坦尚尼亞,AFRICA,非洲,2025,AEI CGIT,Construction,1410.0,1
+TZA,Tanzania,坦尚尼亞,AFRICA,非洲,2025,AEI CGIT,Investment,1370.0,3
+UGA,Uganda,烏干達,AFRICA,非洲,2020,AEI CGIT,Construction,390.0,3
+UGA,Uganda,烏干達,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),471.2605408553071,15
+UGA,Uganda,烏干達,AFRICA,非洲,2020,BU CLA,Official & commercial loans to Africa (commitments),456.39,3
+UGA,Uganda,烏干達,AFRICA,非洲,2020,BU CODF,Official finance (commitments),456.39,3
+UGA,Uganda,烏干達,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),33.26895175554511,11
+UGA,Uganda,烏干達,AFRICA,非洲,2021,BU CLA,Official & commercial loans to Africa (commitments),178.2,1
+UGA,Uganda,烏干達,AFRICA,非洲,2022,AEI CGIT,Construction,610.0,1
+UGA,Uganda,烏干達,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),193.49912884431683,12
+UGA,Uganda,烏干達,AFRICA,非洲,2022,BU CLA,Official & commercial loans to Africa (commitments),119.1,1
+UGA,Uganda,烏干達,AFRICA,非洲,2022,BU CODF,Official finance (commitments),119.1,1
+UGA,Uganda,烏干達,AFRICA,非洲,2023,AEI CGIT,Construction,300.0,2
+UGA,Uganda,烏干達,AFRICA,非洲,2023,AEI CGIT,Investment,300.0,1
+UGA,Uganda,烏干達,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),334.536825606733,14
+UGA,Uganda,烏干達,AFRICA,非洲,2023,BU CLA,Official & commercial loans to Africa (commitments),359.35,2
+UGA,Uganda,烏干達,AFRICA,非洲,2023,BU CODF,Official finance (commitments),359.35,2
+UGA,Uganda,烏干達,AFRICA,非洲,2024,AEI CGIT,Construction,290.0,2
+UKR,Ukraine,烏克蘭,EUROPE,歐洲,2020,AEI CGIT,Construction,240.0,1
+UKR,Ukraine,烏克蘭,EUROPE,歐洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),2.4911780880039567,21
+UKR,Ukraine,烏克蘭,EUROPE,歐洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,5
+UKR,Ukraine,烏克蘭,EUROPE,歐洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),4.148194986767457,5
+UKR,Ukraine,烏克蘭,EUROPE,歐洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.476253725490199,2
+URY,Uruguay,烏拉圭,LATAM_CARIB,拉丁美洲與加勒比海,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),0.1933544916486201,21
+URY,Uruguay,烏拉圭,LATAM_CARIB,拉丁美洲與加勒比海,2021,AEI CGIT,Construction,180.0,1
+URY,Uruguay,烏拉圭,LATAM_CARIB,拉丁美洲與加勒比海,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),38.7299487614765,4
+URY,Uruguay,烏拉圭,LATAM_CARIB,拉丁美洲與加勒比海,2022,AEI CGIT,Construction,340.0,1
+URY,Uruguay,烏拉圭,LATAM_CARIB,拉丁美洲與加勒比海,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),1.457955462150346,3
+URY,Uruguay,烏拉圭,LATAM_CARIB,拉丁美洲與加勒比海,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),1.977277131208155,4
+USA,United States,美國,NORTH_AMERICA,北美,2020,AEI CGIT,Investment,1920.0,7
+USA,United States,美國,NORTH_AMERICA,北美,2020,AidData CLG-Global 1.0,OFIC (commercial official finance),17805.288870240656,196
+USA,United States,美國,NORTH_AMERICA,北美,2021,AEI CGIT,Investment,4400.0,9
+USA,United States,美國,NORTH_AMERICA,北美,2021,AidData CLG-Global 1.0,OFIC (commercial official finance),13195.73125683137,171
+USA,United States,美國,NORTH_AMERICA,北美,2022,AEI CGIT,Investment,2590.0,5
+USA,United States,美國,NORTH_AMERICA,北美,2022,AidData CLG-Global 1.0,OFIC (commercial official finance),20251.647973891995,178
+USA,United States,美國,NORTH_AMERICA,北美,2023,AEI CGIT,Investment,2680.0,8
+USA,United States,美國,NORTH_AMERICA,北美,2023,AidData CLG-Global 1.0,OFIC (commercial official finance),18766.046131120595,154
+USA,United States,美國,NORTH_AMERICA,北美,2024,AEI CGIT,Investment,1630.0,8
+USA,United States,美國,NORTH_AMERICA,北美,2025,AEI CGIT,Investment,4080.0,8
+USA,United States,美國,NORTH_AMERICA,北美,2026,AEI CGIT,Investment,1380.0,5
+UZB,Uzbekistan,烏茲別克,MIDEAST_CASIA,中東＋中亞,2020,AEI CGIT,Construction,420.0,3
+UZB,Uzbekistan,烏茲別克,MIDEAST_CASIA,中東＋中亞,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),992.9690397458061,18
+UZB,Uzbekistan,烏茲別克,MIDEAST_CASIA,中東＋中亞,2020,BU CODF,Official finance (commitments),309.0,1
+UZB,Uzbekistan,烏茲別克,MIDEAST_CASIA,中東＋中亞,2021,AEI CGIT,Construction,630.0,2
+UZB,Uzbekistan,烏茲別克,MIDEAST_CASIA,中東＋中亞,2021,AEI CGIT,Investment,610.0,2
+UZB,Uzbekistan,烏茲別克,MIDEAST_CASIA,中東＋中亞,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),697.1342693058416,10
+UZB,Uzbekistan,烏茲別克,MIDEAST_CASIA,中東＋中亞,2021,BU CODF,Official finance (commitments),827.5,3
+UZB,Uzbekistan,烏茲別克,MIDEAST_CASIA,中東＋中亞,2022,AEI CGIT,Construction,270.0,1
+UZB,Uzbekistan,烏茲別克,MIDEAST_CASIA,中東＋中亞,2022,AEI CGIT,Investment,130.0,1
+UZB,Uzbekistan,烏茲別克,MIDEAST_CASIA,中東＋中亞,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),403.7532015078129,10
+UZB,Uzbekistan,烏茲別克,MIDEAST_CASIA,中東＋中亞,2022,BU CODF,Official finance (commitments),74.18,1
+UZB,Uzbekistan,烏茲別克,MIDEAST_CASIA,中東＋中亞,2023,AEI CGIT,Construction,2910.0,8
+UZB,Uzbekistan,烏茲別克,MIDEAST_CASIA,中東＋中亞,2023,AEI CGIT,Investment,670.0,3
+UZB,Uzbekistan,烏茲別克,MIDEAST_CASIA,中東＋中亞,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1290.565975450126,17
+UZB,Uzbekistan,烏茲別克,MIDEAST_CASIA,中東＋中亞,2023,BU CODF,Official finance (commitments),448.9,2
+UZB,Uzbekistan,烏茲別克,MIDEAST_CASIA,中東＋中亞,2024,AEI CGIT,Construction,1420.0,5
+UZB,Uzbekistan,烏茲別克,MIDEAST_CASIA,中東＋中亞,2024,AEI CGIT,Investment,1260.0,3
+UZB,Uzbekistan,烏茲別克,MIDEAST_CASIA,中東＋中亞,2024,BU CODF,Official finance (commitments),417.87,2
+UZB,Uzbekistan,烏茲別克,MIDEAST_CASIA,中東＋中亞,2025,AEI CGIT,Construction,870.0,4
+UZB,Uzbekistan,烏茲別克,MIDEAST_CASIA,中東＋中亞,2025,AEI CGIT,Investment,1520.0,6
+UZB,Uzbekistan,烏茲別克,MIDEAST_CASIA,中東＋中亞,2026,AEI CGIT,Investment,170.0,1
+VEN,Venezuela,委內瑞拉,LATAM_CARIB,拉丁美洲與加勒比海,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),28.289096957748857,13
+VEN,Venezuela,委內瑞拉,LATAM_CARIB,拉丁美洲與加勒比海,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),14.804088714463127,7
+VEN,Venezuela,委內瑞拉,LATAM_CARIB,拉丁美洲與加勒比海,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),4.4557992418212224,3
+VEN,Venezuela,委內瑞拉,LATAM_CARIB,拉丁美洲與加勒比海,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,1
+VNM,Vietnam,越南,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AEI CGIT,Construction,3020.0,5
+VNM,Vietnam,越南,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AEI CGIT,Investment,1440.0,4
+VNM,Vietnam,越南,EAST_ASIA,東亞（東北亞＋東南亞）,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),789.3400720204504,21
+VNM,Vietnam,越南,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AEI CGIT,Construction,740.0,2
+VNM,Vietnam,越南,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AEI CGIT,Investment,1460.0,4
+VNM,Vietnam,越南,EAST_ASIA,東亞（東北亞＋東南亞）,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),281.2094424979912,19
+VNM,Vietnam,越南,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AEI CGIT,Construction,380.0,2
+VNM,Vietnam,越南,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AEI CGIT,Investment,560.0,3
+VNM,Vietnam,越南,EAST_ASIA,東亞（東北亞＋東南亞）,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),76.49922309772498,17
+VNM,Vietnam,越南,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AEI CGIT,Construction,260.0,1
+VNM,Vietnam,越南,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AEI CGIT,Investment,2770.0,12
+VNM,Vietnam,越南,EAST_ASIA,東亞（東北亞＋東南亞）,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),20.0,1
+VNM,Vietnam,越南,EAST_ASIA,東亞（東北亞＋東南亞）,2024,AEI CGIT,Construction,880.0,3
+VNM,Vietnam,越南,EAST_ASIA,東亞（東北亞＋東南亞）,2024,AEI CGIT,Investment,1940.0,10
+VNM,Vietnam,越南,EAST_ASIA,東亞（東北亞＋東南亞）,2025,AEI CGIT,Construction,2030.0,6
+VNM,Vietnam,越南,EAST_ASIA,東亞（東北亞＋東南亞）,2025,AEI CGIT,Investment,320.0,2
+VNM,Vietnam,越南,EAST_ASIA,東亞（東北亞＋東南亞）,2026,AEI CGIT,Construction,610.0,2
+VNM,Vietnam,越南,EAST_ASIA,東亞（東北亞＋東南亞）,2026,AEI CGIT,Investment,350.0,2
+VUT,Vanuatu,萬那杜,OCEANIA,大洋洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1.016898831701899,12
+VUT,Vanuatu,萬那杜,OCEANIA,大洋洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),62.54036634085007,10
+VUT,Vanuatu,萬那杜,OCEANIA,大洋洲,2021,BU CODF,Official finance (commitments),40.32,1
+VUT,Vanuatu,萬那杜,OCEANIA,大洋洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),2.187411104985462,7
+VUT,Vanuatu,萬那杜,OCEANIA,大洋洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),2.03638277365282,14
+WSM,Samoa,薩摩亞,OCEANIA,大洋洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.7225553948180427,12
+WSM,Samoa,薩摩亞,OCEANIA,大洋洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.4768822947575259,10
+WSM,Samoa,薩摩亞,OCEANIA,大洋洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),5.435577137701591,5
+WSM,Samoa,薩摩亞,OCEANIA,大洋洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0183562088407907,9
+YEM,Yemen,葉門,MIDEAST_CASIA,中東＋中亞,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),25.220561606744266,7
+YEM,Yemen,葉門,MIDEAST_CASIA,中東＋中亞,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.0,1
+YEM,Yemen,葉門,MIDEAST_CASIA,中東＋中亞,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1.1513130575532402,2
+YEM,Yemen,葉門,MIDEAST_CASIA,中東＋中亞,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1.0,2
+ZAF,South Africa,南非,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),707.8619885400241,54
+ZAF,South Africa,南非,AFRICA,非洲,2021,AEI CGIT,Construction,460.0,1
+ZAF,South Africa,南非,AFRICA,非洲,2021,AEI CGIT,Investment,700.0,1
+ZAF,South Africa,南非,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),162.95216070172341,16
+ZAF,South Africa,南非,AFRICA,非洲,2022,AEI CGIT,Construction,110.0,1
+ZAF,South Africa,南非,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),41.55424743713437,16
+ZAF,South Africa,南非,AFRICA,非洲,2023,AEI CGIT,Construction,330.0,2
+ZAF,South Africa,南非,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),1274.3880590182682,34
+ZAF,South Africa,南非,AFRICA,非洲,2024,AEI CGIT,Construction,1020.0,4
+ZAF,South Africa,南非,AFRICA,非洲,2024,AEI CGIT,Investment,140.0,1
+ZAF,South Africa,南非,AFRICA,非洲,2025,AEI CGIT,Construction,880.0,4
+ZAF,South Africa,南非,AFRICA,非洲,2026,AEI CGIT,Construction,730.0,2
+ZAF,South Africa,南非,AFRICA,非洲,2026,AEI CGIT,Investment,150.0,1
+ZMB,Zambia,尚比亞,AFRICA,非洲,2020,AEI CGIT,Construction,1310.0,3
+ZMB,Zambia,尚比亞,AFRICA,非洲,2020,AEI CGIT,Investment,140.0,1
+ZMB,Zambia,尚比亞,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.5639116595433573,5
+ZMB,Zambia,尚比亞,AFRICA,非洲,2020,BU CLA,Official & commercial loans to Africa (commitments),99.89,2
+ZMB,Zambia,尚比亞,AFRICA,非洲,2021,AEI CGIT,Investment,150.0,1
+ZMB,Zambia,尚比亞,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),18.329160357784335,13
+ZMB,Zambia,尚比亞,AFRICA,非洲,2022,AEI CGIT,Construction,460.0,1
+ZMB,Zambia,尚比亞,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),17.03357129923411,7
+ZMB,Zambia,尚比亞,AFRICA,非洲,2023,AEI CGIT,Construction,290.0,2
+ZMB,Zambia,尚比亞,AFRICA,非洲,2023,AEI CGIT,Investment,750.0,2
+ZMB,Zambia,尚比亞,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),0.03959478695035,8
+ZMB,Zambia,尚比亞,AFRICA,非洲,2024,AEI CGIT,Investment,1280.0,4
+ZMB,Zambia,尚比亞,AFRICA,非洲,2025,AEI CGIT,Construction,400.0,2
+ZMB,Zambia,尚比亞,AFRICA,非洲,2025,AEI CGIT,Investment,1390.0,3
+ZMB,Zambia,尚比亞,AFRICA,非洲,2026,AEI CGIT,Investment,280.0,1
+ZWE,Zimbabwe,辛巴威,AFRICA,非洲,2020,AEI CGIT,Construction,630.0,1
+ZWE,Zimbabwe,辛巴威,AFRICA,非洲,2020,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),5.6302105709951435,25
+ZWE,Zimbabwe,辛巴威,AFRICA,非洲,2021,AEI CGIT,Construction,110.0,1
+ZWE,Zimbabwe,辛巴威,AFRICA,非洲,2021,AEI CGIT,Investment,550.0,2
+ZWE,Zimbabwe,辛巴威,AFRICA,非洲,2021,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),120.62207650155487,17
+ZWE,Zimbabwe,辛巴威,AFRICA,非洲,2022,AEI CGIT,Investment,1670.0,5
+ZWE,Zimbabwe,辛巴威,AFRICA,非洲,2022,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),136.0683549190237,7
+ZWE,Zimbabwe,辛巴威,AFRICA,非洲,2023,AEI CGIT,Investment,180.0,1
+ZWE,Zimbabwe,辛巴威,AFRICA,非洲,2023,AidData CLG-Global 1.0,ODA+OOF (official development/aid finance),6.0377569542249,5
+ZWE,Zimbabwe,辛巴威,AFRICA,非洲,2025,AEI CGIT,Investment,360.0,2

@@ -1,0 +1,7 @@
+# 原始資料不上傳（授權與體積）；下載方式與 SHA256 見 data/raw/MANIFEST.md
+data/raw/*
+!data/raw/MANIFEST.md
+data/clean/aiddata_clg_global_1.0_records.parquet
+data/clean/_inspect_output.txt
+scripts/__pycache__/
+.DS_Store

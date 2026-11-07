@@ -1,0 +1,520 @@
+source,country_raw,country_iso3
+AidData,Afghanistan,AFG
+AidData,"Africa, regional",REGIONAL
+AidData,Albania,ALB
+AidData,Algeria,DZA
+AidData,"America, regional",REGIONAL
+AidData,Angola,AGO
+AidData,Antigua and Barbuda,ATG
+AidData,Argentina,ARG
+AidData,Armenia,ARM
+AidData,"Asia, regional",REGIONAL
+AidData,Australia,AUS
+AidData,Azerbaijan,AZE
+AidData,Bahamas,BHS
+AidData,Bangladesh,BGD
+AidData,Barbados,BRB
+AidData,Belarus,BLR
+AidData,Belgium,BEL
+AidData,Benin,BEN
+AidData,Bolivia,BOL
+AidData,Bosnia and Herzegovina,BIH
+AidData,Botswana,BWA
+AidData,Brazil,BRA
+AidData,Brunei Darussalam,BRN
+AidData,Bulgaria,BGR
+AidData,Burkina Faso,BFA
+AidData,Burundi,BDI
+AidData,Cabo Verde,CPV
+AidData,Cambodia,KHM
+AidData,Cameroon,CMR
+AidData,Canada,CAN
+AidData,Central African Republic,CAF
+AidData,Chad,TCD
+AidData,Chile,CHL
+AidData,Colombia,COL
+AidData,Comoros,COM
+AidData,Congo,COG
+AidData,Cook Islands,COK
+AidData,Costa Rica,CRI
+AidData,Cote d'Ivoire,CIV
+AidData,Cuba,CUB
+AidData,Czech Republic,CZE
+AidData,Democratic Republic of the Congo,COD
+AidData,Djibouti,DJI
+AidData,Dominica,DMA
+AidData,Dominican Republic,DOM
+AidData,Ecuador,ECU
+AidData,Egypt,EGY
+AidData,El Salvador,SLV
+AidData,Equatorial Guinea,GNQ
+AidData,Eritrea,ERI
+AidData,Ethiopia,ETH
+AidData,Fiji,FJI
+AidData,France,FRA
+AidData,Gabon,GAB
+AidData,Gambia,GMB
+AidData,Georgia,GEO
+AidData,Germany,DEU
+AidData,Ghana,GHA
+AidData,Greece,GRC
+AidData,Grenada,GRD
+AidData,Guinea,GIN
+AidData,Guinea-Bissau,GNB
+AidData,Guyana,GUY
+AidData,Honduras,HND
+AidData,Hungary,HUN
+AidData,India,IND
+AidData,Indonesia,IDN
+AidData,Iran,IRN
+AidData,Iraq,IRQ
+AidData,Ireland,IRL
+AidData,Italy,ITA
+AidData,Jamaica,JAM
+AidData,Japan,JPN
+AidData,Jordan,JOR
+AidData,Kazakhstan,KAZ
+AidData,Kenya,KEN
+AidData,Kiribati,KIR
+AidData,Kuwait,KWT
+AidData,Kyrgyz Republic,KGZ
+AidData,Lao People's Democratic Republic,LAO
+AidData,Lebanon,LBN
+AidData,Lesotho,LSO
+AidData,Liberia,LBR
+AidData,Libya,LBY
+AidData,Luxembourg,LUX
+AidData,Madagascar,MDG
+AidData,Malawi,MWI
+AidData,Malaysia,MYS
+AidData,Maldives,MDV
+AidData,Mali,MLI
+AidData,Malta,MLT
+AidData,Marshall Islands,MHL
+AidData,Mauritania,MRT
+AidData,Mauritius,MUS
+AidData,Mexico,MEX
+AidData,Micronesia,FSM
+AidData,Moldova,MDA
+AidData,Mongolia,MNG
+AidData,Montenegro,MNE
+AidData,Morocco,MAR
+AidData,Mozambique,MOZ
+AidData,Multi-Region,REGIONAL
+AidData,Myanmar,MMR
+AidData,Namibia,NAM
+AidData,Nepal,NPL
+AidData,Netherlands,NLD
+AidData,New Zealand,NZL
+AidData,Nicaragua,NIC
+AidData,Niger,NER
+AidData,Nigeria,NGA
+AidData,North Macedonia,MKD
+AidData,Norway,NOR
+AidData,Oman,OMN
+AidData,Pakistan,PAK
+AidData,Papua New Guinea,PNG
+AidData,Peru,PER
+AidData,Philippines,PHL
+AidData,Poland,POL
+AidData,Portugal,PRT
+AidData,Qatar,QAT
+AidData,Russia,RUS
+AidData,Rwanda,RWA
+AidData,Samoa,WSM
+AidData,Sao Tome and Principe,STP
+AidData,Saudi Arabia,SAU
+AidData,Senegal,SEN
+AidData,Serbia,SRB
+AidData,Seychelles,SYC
+AidData,Sierra Leone,SLE
+AidData,Singapore,SGP
+AidData,Solomon Islands,SLB
+AidData,Somalia,SOM
+AidData,South Africa,ZAF
+AidData,South Sudan,SSD
+AidData,Spain,ESP
+AidData,Sri Lanka,LKA
+AidData,Sudan,SDN
+AidData,Suriname,SUR
+AidData,Sweden,SWE
+AidData,Switzerland,CHE
+AidData,Syrian Arab Republic,SYR
+AidData,Tajikistan,TJK
+AidData,Tanzania,TZA
+AidData,Thailand,THA
+AidData,Timor-Leste,TLS
+AidData,Togo,TGO
+AidData,Tonga,TON
+AidData,Trinidad and Tobago,TTO
+AidData,Tunisia,TUN
+AidData,Turkey,TUR
+AidData,Turkmenistan,TKM
+AidData,Uganda,UGA
+AidData,Ukraine,UKR
+AidData,United Arab Emirates,ARE
+AidData,United Kingdom,GBR
+AidData,United States,USA
+AidData,Uruguay,URY
+AidData,Uzbekistan,UZB
+AidData,Vanuatu,VUT
+AidData,Venezuela,VEN
+AidData,Viet Nam,VNM
+AidData,West Bank and Gaza Strip,PSE
+AidData,Yemen,YEM
+AidData,Zambia,ZMB
+AidData,Zimbabwe,ZWE
+AidData,American Samoa,ASM
+AidData,Austria,AUT
+AidData,Cyprus,CYP
+AidData,Democratic People's Republic of Korea,PRK
+AidData,Denmark,DNK
+AidData,"Europe, regional",REGIONAL
+AidData,Korea,KOR
+AidData,Latvia,LVA
+AidData,"Middle East, regional",REGIONAL
+AidData,Panama,PAN
+AidData,Finland,FIN
+AidData,Guatemala,GTM
+AidData,Israel,ISR
+AidData,Niue,NIU
+AidData,Puerto Rico,PRI
+AidData,Romania,ROU
+AidData,Bahrain,BHR
+AidData,Bermuda,BMU
+AidData,Croatia,HRV
+AidData,Curacao,CUW
+AidData,Estonia,EST
+AidData,French Polynesia,PYF
+AidData,Iceland,ISL
+AidData,Nauru,NRU
+AidData,New Caledonia,NCL
+AidData,"Oceania, regional",REGIONAL
+AidData,Saint Lucia,LCA
+AidData,Slovak Republic,SVK
+AidData,Slovenia,SVN
+AidData,Haiti,HTI
+AidData,Greenland,GRL
+AidData,Lithuania,LTU
+AidData,Monaco,MCO
+AidData,Paraguay,PRY
+AidData,Sint Maarten (Dutch part),SXM
+AidData,Andorra,AND
+AidData,Isle of Man,IMN
+AidData,Jersey,JEY
+AidData,San Marino,SMR
+AidData,Cayman Islands,CYM
+AidData,Guam,GUM
+AidData,Palau,PLW
+CODF,Argentina,ARG
+CODF,Mongolia,MNG
+CODF,Kazakhstan,KAZ
+CODF,Maldives,MDV
+CODF,Bangladesh,BGD
+CODF,"Iran, Islamic Republic",IRN
+CODF,Vietnam,VNM
+CODF,Samoa,WSM
+CODF,Tonga,TON
+CODF,Vanuatu,VUT
+CODF,Myanmar,MMR
+CODF,Papua New Guinea,PNG
+CODF,Philippines,PHL
+CODF,Lao People's Democratic Republic,LAO
+CODF,Malaysia,MYS
+CODF,Indonesia,IDN
+CODF,Cambodia,KHM
+CODF,Fiji,FJI
+CODF,Uzbekistan,UZB
+CODF,Russian Federation,RUS
+CODF,Tajikistan,TJK
+CODF,Ecuador,ECU
+CODF,Venezuela,VEN
+CODF,Suriname,SUR
+CODF,Trinidad and Tobago,TTO
+CODF,Jamaica,JAM
+CODF,Sri Lanka,LKA
+CODF,Syrian Arab Republic,SYR
+CODF,Türkiye,TUR
+CODF,Guyana,GUY
+CODF,Pakistan,PAK
+CODF,Bahamas,BHS
+CODF,Cuba,CUB
+CODF,Antigua and Barbuda,ATG
+CODF,Brazil,BRA
+CODF,South Africa,ZAF
+CODF,North Macedonia,MKD
+CODF,Nepal,NPL
+CODF,Bolivia,BOL
+CODF,Belarus,BLR
+CODF,Bulgaria,BGR
+CODF,Grenada,GRD
+CODF,Costa Rica,CRI
+CODF,Serbia,SRB
+CODF,Bosnia and Herzegovina,BIH
+CODF,Ukraine,UKR
+CODF,Kyrgyz Republic,KGZ
+CODF,Solomon Islands,SLB
+CODF,Hungary,HUN
+CODF,Angola,AGO
+CODF,Senegal,SEN
+CODF,Turkmenistan,TKM
+CODF,Egypt,EGY
+CODF,Barbados,BRB
+CODF,Regional,REGIONAL
+CODF,Mexico,MEX
+CODF,Dominica,DMA
+CODF,Zimbabwe,ZWE
+CODF,Cameroon,CMR
+CODF,Zambia,ZMB
+CODF,Ghana,GHA
+CODF,Rwanda,RWA
+CODF,"Congo, Republic of the",COG
+CODF,"Congo, Democratic Republic of the",COD
+CODF,Kenya,KEN
+CODF,Togo,TGO
+CODF,Equatorial Guinea,GNQ
+CODF,Tanzania,TZA
+CODF,Mozambique,MOZ
+CODF,Uganda,UGA
+CODF,Madagascar,MDG
+CODF,Malawi,MWI
+CODF,Mauritius,MUS
+CODF,Lesotho,LSO
+CODF,South Sudan,SSD
+CODF,Eritrea,ERI
+CODF,Ethiopia,ETH
+CODF,Nigeria,NGA
+CODF,Burkina Faso,BFA
+CODF,Mali,MLI
+CODF,Guinea,GIN
+CODF,Tunisia,TUN
+CODF,Côte d’Ivoire,CIV
+CODF,Morocco,MAR
+CODF,Niger,NER
+CODF,Djibouti,DJI
+CODF,Mauritania,MRT
+CODF,Benin,BEN
+CODF,Comoros,COM
+CODF,Namibia,NAM
+CODF,Burundi,BDI
+CODF,Gabon,GAB
+CODF,Gambia,GMB
+CODF,Chad,TCD
+CODF,Liberia,LBR
+CODF,Sierra Leone,SLE
+CODF,Sudan,SDN
+CODF,Montenegro,MNE
+CODF,Peru,PER
+CLA,"Regional, Africa",REGIONAL
+CLA,Angola,AGO
+CLA,Burkina Faso,BFA
+CLA,Burundi,BDI
+CLA,Benin,BEN
+CLA,Botswana,BWA
+CLA,"Congo, Democratic Republic of the",COD
+CLA,Central African Republic,CAF
+CLA,"Congo, Republic of the",COG
+CLA,Côte d’Ivoire,CIV
+CLA,Cameroon,CMR
+CLA,Cabo Verde,CPV
+CLA,Djibouti,DJI
+CLA,Algeria,DZA
+CLA,Egypt,EGY
+CLA,Eritrea,ERI
+CLA,Ethiopia,ETH
+CLA,Gabon,GAB
+CLA,Gambia,GMB
+CLA,Ghana,GHA
+CLA,Guinea,GIN
+CLA,Equatorial Guinea,GNQ
+CLA,Kenya,KEN
+CLA,Comoros,COM
+CLA,Liberia,LBR
+CLA,Lesotho,LSO
+CLA,Morocco,MAR
+CLA,Madagascar,MDG
+CLA,Mali,MLI
+CLA,Mauritania,MRT
+CLA,Mauritius,MUS
+CLA,Malawi,MWI
+CLA,Mozambique,MOZ
+CLA,Namibia,NAM
+CLA,Niger,NER
+CLA,Nigeria,NGA
+CLA,Rwanda,RWA
+CLA,Seychelles,SYC
+CLA,Sudan,SDN
+CLA,Sierra Leone,SLE
+CLA,Senegal,SEN
+CLA,South Sudan,SSD
+CLA,Chad,TCD
+CLA,Togo,TGO
+CLA,Tunisia,TUN
+CLA,Tanzania,TZA
+CLA,Uganda,UGA
+CLA,South Africa,ZAF
+CLA,Zambia,ZMB
+CLA,Zimbabwe,ZWE
+CGIT,USA,USA
+CGIT,Cuba,CUB
+CGIT,Papua New Guinea,PNG
+CGIT,Canada,CAN
+CGIT,Britain,GBR
+CGIT,Cambodia,KHM
+CGIT,Kazakhstan,KAZ
+CGIT,Ecuador,ECU
+CGIT,Mongolia,MNG
+CGIT,Australia,AUS
+CGIT,Syria,SYR
+CGIT,Thailand,THA
+CGIT,Nigeria,NGA
+CGIT,France,FRA
+CGIT,Chad,TCD
+CGIT,Russian Federation,RUS
+CGIT,Angola,AGO
+CGIT,Indonesia,IDN
+CGIT,Japan,JPN
+CGIT,Colombia,COL
+CGIT,Egypt,EGY
+CGIT,South Africa,ZAF
+CGIT,Zambia,ZMB
+CGIT,Democratic Republic of the Congo,COD
+CGIT,Laos,LAO
+CGIT,Singapore,SGP
+CGIT,Netherlands,NLD
+CGIT,Pakistan,PAK
+CGIT,Peru,PER
+CGIT,India,IND
+CGIT,Germany,DEU
+CGIT,Mexico,MEX
+CGIT,Myanmar,MMR
+CGIT,Belgium,BEL
+CGIT,Saudi Arabia,SAU
+CGIT,Afghanistan,AFG
+CGIT,Zimbabwe,ZWE
+CGIT,Iran,IRN
+CGIT,Ghana,GHA
+CGIT,Philippines,PHL
+CGIT,Yemen,YEM
+CGIT,Brazil,BRA
+CGIT,Italy,ITA
+CGIT,Niger,NER
+CGIT,Norway,NOR
+CGIT,Turkey,TUR
+CGIT,Greece,GRC
+CGIT,Liberia,LBR
+CGIT,Iraq,IRQ
+CGIT,Trinidad-Tobago,TTO
+CGIT,Switzerland,CHE
+CGIT,Mauritius,MUS
+CGIT,Qatar,QAT
+CGIT,Turkmenistan,TKM
+CGIT,Spain,ESP
+CGIT,Bahamas,BHS
+CGIT,Sudan,SDN
+CGIT,Bulgaria,BGR
+CGIT,Austria,AUT
+CGIT,Uzbekistan,UZB
+CGIT,Chile,CHL
+CGIT,Malaysia,MYS
+CGIT,Hungary,HUN
+CGIT,Sweden,SWE
+CGIT,Cameroon,CMR
+CGIT,Argentina,ARG
+CGIT,Sierra Leone,SLE
+CGIT,Venezuela,VEN
+CGIT,Ethiopia,ETH
+CGIT,South Korea,KOR
+CGIT,Jamaica,JAM
+CGIT,Israel,ISR
+CGIT,Georgia,GEO
+CGIT,Belarus,BLR
+CGIT,Nepal,NPL
+CGIT,North Korea,PRK
+CGIT,Congo,COG
+CGIT,Vietnam,VNM
+CGIT,Sri Lanka,LKA
+CGIT,Portugal,PRT
+CGIT,Madagascar,MDG
+CGIT,Poland,POL
+CGIT,Guyana,GUY
+CGIT,New Zealand,NZL
+CGIT,Guinea,GIN
+CGIT,Togo,TGO
+CGIT,Mozambique,MOZ
+CGIT,Nicaragua,NIC
+CGIT,Uganda,UGA
+CGIT,Tajikistan,TJK
+CGIT,Taiwan,TWN
+CGIT,Djibouti,DJI
+CGIT,UAE,
+CGIT,Sao Tome,STP
+CGIT,Luxembourg,LUX
+CGIT,Namibia,NAM
+CGIT,Gabon,GAB
+CGIT,Kyrgyzstan,KGZ
+CGIT,Malta,MLT
+CGIT,Antigua and Barbuda,ATG
+CGIT,Serbia,SRB
+CGIT,Brunei,BRN
+CGIT,Rwanda,RWA
+CGIT,Kenya,KEN
+CGIT,Czech Republic,CZE
+CGIT,Bangladesh,BGD
+CGIT,Ireland,IRL
+CGIT,Jordan,JOR
+CGIT,Malawi,MWI
+CGIT,Finland,FIN
+CGIT,Panama,PAN
+CGIT,Ukraine,UKR
+CGIT,Slovenia,SVN
+CGIT,Guinea-Bissau,GNB
+CGIT,Denmark,DNK
+CGIT,Samoa,WSM
+CGIT,Oman,OMN
+CGIT,Montenegro,MNE
+CGIT,Maldives,MDV
+CGIT,Kuwait,KWT
+CGIT,Croatia,HRV
+CGIT,Tanzania,TZA
+CGIT,Morocco,MAR
+CGIT,Azerbaijan,AZE
+CGIT,Solomon Islands,SLB
+CGIT,Bosnia,BIH
+CGIT,Eritrea,ERI
+CGIT,Slovakia,SVK
+CGIT,Algeria,DZA
+CGIT,Suriname,SUR
+CGIT,Mali,MLI
+CGIT,Ivory Coast,CIV
+CGIT,Bolivia,BOL
+CGIT,Botswana,BWA
+CGIT,Tunisia,TUN
+CGIT,Cyprus,CYP
+CGIT,Mauritania,MRT
+CGIT,Equatorial Guinea,GNQ
+CGIT,Libya,LBY
+CGIT,Costa Rica,CRI
+CGIT,Fiji,FJI
+CGIT,Senegal,SEN
+CGIT,Guatemala,GTM
+CGIT,South Sudan,SSD
+CGIT,Benin,BEN
+CGIT,Romania,ROU
+CGIT,Honduras,HND
+CGIT,Macedonia,MKD
+CGIT,Timor-Leste,TLS
+CGIT,Latvia,LVA
+CGIT,Barbados,BRB
+CGIT,Cape Verde,CPV
+CGIT,Moldova,MDA
+CGIT,Lesotho,LSO
+CGIT,Bahrain,BHR
+CGIT,Uruguay,URY
+CGIT,Dominican Republic,DOM
+CGIT,Burkina Faso,BFA
+CGIT,Dominica,DMA
+CGIT,Armenia,ARM
+CGIT,Eswatini,SWZ
+CGIT,Bahrain ,BHR
+CGIT,Burundi,BDI
