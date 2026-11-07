@@ -1,6 +1,6 @@
 # 中國對外開發金融與投資國別儀表板（2020–2025）
 
-線上版本（GitHub Pages）：主儀表板 `dashboard/index.html`、區域排名 `dashboard/regions.html`、對中依賴與曝險 `dashboard/exposure.html`。
+線上版本（GitHub Pages）：https://chentitus.github.io/china-exposure-dashboard/ — 主儀表板 `dashboard/index.html`、區域排名 `dashboard/regions.html`、對中依賴與曝險 `dashboard/exposure.html`。原始碼：https://github.com/chentitus/china-exposure-dashboard
 
 國家—年面板資料集 + 單檔互動儀表板（`dashboard/index.html`，雙擊開啟，Plotly.js 由 CDN 載入）。
 四個公開資料庫**分層呈現、不相加**。所有金額單位為百萬美元。建置日期：2026-11-07。
