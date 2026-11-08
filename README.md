@@ -8,7 +8,7 @@
 | 區域排名 | https://chentitus.github.io/china-exposure-dashboard/dashboard/regions.html |
 | 對中依賴與曝險（曝險分數、散點圖、雷達圖） | https://chentitus.github.io/china-exposure-dashboard/dashboard/exposure.html |
 
-原始碼與資料：https://github.com/chentitus/china-exposure-dashboard
+原始碼與資料：https://github.com/chentitus/china-exposure-dashboard ｜ 姊妹專案（美國各州對中國／台灣貿易依賴）：https://github.com/chentitus/us-states-china-exposure
 
 國家—年面板資料集 + 單檔互動儀表板（`dashboard/index.html`，雙擊開啟，Plotly.js 由 CDN 載入）。
 四個公開資料庫**分層呈現、不相加**。所有金額單位為百萬美元。建置日期：2026-11-07。
