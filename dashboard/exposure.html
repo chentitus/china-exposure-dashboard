@@ -50,8 +50,7 @@ td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
   <div class="ctl">最少有值指標數<input type="number" id="minn" min="1" max="8" value="4" style="width:70px"></div>
   <div class="ctl">地圖／排序變數<select id="mapvar"></select></div>
   <div class="ctl">搜尋<input type="search" id="q" placeholder="國名／ISO3" style="width:160px"></div>
-  <div class="ctl">&nbsp;<button class="btn primary" id="dl">下載 CSV</button></div>
-</div>
+  </div>
 <main>
   <div class="grid">
     <div class="card"><div class="h2row"><h2 id="maptitle">世界地圖</h2><span class="note">點國家看年度走勢。灰色 = 無資料（高所得國在 IDS 無對中債務資料；台灣邦交國與中國無官方金融往來）。</span></div><div id="map" style="height:420px"></div></div>
@@ -179,8 +178,6 @@ $('checks').querySelectorAll('input').forEach(c=>c.onchange=()=>{c.checked?state
 $('region').onchange=e=>{state.region=e.target.value;update();}; $('minn').onchange=e=>{state.minn=+e.target.value;update();}; $('mapvar').onchange=e=>{state.mapvar=e.target.value;drawMap(rows());};
 $('q').oninput=e=>{state.q=e.target.value;drawTable(rows());}; $('topn').onchange=e=>{state.topn=+e.target.value;drawRegTop(rows());};
 $('sx').onchange=e=>{state.sx=e.target.value;drawScatter(rows());}; $('sy').onchange=e=>{state.sy=e.target.value;drawScatter(rows());}; $('sc').onchange=e=>{state.sc=e.target.value;drawScatter(rows());}; $('logx').onchange=e=>{state.logx=e.target.checked;drawScatter(rows());}; $('logy').onchange=e=>{state.logy=e.target.checked;drawScatter(rows());};
-$('dl').onclick=()=>{const keys=[...state.on]; const cols=['iso3','name_en','name_zh','region_code','region_zh','score','s_stock','s_flow','s_firm','n',...keys,...keys.map(k=>'pctile_'+k),'gdp_usd_mn']; const esc=v=>v==null?'':/[",\n]/.test(String(v))?'"'+String(v).replace(/"/g,'""')+'"':String(v);
-  const lines=[cols.join(',')].concat(current.map(r=>cols.map(c=>esc(c.startsWith('pctile_')?r['p_'+c.slice(7)]:r[c])).join(','))); const a=document.createElement('a'); a.href=URL.createObjectURL(new Blob(['﻿'+lines.join('\n')],{type:'text/csv;charset=utf-8'})); a.download='china_exposure_scores.csv'; a.click();};
 S.slice().sort((a,b)=>a.name_zh.localeCompare(b.name_zh,'zh-Hant')).forEach(r=>{const o=document.createElement('option');o.value=r.iso3;o.textContent=`${r.name_zh} ${r.name_en}`;$('radarsel').appendChild(o);});
 $('radarsel').onchange=e=>{addRadar(e.target.value);e.target.value='';}; $('radarbase').onchange=e=>{state.radarBase=e.target.value;drawRadar();}; $('radarclear').onclick=()=>{state.radar=[];drawRadar();};
 $('about').innerHTML=ABOUT; update();
