@@ -178,7 +178,7 @@ $('checks').querySelectorAll('input').forEach(c=>c.onchange=()=>{c.checked?state
 $('region').onchange=e=>{state.region=e.target.value;update();}; $('minn').onchange=e=>{state.minn=+e.target.value;update();}; $('mapvar').onchange=e=>{state.mapvar=e.target.value;drawMap(rows());};
 $('q').oninput=e=>{state.q=e.target.value;drawTable(rows());}; $('topn').onchange=e=>{state.topn=+e.target.value;drawRegTop(rows());};
 $('sx').onchange=e=>{state.sx=e.target.value;drawScatter(rows());}; $('sy').onchange=e=>{state.sy=e.target.value;drawScatter(rows());}; $('sc').onchange=e=>{state.sc=e.target.value;drawScatter(rows());}; $('logx').onchange=e=>{state.logx=e.target.checked;drawScatter(rows());}; $('logy').onchange=e=>{state.logy=e.target.checked;drawScatter(rows());};
-S.slice().sort((a,b)=>a.name_zh.localeCompare(b.name_zh,'zh-Hant')).forEach(r=>{const o=document.createElement('option');o.value=r.iso3;o.textContent=`${r.name_zh} ${r.name_en}`;$('radarsel').appendChild(o);});
+S.slice().sort((a,b)=>a.name_en.localeCompare(b.name_en,'en')).forEach(r=>{const o=document.createElement('option');o.value=r.iso3;o.textContent=`${r.name_en} ${r.name_zh}`;$('radarsel').appendChild(o);});
 $('radarsel').onchange=e=>{addRadar(e.target.value);e.target.value='';}; $('radarbase').onchange=e=>{state.radarBase=e.target.value;drawRadar();}; $('radarclear').onclick=()=>{state.radar=[];drawRadar();};
 $('about').innerHTML=ABOUT; update();
 </script>
