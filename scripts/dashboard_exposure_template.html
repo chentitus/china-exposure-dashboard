@@ -41,7 +41,7 @@ td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
 </style>
 </head>
 <body>
-<header><div><h1>對中依賴與曝險</h1><div class="sub">把中國官方金融的金額換成「依賴」：相對於 GDP、相對於外債、相對於西方替代選項、以及財政壓力。指標分兩個概念：<b>債務</b>（已經被套住）與<b>依賴</b>（正在求援、沒有替代來源、財政壓力）；每個概念先算勾選指標的百分位平均得子分數，總分 = 子分數的平均（兩個概念等權）；<b>這是曝險排序，不是對台立場的預測</b>。</div></div>
+<header><div><h1>對中依賴與曝險</h1><div class="sub">把中國官方金融的金額換成「依賴」：相對於 GDP、相對於外債、相對於西方替代選項、以及財政壓力。指標分三個概念：<b>債務</b>（已經被套住）、<b>依賴</b>（正在求援、沒有替代來源、財政壓力）、<b>企業</b>（中資商業存在：私人債務、CGIT 投資與建設）；預設全部納入，每個概念先算勾選指標的百分位平均得子分數，總分 = 子分數的平均（概念等權）；<b>這是曝險排序，不是對台立場的預測</b>。</div></div>
 <nav><a href="index.html">主儀表板</a><a href="regions.html">區域排名</a><a href="media.html">媒體報導</a></nav></header>
 <div class="controls">
   <div class="ctl">納入分數的指標（即時重算）
@@ -67,17 +67,17 @@ td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
 <script>
 /*__DATA__*/
 const S=DATA.summary, DEP=DATA.dep, REG=DATA.regions, ABOUT=DATA.about;
-const GROUPS=[['stock','債務：已經被套住'],['flow','依賴：正在求援、沒有替代、財政壓力'],['firm','企業：中資商業存在（預設不計入）']];
+const GROUPS=[['stock','債務：已經被套住'],['flow','依賴：正在求援、沒有替代、財政壓力'],['firm','企業：中資商業存在']];
 const IND=[ // key, label, default on, format, group
   ['debt_pct_gdp','對中 PPG 債務存量 2023 占 GDP %',true,'pct','stock'],
   ['debt_share','對中債務占 PPG 外債比 2023',true,'share','stock'],
   ['pub_pct_gdp','AidData 公部門承諾 2020–23 占 GDP %',true,'pct','flow'],
   ['rescue_pct_gdp','紓困貸款 2020–23 占 GDP %',true,'pct','flow'],
-  ['codf_pct_gdp','CODF 承諾 2020–24 占 GDP %',false,'pct','flow'],
+  ['codf_pct_gdp','CODF 承諾 2020–24 占 GDP %',true,'pct','flow'],
   ['china_oda_ratio','中國承諾 2020–23 ／ 全部官方 ODA 撥付（倍）',true,'x','flow'],
   ['imf_pct_gdp','IMF 信用使用額 2023 占 GDP %',true,'pct','flow'],
-  ['private_pct_gdp','AidData 私人債務 2020–23 占 GDP %',false,'pct','firm'],
-  ['cgit_pct_gdp','CGIT 投資＋建設 2020–26H1 占 GDP %',false,'pct','firm'],
+  ['private_pct_gdp','AidData 私人債務 2020–23 占 GDP %',true,'pct','firm'],
+  ['cgit_pct_gdp','CGIT 投資＋建設 2020–26H1 占 GDP %',true,'pct','firm'],
 ];
 const SUB={stock:'s_stock',flow:'s_flow',firm:'s_firm'}; const SUBLABEL={s_stock:'債務子分數',s_flow:'依賴子分數',s_firm:'企業子分數'};
 const $=id=>document.getElementById(id);
