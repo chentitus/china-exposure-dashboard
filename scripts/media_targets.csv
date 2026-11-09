@@ -1,0 +1,36 @@
+country_iso3,country_name_en,country_name_zh,region_code,region_zh,score,fips
+TJK,Tajikistan,塔吉克,MIDEAST_CASIA,中東＋中亞,0.787,TI
+KGZ,Kyrgyzstan,吉爾吉斯,MIDEAST_CASIA,中東＋中亞,0.715,KG
+UZB,Uzbekistan,烏茲別克,MIDEAST_CASIA,中東＋中亞,0.616,UZ
+KAZ,Kazakhstan,哈薩克,MIDEAST_CASIA,中東＋中亞,0.444,KZ
+IRQ,Iraq,伊拉克,MIDEAST_CASIA,中東＋中亞,0.42,IZ
+PAK,Pakistan,巴基斯坦,SOUTH_ASIA,南亞,0.791,PK
+LKA,Sri Lanka,斯里蘭卡,SOUTH_ASIA,南亞,0.75,CE
+MDV,Maldives,馬爾地夫,SOUTH_ASIA,南亞,0.541,MV
+BGD,Bangladesh,孟加拉,SOUTH_ASIA,南亞,0.479,BG
+NPL,Nepal,尼泊爾,SOUTH_ASIA,南亞,0.33,NP
+TON,Tonga,東加,OCEANIA,大洋洲,0.834,TN
+VUT,Vanuatu,萬那杜,OCEANIA,大洋洲,0.804,NH
+WSM,Samoa,薩摩亞,OCEANIA,大洋洲,0.715,WS
+PNG,Papua New Guinea,巴布亞紐幾內亞,OCEANIA,大洋洲,0.642,PP
+SLB,Solomon Islands,索羅門群島,OCEANIA,大洋洲,0.566,BP
+SUR,Suriname,蘇利南,LATAM_CARIB,拉丁美洲與加勒比海,0.845,NS
+ARG,Argentina,阿根廷,LATAM_CARIB,拉丁美洲與加勒比海,0.67,AR
+GUY,Guyana,蓋亞那,LATAM_CARIB,拉丁美洲與加勒比海,0.625,GY
+DMA,Dominica,多米尼克,LATAM_CARIB,拉丁美洲與加勒比海,0.62,DO
+ECU,Ecuador,厄瓜多,LATAM_CARIB,拉丁美洲與加勒比海,0.583,EC
+MNG,Mongolia,蒙古,EAST_ASIA,東亞（東北亞＋東南亞）,0.838,MG
+LAO,Laos,寮國,EAST_ASIA,東亞（東北亞＋東南亞）,0.831,LA
+KHM,Cambodia,柬埔寨,EAST_ASIA,東亞（東北亞＋東南亞）,0.715,CB
+MMR,Myanmar,緬甸,EAST_ASIA,東亞（東北亞＋東南亞）,0.592,BM
+IDN,Indonesia,印尼,EAST_ASIA,東亞（東北亞＋東南亞）,0.298,ID
+SRB,Serbia,塞爾維亞,EUROPE,歐洲,0.638,RI
+BLR,Belarus,白俄羅斯,EUROPE,歐洲,0.569,BO
+MNE,Montenegro,蒙特內哥羅,EUROPE,歐洲,0.483,MJ
+MKD,North Macedonia,北馬其頓,EUROPE,歐洲,0.478,MK
+BIH,Bosnia and Herzegovina,波士尼亞與赫塞哥維納,EUROPE,歐洲,0.321,BK
+COG,Congo Republic,剛果共和國,AFRICA,非洲,0.879,CF
+GIN,Guinea,幾內亞,AFRICA,非洲,0.823,GV
+COD,DR Congo,剛果民主共和國,AFRICA,非洲,0.803,CG
+AGO,Angola,安哥拉,AFRICA,非洲,0.791,AO
+LSO,Lesotho,賴索托,AFRICA,非洲,0.766,LT

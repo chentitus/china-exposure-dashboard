@@ -44,3 +44,14 @@ dep_full = {k: g_.drop(columns='country_iso3').to_dict('records') for k, g_ in d
 EXD = {'summary': ex.to_dict('records'), 'dep': dep_full, 'regions': region_names, 'about': (SCRIPTS/'dashboard_exposure_about.html').read_text(encoding='utf-8')}
 html3 = (SCRIPTS/'dashboard_exposure_template.html').read_text(encoding='utf-8').replace('/*__DATA__*/', 'const DATA = ' + json.dumps(EXD, ensure_ascii=False, separators=(',',':')) + ';')
 (ROOT/'dashboard/exposure.html').write_text(html3, encoding='utf-8'); print('dashboard/exposure.html', round((ROOT/'dashboard/exposure.html').stat().st_size/1e6, 2), 'MB')
+
+# ---- 媒體層 media.html
+wk = pd.read_csv(CLEAN/'media_weekly.csv'); sm = pd.read_csv(CLEAN/'media_summary.csv'); art = pd.read_csv(CLEAN/'media_articles_taiwan.csv'); tg = pd.read_csv(SCRIPTS/'media_targets.csv')
+TARGETS = [{'iso3':r.country_iso3,'name_en':r.country_name_en,'name_zh':r.country_name_zh,'region_zh':r.region_zh,'score':float(r.score)} for r in tg.itertuples()]
+WK = [{'iso3':r.country_iso3,'side':r.side,'source_group':r.source_group,'week':str(r.week)[:10],'n':int(r.n),'n_taiwan':int(r.n_taiwan)} for r in wk.itertuples()]
+SUMR = [{'iso3':r.country_iso3,'side':r.side,'source_group':r.source_group,'n':int(r.n),'n_taiwan':int(r.n_taiwan),'n_china':int(r.n_china),'n_one_china':int(r.n_one_china)} for r in sm.itertuples()]
+ART = [{'iso3':r.country_iso3,'side':r.side,'source_group':r.source_group,'date':str(r.date)[:10],'title':(r.title if isinstance(r.title,str) else '')[:160],'url':r.url,'taiwan':bool(r.taiwan_flag),'one_china':bool(r.one_china),'china':bool(r.china_flag)} for r in art.itertuples()]
+SIDEOF = sm.drop_duplicates('source_group').set_index('source_group').side.to_dict()
+jsm = 'const TARGETS='+json.dumps(TARGETS,ensure_ascii=False,separators=(',',':'))+';\nconst WK='+json.dumps(WK,ensure_ascii=False,separators=(',',':'))+';\nconst SUM='+json.dumps(SUMR,ensure_ascii=False,separators=(',',':'))+';\nconst ART='+json.dumps(ART,ensure_ascii=False,separators=(',',':'))+';\nconst SIDEOF='+json.dumps(SIDEOF,ensure_ascii=False)+';\nconst ABOUT='+json.dumps((SCRIPTS/'dashboard_media_about.html').read_text(encoding='utf-8'),ensure_ascii=False)+';'
+html4 = (SCRIPTS/'dashboard_media_template.html').read_text(encoding='utf-8').replace('/*__DATA__*/', jsm)
+(ROOT/'dashboard/media.html').write_text(html4, encoding='utf-8'); print('dashboard/media.html', round((ROOT/'dashboard/media.html').stat().st_size/1e6,2),'MB; articles', len(ART))

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>高曝險國家的媒體報導（2026）</title>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+<style>
+:root{--bg:#fcfcfb;--panel:#fff;--line:#e4e3df;--text:#0b0b0b;--text2:#52514e;--muted:#8a8984;--accent:#2a78d6}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;font-size:14px;line-height:1.5}
+header{padding:14px 20px 8px;border-bottom:1px solid var(--line);background:var(--panel);display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:8px}
+header h1{font-size:18px;margin:0 0 2px;font-weight:600}
+header .sub{color:var(--text2);font-size:12px;max-width:1150px}
+header nav a{font-size:13px;color:var(--accent);margin-left:14px}
+.controls{display:flex;flex-wrap:wrap;gap:16px;align-items:flex-end;padding:12px 20px;background:var(--panel);border-bottom:1px solid var(--line)}
+.ctl{display:flex;flex-direction:column;gap:4px;font-size:12px;color:var(--text2)}
+.ctl select,.ctl input{font:inherit;font-size:13px;padding:5px 8px;border:1px solid var(--line);border-radius:4px;background:#fff;color:var(--text)}
+.note{font-size:12px;color:var(--muted)}
+main{padding:16px 20px;max-width:1500px;margin:0 auto}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:12px 14px;min-width:0;margin-bottom:16px}
+.card h2{font-size:14px;margin:0 0 6px;font-weight:600}
+.h2row{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.grid>div{min-width:0}
+table{border-collapse:collapse;width:100%;font-size:12.5px}
+th,td{padding:4px 7px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{color:var(--text2);font-weight:600;white-space:nowrap;position:sticky;top:0;background:var(--panel);cursor:pointer;user-select:none}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+.tablewrap{max-height:520px;overflow:auto;border:1px solid var(--line);border-radius:4px}
+.tag{display:inline-block;font-size:11px;padding:1px 6px;border-radius:3px;background:#f0efec;color:var(--text2);margin-right:4px}
+.about{max-width:950px;line-height:1.7}
+a.t{color:inherit}
+@media (max-width:1000px){.grid{grid-template-columns:1fr !important}}
+</style>
+</head>
+<body>
+<header><div><h1>高曝險國家的媒體報導（2026 年起）</h1><div class="sub">對象：七個區域各曝險分數前五名，共 35 國。來源：GDELT Global Knowledge Graph（BigQuery），英文原文；<b>中國官媒</b>（新華社英文、China Daily、人民日報英文、環球時報）、<b>通訊社</b>（Reuters、AFP 稿；GDELT 收錄極少）、<b>國際媒體</b>（BBC、Guardian、Al Jazeera、DW、Euronews、SCMP、CNA、Straits Times、ABC、Bloomberg、NYT、The Diplomat、VOA、RFA）。「涉台」＝文章地點含台灣或主題標籤含 TAIWAN；「一中」＝標題含 one China。第一階段只做計數與清單，不做內容判讀。</div></div>
+<nav><a href="index.html">主儀表板</a><a href="exposure.html">對中依賴與曝險</a></nav></header>
+<div class="controls">
+  <div class="ctl">國家<select id="country"><option value="">— 總覽 —</option></select></div>
+  <div class="ctl">來源群<select id="side"><option value="">全部</option><option value="官媒">中國官媒</option><option value="國際媒體">國際媒體</option><option value="通訊社">通訊社</option></select></div>
+  <div class="ctl">時間粒度<select id="gran"><option value="W">週</option><option value="M">月</option></select></div>
+  <div class="ctl">總覽排序<select id="sortby"><option value="n_state">官媒篇數</option><option value="n_intl">國際媒體篇數</option><option value="tw_state">官媒涉台篇數</option><option value="tw_share_state">官媒涉台比例</option><option value="ratio">官媒÷國際媒體</option></select></div>
+</div>
+<main>
+<section id="ov">
+  <div class="card"><div class="h2row"><h2 id="ovtitle">35 國總覽（2026-01-01 起）</h2><span class="note">點國名看週序列與涉台文章。</span></div><div id="ovbar" style="height:460px"></div></div>
+  <div class="card"><div class="tablewrap"><table id="ovt"></table></div></div>
+</section>
+<section id="dt" style="display:none">
+  <div class="card"><div class="h2row"><h2 id="dtitle"></h2><span class="note" id="dnote"></span></div>
+    <div class="grid"><div id="ts" style="height:320px"></div><div id="tw" style="height:320px"></div></div>
+    <div style="margin-top:8px"><h2>各來源篇數（2026 合計）</h2><div class="tablewrap" style="max-height:220px"><table id="srct"></table></div></div></div>
+  <div class="card"><div class="h2row"><h2 id="arttitle">涉台／一中文章</h2><span class="note">依日期新→舊；點標題開原文。</span></div><div class="tablewrap" style="max-height:600px"><table id="artt"></table></div></div>
+</section>
+<section id="about-sec"><div class="card about" id="about"></div></section>
+</main>
+<script>
+/*__DATA__*/
+const $=id=>document.getElementById(id); const COL={'官媒':'#d03b3b','國際媒體':'#2a78d6','通訊社':'#8a8984'}; const f0=v=>v==null||isNaN(v)?'–':Math.round(v).toLocaleString(); const pc=v=>v==null||isNaN(v)?'–':(v*100).toFixed(1)+'%';
+const st={country:'',side:'',gran:'W',sortby:'n_state'};
+TARGETS.forEach(t=>{const o=document.createElement('option');o.value=t.iso3;o.textContent=`${t.region_zh}｜${t.name_zh} ${t.name_en}`;$('country').appendChild(o);});
+function ovRows(){return TARGETS.map(t=>{const s=SUM.filter(r=>r.iso3===t.iso3); const g=side=>s.filter(r=>r.side===side); const sum=(a,k)=>a.reduce((x,r)=>x+(r[k]||0),0); const ns=sum(g('官媒'),'n'), ni=sum(g('國際媒體'),'n'), nw=sum(g('通訊社'),'n'); const tws=sum(g('官媒'),'n_taiwan'), twi=sum(g('國際媒體'),'n_taiwan'); const chi=sum(g('國際媒體'),'n_china');
+  return {...t, n_state:ns, n_intl:ni, n_wire:nw, tw_state:tws, tw_intl:twi, tw_share_state:ns?tws/ns:null, tw_share_intl:ni?twi/ni:null, china_share_intl:ni?chi/ni:null, one_china:sum(s,'n_one_china'), ratio:ni?ns/ni:null};}).sort((a,b)=>(b[st.sortby]??-1)-(a[st.sortby]??-1));}
+function drawOverview(){const rows=ovRows(); const y=rows.map(r=>r.name_zh);
+  Plotly.react('ovbar',[{type:'bar',orientation:'h',name:'中國官媒',y,x:rows.map(r=>r.n_state),marker:{color:COL['官媒']},customdata:rows.map(r=>r.iso3),hovertemplate:'%{y}<br>官媒 %{x} 篇<extra></extra>'},{type:'bar',orientation:'h',name:'國際媒體',y,x:rows.map(r=>r.n_intl),marker:{color:COL['國際媒體']},customdata:rows.map(r=>r.iso3),hovertemplate:'%{y}<br>國際媒體 %{x} 篇<extra></extra>'},{type:'bar',orientation:'h',name:'通訊社',y,x:rows.map(r=>r.n_wire),marker:{color:COL['通訊社']},customdata:rows.map(r=>r.iso3),hovertemplate:'%{y}<br>通訊社 %{x} 篇<extra></extra>'}],
+    {barmode:'group',margin:{l:90,r:10,t:4,b:36},yaxis:{autorange:'reversed',tickfont:{size:11}},xaxis:{title:{text:'2026 年篇數（英文原文）',font:{size:11}},gridcolor:'#eeede9'},legend:{orientation:'h',y:1.04,font:{size:11}},bargap:0.25,paper_bgcolor:'rgba(0,0,0,0)',plot_bgcolor:'rgba(0,0,0,0)',font:{size:11}},{displayModeBar:false,responsive:true});
+  $('ovbar').removeAllListeners&&$('ovbar').removeAllListeners('plotly_click'); $('ovbar').on('plotly_click',ev=>{$('country').value=ev.points[0].customdata;st.country=ev.points[0].customdata;update();});
+  const cols=[['name_zh','國家'],['region_zh','區域'],['n_state','官媒'],['tw_state','官媒涉台'],['tw_share_state','涉台比例'],['one_china','標題含 one China'],['n_intl','國際媒體'],['tw_intl','國際涉台'],['china_share_intl','國際媒體提及中國比例'],['n_wire','通訊社'],['ratio','官媒÷國際']];
+  $('ovt').innerHTML='<thead><tr>'+cols.map(([k,l])=>`<th class="${['name_zh','region_zh'].includes(k)?'':'num'}">${l}</th>`).join('')+'</tr></thead><tbody>'+rows.map(r=>'<tr>'+cols.map(([k])=>k==='name_zh'?`<td><a href="#" class="t" data-c="${r.iso3}">${r.name_zh}</a> <span class="note">${r.name_en}</span></td>`:k==='region_zh'?`<td>${r.region_zh}</td>`:`<td class="num">${k.includes('share')?pc(r[k]):k==='ratio'?(r[k]==null?'–':r[k].toFixed(1)+'×'):f0(r[k])}</td>`).join('')+'</tr>').join('')+'</tbody>';
+  $('ovt').querySelectorAll('a[data-c]').forEach(a=>a.onclick=e=>{e.preventDefault();$('country').value=a.dataset.c;st.country=a.dataset.c;update();});}
+function period(w){return st.gran==='W'?w:w.slice(0,7)+'-01';}
+function drawCountry(){const t=TARGETS.find(x=>x.iso3===st.country); const wk=WK.filter(r=>r.iso3===st.country&&(!st.side||r.side===st.side)); $('dtitle').textContent=`${t.name_zh} ${t.name_en}（${t.region_zh}，曝險分數 ${t.score.toFixed(2)}）`;
+  const by={}; wk.forEach(r=>{const p=period(r.week); const k=st.side?r.source_group:r.side; by[k]=by[k]||{}; by[k][p]=by[k][p]||{n:0,tw:0}; by[k][p].n+=r.n; by[k][p].tw+=r.n_taiwan;});
+  const ps=[...new Set(wk.map(r=>period(r.week)))].sort(); const keys=Object.keys(by).sort((a,b)=>(['官媒','國際媒體','通訊社'].indexOf(a))-(['官媒','國際媒體','通訊社'].indexOf(b)));
+  const col=k=>COL[k]||(SIDEOF[k]==='官媒'?'#e67b73':SIDEOF[k]==='國際媒體'?'#5598e7':'#b5b4ae');
+  Plotly.react('ts',keys.map(k=>({type:'bar',name:k,x:ps,y:ps.map(p=>(by[k][p]||{}).n||0),marker:{color:col(k)},hovertemplate:'%{x}<br>'+k+' %{y} 篇<extra></extra>'})),{title:{text:`報導篇數（${st.gran==='W'?'週':'月'}）`,font:{size:12},x:0,xanchor:'left'},barmode:'stack',margin:{l:45,r:10,t:30,b:40},xaxis:{type:'category',tickfont:{size:9},nticks:12},yaxis:{gridcolor:'#eeede9'},legend:{orientation:'h',y:-0.22,font:{size:10}},paper_bgcolor:'rgba(0,0,0,0)',plot_bgcolor:'rgba(0,0,0,0)',font:{size:11}},{displayModeBar:false,responsive:true});
+  Plotly.react('tw',keys.map(k=>({type:'scatter',mode:'lines+markers',name:k+' 涉台',x:ps,y:ps.map(p=>(by[k][p]||{}).tw||0),line:{color:col(k),width:2},marker:{size:5},hovertemplate:'%{x}<br>'+k+' 涉台 %{y} 篇<extra></extra>'})),{title:{text:'涉台（地點含台灣或主題 TAIWAN）篇數',font:{size:12},x:0,xanchor:'left'},margin:{l:45,r:10,t:30,b:40},xaxis:{type:'category',tickfont:{size:9},nticks:12},yaxis:{gridcolor:'#eeede9',rangemode:'tozero'},legend:{orientation:'h',y:-0.22,font:{size:10}},paper_bgcolor:'rgba(0,0,0,0)',plot_bgcolor:'rgba(0,0,0,0)',font:{size:11}},{displayModeBar:false,responsive:true});
+  const sm=SUM.filter(r=>r.iso3===st.country).sort((a,b)=>b.n-a.n); $('srct').innerHTML='<thead><tr><th>來源</th><th>群</th><th class="num">篇數</th><th class="num">涉台</th><th class="num">涉台比例</th><th class="num">提及中國</th><th class="num">標題含 one China</th></tr></thead><tbody>'+sm.map(r=>`<tr><td>${r.source_group}</td><td><span class="tag" style="color:${COL[r.side]}">${r.side}</span></td><td class="num">${f0(r.n)}</td><td class="num">${f0(r.n_taiwan)}</td><td class="num">${pc(r.n?r.n_taiwan/r.n:null)}</td><td class="num">${f0(r.n_china)}</td><td class="num">${f0(r.n_one_china)}</td></tr>`).join('')+'</tbody>';
+  const art=ART.filter(a=>a.iso3===st.country&&(!st.side||a.side===st.side)); $('arttitle').textContent=`涉台／一中文章（${art.length} 篇）`; $('artt').innerHTML='<thead><tr><th>日期</th><th>來源</th><th>標題</th><th>標記</th></tr></thead><tbody>'+art.map(a=>`<tr><td style="white-space:nowrap">${a.date}</td><td style="white-space:nowrap;color:${COL[a.side]}">${a.source_group}</td><td><a class="t" href="${a.url}" target="_blank" rel="noopener">${a.title||a.url}</a></td><td>${a.taiwan?'<span class="tag">涉台</span>':''}${a.one_china?'<span class="tag">一中</span>':''}${a.china?'<span class="tag">提及中國</span>':''}</td></tr>`).join('')+'</tbody>';
+  $('dnote').textContent=`官媒 ${f0(sm.filter(r=>r.side==='官媒').reduce((x,r)=>x+r.n,0))} 篇、國際媒體 ${f0(sm.filter(r=>r.side==='國際媒體').reduce((x,r)=>x+r.n,0))} 篇、通訊社 ${f0(sm.filter(r=>r.side==='通訊社').reduce((x,r)=>x+r.n,0))} 篇`;}
+function update(){if(st.country){$('ov').style.display='none';$('dt').style.display='';drawCountry();}else{$('ov').style.display='';$('dt').style.display='none';drawOverview();} window.dispatchEvent(new Event('resize'));}
+$('country').onchange=e=>{st.country=e.target.value;update();}; $('side').onchange=e=>{st.side=e.target.value;update();}; $('gran').onchange=e=>{st.gran=e.target.value;update();}; $('sortby').onchange=e=>{st.sortby=e.target.value;update();};
+$('about').innerHTML=ABOUT; update();
+</script>
+</body></html>

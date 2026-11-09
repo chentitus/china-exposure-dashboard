@@ -20,3 +20,8 @@
 
 ## 3. 檢查與發布
 本機開 `dashboard/index.html`、`regions.html`、`exposure.html`：地圖、分面趨勢（年份延伸）、曝險分數表、雷達圖；console 無錯誤。README §1 版本表、§5 核對表、§6 前 15 名；MANIFEST 日期與 SHA256。`git add -A && git commit && git push`，等 Pages 回 200，回報：各來源版本／期間、核對差異、前幾名變動。
+
+## 4. 媒體層（GDELT）
+1. `gcloud auth login`（token 常過期）；`bq query --use_legacy_sql=false --format=csv --max_rows=5000000 < scripts/media_gkg_query.sql > data/raw/gdelt/gkg_2026_targets.csv`（約 150 GB 掃描；每月前 1 TB 免費）。要擴年份改 SQL 的 `_PARTITIONTIME`。
+2. 對象國若要跟著曝險分數更新，重算 `scripts/media_targets.csv`（七區域各前五，FIPS 對照表在 `06_media.py` 之前的建表程式）；否則維持固定名單以保留時間序列。
+3. `python3.12 scripts/06_media.py` → `04_build_dashboard.py`；檢查 `media.html`。

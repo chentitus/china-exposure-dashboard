@@ -35,3 +35,8 @@ AEI 的 CGIT 頁面（https://www.aei.org/china-global-investment-tracker/ ）�
 | World Bank IDS（source 6） | `https://api.worldbank.org/v2/sources/6/country/all/series/DT.DOD.DPPG.CD/counterpart-area/730|WLD/time/YR2018;…;YR2024`；`DT.DOD.DIMF.CD/counterpart-area/WLD` | PPG 外債存量（債權人中國／全部）；IMF 信用使用額（lastupdated 2026-11-05） |
 | OECD DAC2A | `https://sdmx.oecd.org/public/rest/data/OECD.DCD.FSD,DSD_DAC2@DF_DAC2A,1.2/ALLD|DAC..240.USD.V` | Gross ODA 撥付額，current USD，所有官方捐助者／DAC 國家，2018–2024 |
 | IMF MONA | https://www.imf.org/external/np/pdr/mona/index.aspx | **未取得**（HTTP 403 拒絕自動下載） |
+
+## 媒體層（2026-11-09）
+| 來源 | 檔案 | 查詢 | 備註 |
+|---|---|---|---|
+| GDELT GKG 2.0（BigQuery 公開資料集） | `gdelt/gkg_2026_targets.csv`（109,910 列＝文章×國家） | `scripts/media_gkg_query.sql`，2026-01-01 起，指定 28 個來源網域，V2Locations 含 35 個對象國 FIPS 碼 | 抓取 2026-11-09；掃描約 147 GB |
