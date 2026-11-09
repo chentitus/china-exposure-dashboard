@@ -1,7 +1,7 @@
 <h3>方法（第一階段：計數）</h3>
 <p>對象為七個區域（北美除外，因無對中官方金融往來）各曝險分數前五名共 35 國，名單固定於 <code>scripts/media_targets.csv</code>。資料來自 GDELT Global Knowledge Graph 2.0（BigQuery 公開資料集 <code>gdelt-bq.gdeltv2.gkg_partitioned</code>，查詢語句 <code>scripts/media_gkg_query.sql</code>），取 2026-01-01 起、指定來源網域、文章地點欄位（V2Locations）含對象國的英文原文，再套用<b>收錄標準</b>：官媒文章須在<b>標題</b>出現對象國名（含形容詞與別名，如 Lao、Kinshasa、Brazzaville），排除只在內文順帶提及的彙整稿；國際媒體與通訊社文章須<b>同時標到中國</b>（V2Locations 含 CH），即「關於中國與該國」的報導。一篇文章提到多國會分別計入各國。</p>
 <ul>
-<li><b>涉台</b>：V2Locations 含台灣（TW）或 V2Themes 含 TAIWAN。<b>一中</b>：頁面標題含 "one China"（GKG 無全文，只能以標題判斷，為下限）。<b>提及中國</b>：V2Locations 含中國（CH）。</li>
+<li><b>提及台灣</b>：V2Locations 含台灣（TW）或 V2Themes 含 TAIWAN——只表示文中出現台灣（聯合聲明末段的一中表態、體育賽事名單、區域經濟新聞都會被計入），不表示以台灣或該國對台立場為主題；要分辨需第二階段讀全文，或先以 GKG 字元位置做「標題／多次／單次提及」分級。<b>一中</b>：頁面標題含 "one China"（GKG 無全文，只能以標題判斷，為下限）。<b>提及中國</b>：V2Locations 含中國（CH）。</li>
 <li><b>來源群</b>：中國官媒＝新華社（xinhuanet.com／news.cn／english.news.cn）、China Daily、人民日報英文（en.people.cn）、環球時報；通訊社＝Reuters（reuters.com）、AFP 稿（france24.com、barrons.com）；國際媒體＝BBC、Guardian、Al Jazeera、DW、Euronews、SCMP、CNA、Straits Times、ABC（澳）、Bloomberg、NYT、The Diplomat、VOA、RFA。</li>
 </ul>
 <h3>限制</h3>
@@ -10,5 +10,5 @@
 <li>CGTN（cgtn.com）與外交部英文站（fmprc.gov.cn）不在 GDELT 收錄中；外交部例行記者會可另行直接爬取（第二階段）。</li>
 <li>只計英文原文（TranslationInfo 為空）；新華社中文稿不計。</li>
 <li>GDELT 地點標記有誤判（例如 "Georgia" 州／國、"Jordan" 人名），小國與同名地名的篇數可能偏高或偏低。</li>
-<li>第一階段不判讀內容；報導多不等於立場親中。第二階段可對涉台文章做 LLM 內容編碼（主題、對台措辭）。</li>
+<li>第一階段不判讀內容；報導多不等於立場親中。第二階段可對提及台灣的文章做 LLM 內容編碼（主題、對台措辭）。</li>
 </ul>

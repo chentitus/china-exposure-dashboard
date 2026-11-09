@@ -7,7 +7,7 @@
 | 主儀表板（地圖、排名、年度趨勢、國家詳情、資料表） | https://chentitus.github.io/china-exposure-dashboard/dashboard/index.html |
 | 區域排名 | https://chentitus.github.io/china-exposure-dashboard/dashboard/regions.html |
 | 對中依賴與曝險（曝險分數、散點圖、雷達圖） | https://chentitus.github.io/china-exposure-dashboard/dashboard/exposure.html |
-| 媒體報導（35 個高曝險國，2026 起；官媒 vs 國際媒體，涉台） | https://chentitus.github.io/china-exposure-dashboard/dashboard/media.html |
+| 媒體報導（35 個高曝險國，2026 起；官媒 vs 國際媒體，提及台灣） | https://chentitus.github.io/china-exposure-dashboard/dashboard/media.html |
 
 原始碼與資料：https://github.com/chentitus/china-exposure-dashboard ｜ 姊妹專案（美國各州對中國／台灣貿易依賴）：https://github.com/chentitus/us-states-china-exposure
 
@@ -310,16 +310,16 @@ summary 的 `dep_*` 欄：`dep_gdp_avg_2020_2023_usd_mn`、`dep_aiddata_odaoof_p
 ## 9. 媒體層（2026-11-09 新增，`dashboard/media.html`，第一階段：計數）
 
 **對象**：七區域（北美除外）各曝險分數前五名，35 國，固定於 `scripts/media_targets.csv`（含 GDELT 用的 FIPS 國碼）。
-**資料**：GDELT GKG 2.0，BigQuery `gdelt-bq.gdeltv2.gkg_partitioned`，2026-01-01 起，查詢 `scripts/media_gkg_query.sql`（掃描約 150 GB，約 0.7 美元；專案 `text-summary-421902`），原始輸出 `data/raw/gdelt/gkg_2026_targets.csv`（文章×國家列）。只取英文原文（TranslationInfo 空）。處理 `scripts/06_media.py` → `media_weekly.csv`（國家×來源群×週）、`media_summary.csv`、`media_articles_taiwan.csv`（涉台／一中文章清單）。
+**資料**：GDELT GKG 2.0，BigQuery `gdelt-bq.gdeltv2.gkg_partitioned`，2026-01-01 起，查詢 `scripts/media_gkg_query.sql`（掃描約 150 GB，約 0.7 美元；專案 `text-summary-421902`），原始輸出 `data/raw/gdelt/gkg_2026_targets.csv`（文章×國家列）。只取英文原文（TranslationInfo 空）。處理 `scripts/06_media.py` → `media_weekly.csv`（國家×來源群×週）、`media_summary.csv`、`media_articles_taiwan.csv`（提及台灣／一中文章清單）。
 **來源群**：中國官媒＝新華社英文、China Daily、人民日報英文、環球時報；通訊社＝Reuters、AFP 稿（France 24、Barron's）；國際媒體＝BBC、Guardian、Al Jazeera、DW、Euronews、SCMP、CNA、Straits Times、ABC、Bloomberg、NYT、The Diplomat、VOA、RFA。
 **收錄標準（2026-11-09 改）**：官媒文章須在標題出現對象國名（含形容詞與別名）；國際媒體／通訊社文章須同時標到中國（V2Locations 含 CH）。改前官媒 21,756 列的標題命中率 45%，國際媒體 31,010 列的提及中國率 26%。
-**標記**：涉台＝V2Locations 含 TW 或 V2Themes 含 TAIWAN；一中＝標題含 "one China"（GKG 無全文）；提及中國＝V2Locations 含 CH。
+**標記**：提及台灣＝V2Locations 含 TW 或 V2Themes 含 TAIWAN；一中＝標題含 "one China"（GKG 無全文）；提及中國＝V2Locations 含 CH。
 
 ### 9.1 為什麼不是路透／美聯社／法新社
 GDELT 2026 年只收錄 reuters.com 約 5,055 篇（全站）、apnews.com 0 篇，法新社沒有自有新聞站；三大社的稿件在 GDELT 裡以轉載媒體（CNA、Straits Times、Euronews、ABC 等）出現，故以「國際媒體」群替代。CGTN 與外交部英文站也不在 GDELT 內；外交部例行記者會留待直接爬取。GDELT DOC API 另有嚴格限流（實測每分鐘不到 2 次），不適合 35 國×多來源的批次查詢，故改用 BigQuery。
 
 ### 9.2 2026 年 1–11 月各國報導量（英文原文；一篇提到多國分別計入）
-| country_name_zh      | region_zh              |   官媒篇數 |   官媒涉台 |   官媒涉台比例 |   國際媒體篇數 |   國際涉台 |   通訊社篇數 |
+| country_name_zh      | region_zh              |   官媒篇數 |   官媒提及台灣 |   官媒提及台灣比例 |   國際媒體篇數 |   國際提及台灣 |   通訊社篇數 |
 |:---------------------|:-----------------------|-----------:|-----------:|---------------:|---------------:|-----------:|-------------:|
 | 巴基斯坦             | 南亞                   |       3786 |         14 |          0.004 |           5235 |         88 |            4 |
 | 印尼                 | 東亞（東北亞＋東南亞） |       2594 |         41 |          0.016 |           4559 |        247 |            2 |
@@ -359,7 +359,7 @@ GDELT 2026 年只收錄 reuters.com 約 5,055 篇（全站）、apnews.com 0 篇
 
 ### 9.3 解讀保留
 - 這是計數，不是立場；官媒報導多反映雙邊活動密度（高層互訪、基建、援助），不等於親中。
-- 涉台標記在官媒的比例普遍低於 2%，且多為「多國共同出現」的彙整稿（體育、媽祖文化活動）；第二階段需用 LLM 讀全文才能分辨「該國表態支持一中」與「順帶提及」。
+- 提及台灣標記在官媒的比例普遍低於 2%，且多為「多國共同出現」的彙整稿（體育、媽祖文化活動）；第二階段需用 LLM 讀全文才能分辨「該國表態支持一中」與「順帶提及」。
 - GDELT 地點辨識有誤判（同名地名、人名）；小國篇數要搭配清單核對。
 
-**第二階段（未做）**：抓涉台文章全文（官媒可抓，國際媒體多有牆），用 LLM 編碼主題與對台措辭（一中原則／政策、不可分割、支持統一）；外交部記者會逐字稿直接爬取與編碼。
+**第二階段（未做）**：抓提及台灣文章全文（官媒可抓，國際媒體多有牆），用 LLM 編碼主題與對台措辭（一中原則／政策、不可分割、支持統一）；外交部記者會逐字稿直接爬取與編碼。
