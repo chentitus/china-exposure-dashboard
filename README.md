@@ -312,6 +312,7 @@ summary 的 `dep_*` 欄：`dep_gdp_avg_2020_2023_usd_mn`、`dep_aiddata_odaoof_p
 **對象**：七區域（北美除外）各曝險分數前五名，35 國，固定於 `scripts/media_targets.csv`（含 GDELT 用的 FIPS 國碼）。
 **資料**：GDELT GKG 2.0，BigQuery `gdelt-bq.gdeltv2.gkg_partitioned`，2026-01-01 起，查詢 `scripts/media_gkg_query.sql`（掃描約 150 GB，約 0.7 美元；專案 `text-summary-421902`），原始輸出 `data/raw/gdelt/gkg_2026_targets.csv`（文章×國家列）。只取英文原文（TranslationInfo 空）。處理 `scripts/06_media.py` → `media_weekly.csv`（國家×來源群×週）、`media_summary.csv`、`media_articles_taiwan.csv`（涉台／一中文章清單）。
 **來源群**：中國官媒＝新華社英文、China Daily、人民日報英文、環球時報；通訊社＝Reuters、AFP 稿（France 24、Barron's）；國際媒體＝BBC、Guardian、Al Jazeera、DW、Euronews、SCMP、CNA、Straits Times、ABC、Bloomberg、NYT、The Diplomat、VOA、RFA。
+**收錄標準（2026-11-09 改）**：官媒文章須在標題出現對象國名（含形容詞與別名）；國際媒體／通訊社文章須同時標到中國（V2Locations 含 CH）。改前官媒 21,756 列的標題命中率 45%，國際媒體 31,010 列的提及中國率 26%。
 **標記**：涉台＝V2Locations 含 TW 或 V2Themes 含 TAIWAN；一中＝標題含 "one China"（GKG 無全文）；提及中國＝V2Locations 含 CH。
 
 ### 9.1 為什麼不是路透／美聯社／法新社
