@@ -25,3 +25,6 @@
 1. `gcloud auth login`（token 常過期）；`bq query --use_legacy_sql=false --format=csv --max_rows=5000000 < scripts/media_gkg_query.sql > data/raw/gdelt/gkg_2026_targets.csv`（約 150 GB 掃描；每月前 1 TB 免費）。要擴年份改 SQL 的 `_PARTITIONTIME`。
 2. 對象國若要跟著曝險分數更新，重算 `scripts/media_targets.csv`（七區域各前五，FIPS 對照表在 `06_media.py` 之前的建表程式）；否則維持固定名單以保留時間序列。
 3. `python3.12 scripts/06_media.py` → `04_build_dashboard.py`；檢查 `media.html`。
+
+## 英文版（每次重建頁面後都要做）
+`python3.12 scripts/make_en.py` → 產生 `dashboard/en/{index,regions,exposure,media}.html`。英文版由中文頁自動轉換：說明頁換成 `scripts/*_about_en.html`，其餘中文依 `scripts/i18n_en.json` 取代，國名與區域名取自 `country_names_zh.csv`、`country_regions.csv`。若輸出列出「leftover Chinese segments」不為 0，未翻譯的字串會寫在 `scripts/i18n_en_todo.txt`，補進 `i18n_en.json` 後重跑。改了中文說明頁時，也要同步改英文版。

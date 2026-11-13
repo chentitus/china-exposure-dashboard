@@ -1,0 +1,17 @@
+<h3>What this dashboard measures</h3>
+<p>It turns Chinese official finance amounts into "dependence". Six default indicators: (1) public-sector debt commitments 2020–23 under AidData's ODA+OOF main measure as a share of GDP; (2) public and publicly guaranteed (PPG) external debt owed to China in 2023 as a share of GDP; (3) debt to China as a share of all PPG external debt; (4) Chinese commitments 2020–23 relative to gross ODA disbursements from all official donors (including multilaterals) over the same period (how few alternatives there are); (5) rescue loans (Rescue: currency-swap drawdowns, BoP loans, budget support) as a share of GDP; (6) use of IMF credit in 2023 as a share of GDP (a proxy for fiscal stress / IMF programmes). Optional additions: AidData private debt as a share of GDP (the channel of Chinese firms' local interests), CGIT investment + construction as a share of GDP, CODF commitments as a share of GDP.</p>
+<p>The indicators form concepts: <b>Debt</b> (debt to China as a share of GDP and of external debt: already locked in), <b>Dependence</b> (public-sector commitments as a share of GDP, rescue lending as a share of GDP, Chinese commitments / official ODA, IMF credit as a share of GDP, optional CODF: seeking help now, no alternative sources, fiscal stress) and <b>Firms</b> (AidData private debt as a share of GDP, CGIT investment + construction as a share of GDP: the local presence of Chinese firms). All nine indicators are included by default (since 2026-11-09). For each concept the sub-score is the mean percentile of the selected indicators; the total is the mean of the available sub-scores. Concepts are weighted equally and no single indicator is weighted. Percentiles are computed among all countries with a value for that indicator, so scores change with the selected indicators; "minimum number of indicators with values" stops small countries with only one or two data points from ranking high on a single indicator.</p>
+<h3>How to read it</h3>
+<ul>
+<li><b>This ranks exposure; it does not predict positions on Taiwan.</b> A high score only means the country would pay a high price if Beijing applied pressure. Many high-scoring countries (Angola, Djibouti, Republic of the Congo) are already fully in Beijing's camp, with no observable change at the margin.</li>
+<li>Taiwan's current diplomatic allies have no official financial ties with China, so their indicators are zero or missing and they do not appear in the table; the leverage over them is "the price Beijing offers", which has to be estimated separately from cases before and after a switch (Solomon Islands, Kiribati, Nauru, Honduras).</li>
+</ul>
+<h3>Data limitations</h3>
+<ul>
+<li>Debt stocks owed to China come from World Bank IDS, which covers only 134 low- and middle-income reporting countries; high-income countries (including Europe and the Gulf) have no value for this indicator.</li>
+<li>OECD figures are disbursements while AidData's are commitments; the ratio is for relative comparison only.</li>
+<li>The IMF MONA programme database refuses automated downloads, so IDS use of IMF credit (including SDR-related items) is used as a proxy.</li>
+<li>Sovereign credit ratings are not included (not public).</li>
+<li>AidData ends in 2023; CODF and CLA in 2024; CGIT runs to the first half of 2026.</li>
+</ul>
+<p>Data files: <code>data/clean/summary_2020_2025.csv</code> (<code>dep_*</code> columns), <code>data/clean/dependence_country_year.csv</code>; script <code>scripts/05_dependence.py</code>.</p>

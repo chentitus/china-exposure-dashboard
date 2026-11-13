@@ -1,0 +1,36 @@
+<h3>Sources and versions (downloaded 2026-11-07)</h3>
+<table><thead><tr><th>Source</th><th>Version / file</th><th>Coverage</th><th>Value basis</th><th>Used in the dashboard</th></tr></thead><tbody>
+<tr><td>AidData — China's Global Loans and Grants Dataset, Version 1.0 (CLG-Global 1.0)</td><td>Released 2025-11-18; <code>AidDatas_CLG_Global_Dataset_v1.0.xlsx</code> (33,580 records), with Field Definitions and the TUFF 4.0 methodology</td><td>Commitment years 2000–2023</td><td>Constant 2023 USD (<code>Amount_Constant_USD_2023</code>)</td><td>2020–2023, <code>Recommended_for_Aggregates = Yes</code>; main measure <code>Flow_Class ∈ {ODA, OOF, Vague (ODA or OOF)}</code>; OFIC (commercial official finance) kept as a comparison layer</td></tr>
+<tr><td>Boston University GDP Center — China's Overseas Development Finance (CODF) Database</td><td>June 2025 version; <code>CODF-Database-Dataset-2025-EN.xlsx</code> (1,304 records)</td><td>2008–2024</td><td>Nominal USD</td><td>2020–2024</td></tr>
+<tr><td>Boston University GDP Center — Chinese Loans to Africa (CLA) Database</td><td>November 2025 update (file online 2026-02); <code>CLA-Database-Raw-Data-Public-2025-FIN.xlsx</code> (1,319 records)</td><td>2000–2024 (no 2025 records in this version)</td><td>Nominal USD</td><td>2020–2024</td></tr>
+<tr><td>AEI / Heritage — China Global Investment Tracker (CGIT)</td><td>July 2026 update (data to June 2026); AEI no longer offers the Excel download, so the transaction-level CSV loaded by the interactive map is used (2,554 investments + 2,494 construction contracts)</td><td>2005–2026H1</td><td>Nominal USD</td><td>2020–2026H1 (2026 is the first half only)</td></tr>
+<tr><td>Lowy Institute — Southeast Asia Aid Map</td><td>Not obtained</td><td>—</td><td>—</td><td>No full CSV / Excel download (data served live through a Supabase API); skipped as specified</td></tr>
+</tbody></table>
+
+<h3>Different measures (shown in layers, never added up)</h3>
+<ul>
+<li><b>AidData</b>: loan and grant <b>commitments</b> by all Chinese official-sector institutions (policy banks, state-owned commercial banks, the central bank, ministries, local governments), constant USD. The dashboard's main measure takes only Flow_Class = ODA (development intent, concessional terms), OOF (other official flows: non-concessional policy-bank / government loans, rescue lending, currency swaps) and Vague; <b>OFIC is excluded</b> (commercial lending by official institutions — mainly state-owned commercial banks — to private or commercial borrowers, such as Chinese bank syndicated loans to U.S. firms). OFIC is kept as a comparison source. The "rescue loans" filter follows AidData's <code>Rescue</code> flag (FXSL currency-swap drawdowns, BoP loans, general budget support). The "debt liability" filter follows <code>Level_of_Public_Liability</code>: "private debt" means the borrower is a private firm, joint venture or SPV (for example ship leasing for companies under Marshall Islands or Liberian flags); both measures are kept — public debt ties a government directly, while private debt works through Chinese firms' local interests that can shape foreign-policy decisions.</li>
+<li><b>BU CODF</b>: only China Development Bank and Export-Import Bank loan commitments to sovereign / publicly guaranteed borrowers, nominal. A subset of AidData, but the two may record the same loan differently and with different amounts.</li>
+<li><b>BU CLA</b>: Africa only, official and commercial lenders, nominal. Partly overlaps with CODF and AidData.</li>
+<li><b>CGIT</b>: firm-level outward direct investment and construction contracts, ≥ USD 100 million, nominal. A completely different concept from development finance (the owner of a construction contract may be paying with a Chinese loan, so CGIT construction values overlap substantially with AidData loan values).</li>
+</ul>
+<p>The dashboard therefore has <b>no</b> "total" field adding the four sources; annual trend charts are shown as facets, not stacked.</p>
+
+<h3>Value basis</h3>
+<p>AidData is shown mainly in constant 2023 USD (the original file also has nominal values and an "Adjusted" measure, kept in <code>data/clean/clean_aiddata.csv</code>). CODF, CLA and CGIT are all nominal USD. Note the different bases when comparing sources. All amounts are in USD million.</p>
+
+<h3>Known gaps and limitations</h3>
+<ul>
+<li>AidData ends with 2023 commitments, <b>with no 2024–2025 data</b>; AidData's Status includes Pipeline (pledged / announced) records, and commitments are not disbursements.</li>
+<li>CGIT includes only transactions ≥ USD 100 million (the AEI report says ≥ USD 95 million), so small deals are missing; 2026 covers the first half only. The public CSV does not contain the "troubled transactions" sheet of the Excel version.</li>
+<li>CLA covers Africa only; this version ends in 2024. CLA overlaps with CODF's CDB / Ex-Im Bank loans.</li>
+<li>Full data for the Lowy Southeast Asia Aid Map (which includes disbursements) could not be obtained.</li>
+<li>Regional / multi-country records (such as "Africa, regional" and "Multi-Region") have ISO3 set to <code>REGIONAL</code>; they are counted in totals and trend charts but not in maps or rankings.</li>
+<li>Chinese country names follow Taiwanese usage; English country names use ISO short names.</li>
+</ul>
+<h3>Regions (custom)</h3>
+<p>East Asia (Northeast + Southeast Asia: Japan, the Koreas, Mongolia, Taiwan, Hong Kong, Macao, ASEAN and Timor-Leste), South Asia (India, Pakistan, Bangladesh, Sri Lanka, Nepal, Bhutan, Maldives and Afghanistan), Middle East + Central Asia (Gulf and Levant, Iran, Iraq, Israel, Türkiye, the five Central Asian states, the three Caucasus states), Oceania, Europe (including Russia, Ukraine, Belarus, Moldova and Cyprus), Africa (including North Africa), Latin America and the Caribbean, North America (U.S., Canada, Bermuda, Greenland). Mapping: <code>scripts/country_regions.csv</code>. Regional ranking dashboard: <code>dashboard/regions.html</code>.</p>
+<h3>Dependence indicators (added 2026-11-07)</h3>
+<p>Amounts converted into dependence: <code>data/clean/dependence_country_year.csv</code> (2018–2024) and the <code>dep_*</code> columns of <code>summary_2020_2025.csv</code>. Sources: World Bank WDI (GDP, government revenue % GDP), World Bank International Debt Statistics (PPG external debt stocks, creditor = China and all creditors; use of IMF credit), OECD DAC2A (gross ODA disbursements, current USD, DAC countries and all official donors). Limitations: IDS covers only 134 low- and middle-income reporting countries, so high-income countries have no data on debt to China; OECD figures are disbursements while AidData's are commitments, so ratios are for relative comparison only; the IMF MONA programme database refuses automated downloads, so use of IMF credit (including SDR-related items) is used as a proxy; sovereign credit ratings are not included (not public).</p>
+<h3>Files</h3>
+<p><code>data/clean/panel_long.csv</code> (one row per transaction / project), <code>panel_country_year.csv</code> (one row per country × year × source × measure), <code>summary_2020_2025.csv</code> (one row per country). Validation results and field mappings are in the project <code>README.md</code>.</p>
